@@ -85,7 +85,8 @@ def fetch(url, text_limit=6000):
         p.status, p.final_url = r.status_code, r.url
         p.chain = [h.url for h in r.history] + [r.url]
         if "html" in r.headers.get("Content-Type", "") or r.text.lstrip()[:15].lower().startswith(("<!doctype", "<html")):
-            p.title, p.text = visible_text(r.text, text_limit)
+            # bytes, so BeautifulSoup reads the page's own charset instead of requests' ISO-8859-1 default
+            p.title, p.text = visible_text(r.content, text_limit)
         # client-side redirects that requests cannot follow
         m = re.search(r'http-equiv=["\']?refresh["\']?[^>]*url=([^"\'>\s]+)', r.text[:5000], re.I) or \
             re.search(r'window\.location(?:\.href)?\s*=\s*["\']([^"\']+)["\']', r.text[:5000])
@@ -175,7 +176,7 @@ def archived(timestamp, url, text_limit=6000):
         p.error = "archive unreachable"
         return p
     p.status, p.final_url = r.status_code, p.url
-    p.title, p.text = visible_text(r.text, text_limit)
+    p.title, p.text = visible_text(r.content, text_limit)
     return p
 
 

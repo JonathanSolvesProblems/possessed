@@ -39,7 +39,9 @@ def cases():
 
 def triage():
     best, checks = cases()
-    ok = [u for u in best if checks[u]["kind"] == "ok"]
+    passed = [u for u in best if checks[u]["kind"] == "ok"]
+    ok = [u for u in passed if page_from(checks[u]).readable]
+    print(f"{len(passed) - len(ok)} links pass the checker but are a bot check or an empty JavaScript page: not judged")
     sims = similarity([best[u] for u in ok], [checks[u] for u in ok])
     cut = sorted(sims)[int(len(sims) * LOW_SIM_QUANTILE)]
     rows = []

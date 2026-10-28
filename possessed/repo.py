@@ -93,8 +93,9 @@ def apply(root, found, results):
     return fixes
 
 
-def report(results, fixes):
+def report(results, fixes, checked=None):
     flagged = [r for r in results if r["verdict"].get("verdict") in ("possessed", "moved", "dead")]
+    checked = len(results) if checked is None else checked
     lines = ["## Possessed links", "",
              "These links still pass a status-code link checker, but they no longer open what was linked. "
              "Gemma 4 compared each live page with the Internet Archive's capture from when the link was added. "
@@ -106,7 +107,7 @@ def report(results, fixes):
         was = v.get("originally") or r["anchor"]
         fix = f"[{v['verdict']}]({v['replacement']})" if v.get("replacement") else f"{v['verdict']}, no archived copy: please review"
         lines.append(f"| `{r['url'][:70]}` in `{r['file']}` | {r['added_on']} | {now[:60]} | {was[:60]} | {fix} |")
-    lines += ["", f"Checked {len(results)} suspicious links; {len(flagged)} flagged, {len(fixes)} fixed in this PR.",
+    lines += ["", f"Read {checked} suspicious links; {len(flagged)} need a change, {len(fixes)} fixed in this PR.",
               "Possessed runs Gemma 4 and EmbeddingGemma locally. It cannot tell you a page was right, only that it "
               "matches what the archive saw when the link was added."]
     return "\n".join(lines)

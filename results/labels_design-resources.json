@@ -1,0 +1,187 @@
+{
+ "_about": {
+  "label": "Hand labels for the 45 links where Gemma 4 and Qwen 3.5 4B disagreed, on bradtraversy/design-resources-for-developers, 2026-10-28.",
+  "checked_by": "Claude (the coding assistant), against the live page and the archive capture in second_opinion.json; spot-checks by Jonathan pending",
+  "rule": "A redirect that still reaches the same thing, or its official successor, is fine (no fix needed). possessed = the address now serves something the author did not mean. dead = the thing is gone."
+ },
+ "https://bumbag.style/": {
+  "label": "possessed",
+  "note": "Redirects to an expireddomains.com 'buy this expired domain' listing; was the Bumbag React UI kit."
+ },
+ "https://mertjf.github.io/tailblocks/": {
+  "label": "fine",
+  "note": "Redirects to tailblocks.cc, same project."
+ },
+ "https://www.cssgradienteditor.com": {
+  "label": "possessed",
+  "note": "Shows 'Loading...' then a script redirect to an ad-click domain (greenbites.net); was a CSS gradient tool."
+ },
+ "https://splawr.com/": {
+  "label": "possessed",
+  "note": "Script redirect to an ad-tracking domain (thestudiotrack.com). The 2018 capture is only an 'Index of /' listing."
+ },
+ "https://designstripe.com/catalog": {
+  "label": "fine",
+  "note": "Redirects to visual.app/assets, the same company's rebrand."
+ },
+ "https://screenlane.com": {
+  "label": "moved",
+  "note": "Now redirects to pageflows.com, a different UI-inspiration site that took over; same genre, different product. Counted as moved, not possessed."
+ },
+ "https://particles.matteobruni.it/": {
+  "label": "fine",
+  "note": "Redirects to particles.js.org, the same tsParticles project."
+ },
+ "https://www.designer.io/en/": {
+  "label": "moved",
+  "note": "Gravit Designer was discontinued; the address redirects to its paid successor, CorelDRAW Go."
+ },
+ "https://palettte.app": {
+  "label": "fine",
+  "note": "Redirects to the same palette tool now hosted by BairesDev."
+ },
+ "https://image-color.com/": {
+  "label": "possessed",
+  "note": "Was an image color picker; now redirects to a different company's color wheel (pixazo.ai)."
+ },
+ "https://polaris.shopify.com/": {
+  "label": "fine",
+  "note": "Redirects to Polaris docs on shopify.dev."
+ },
+ "https://www.unscreen.com/": {
+  "label": "fine",
+  "note": "Canva acquired Unscreen; redirects to the same feature in Canva."
+ },
+ "https://tailwindcomponents.com/": {
+  "label": "fine",
+  "note": "Redirects to the same component collection, now under Creative Tim."
+ },
+ "https://glassmorphism.com/": {
+  "label": "fine",
+  "note": "Redirects to the same generator on hype4.academy."
+ },
+ "https://lucide.netlify.app/": {
+  "label": "fine",
+  "note": "Redirects to lucide.dev."
+ },
+ "https://ui.supabase.io/": {
+  "label": null,
+  "note": "Supabase UI was deprecated; redirect lands on supabase.com/library. Could not tell whether that is its successor. Unresolved."
+ },
+ "https://epic-spinners.epicmax.co/": {
+  "label": "fine",
+  "note": "Redirects to the same spinners on vuestic.dev."
+ },
+ "https://fezvrasta.github.io/bootstrap-material-design/": {
+  "label": "fine",
+  "note": "Redirects to MDBootstrap; the 2020 capture already showed MDB's page, so nothing changed since it was linked."
+ },
+ "https://ui.nuxtlabs.com/getting-started": {
+  "label": "fine",
+  "note": "Redirects to ui.nuxt.com, same library."
+ },
+ "https://www.draw.io/": {
+  "label": "fine",
+  "note": "Redirects to app.diagrams.net, same app."
+ },
+ "https://materialdesignicons.com/": {
+  "label": "fine",
+  "note": "Redirects to the same icon set on pictogrammers.com."
+ },
+ "https://iconbuddy.app/": {
+  "label": "fine",
+  "note": "Redirects to iconbuddy.com."
+ },
+ "http://uilang.com/": {
+  "label": "fine",
+  "note": "Redirects to the project's GitHub repository."
+ },
+ "https://ionicons.com": {
+  "label": "fine",
+  "note": "Redirects to ionic.io/ionicons."
+ },
+ "https://headlessui.dev/": {
+  "label": "fine",
+  "note": "Redirects to headlessui.com."
+ },
+ "https://material.angular.io/": {
+  "label": "fine",
+  "note": "Redirects to material.angular.dev."
+ },
+ "https://react-spectrum.adobe.com/react-aria/": {
+  "label": "fine",
+  "note": "Redirects to react-aria.adobe.com."
+ },
+ "https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal": {
+  "label": "dead",
+  "note": "Removed extensions redirect to the Chrome Web Store homepage."
+ },
+ "https://chrome.google.com/webstore/detail/ux-check/giekhiebdpmljgchjojblnekkcgpdobp": {
+  "label": "dead",
+  "note": "Removed extension; lands on the Chrome Web Store homepage."
+ },
+ "https://chrome.google.com/webstore/detail/kontrast-wcag-contrast-ch/haphaaenepedkjngghandlmhfillnhjk?hl=en": {
+  "label": "dead",
+  "note": "Removed extension; lands on the Chrome Web Store homepage."
+ },
+ "https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce": {
+  "label": "dead",
+  "note": "Removed extension; final URL is https://chromewebstore.google.com/ (checked 2026-10-28)."
+ },
+ "https://chrome.google.com/webstore/detail/javascript-and-css-code-b/iiglodndmmefofehaibmaignglbpdald?hl=en": {
+  "label": "dead",
+  "note": "Removed extension; lands on the Chrome Web Store homepage."
+ },
+ "https://www.shadcn-svelte.com/": {
+  "label": "fine",
+  "note": "Same project, new tagline."
+ },
+ "https://sap.github.io/fundamental-styles/": {
+  "label": "fine",
+  "note": "Same project, docs now in Storybook."
+ },
+ "https://metroui.org.ua/index.html": {
+  "label": "fine",
+  "note": "Same library, newer version."
+ },
+ "https://www.creative-tim.com/": {
+  "label": "fine",
+  "note": "Same company, product line grew."
+ },
+ "https://photos.icons8.com/creator": {
+  "label": "fine",
+  "note": "Redirects to the same company's successor tool (icons8 Mega Creator)."
+ },
+ "https://github.com/geist-org/react": {
+  "label": "fine",
+  "note": "Repository renamed to geist-org/geist-ui; GitHub redirects."
+ },
+ "https://ui.shadcn.com/": {
+  "label": "fine",
+  "note": "Same project, new tagline."
+ },
+ "https://www.opensourcephotoeditor.com/": {
+  "label": "fine",
+  "note": "Same site; the October 2026 capture and today differ only in product framing."
+ },
+ "https://www.chamberofcommerce.org/findaphoto/": {
+  "label": "fine",
+  "note": "FindA.Photo, same stock-photo search, now hosted by Chamber of Commerce."
+ },
+ "https://doodad.dev/pattern-generator/": {
+  "label": "fine",
+  "note": "Same URL serves the generator; the generic title comes from a client-rendered page."
+ },
+ "https://quatrochan.github.io/Equal/": {
+  "label": "fine",
+  "note": "Redirects to equal-ui.github.io/Equal, same project."
+ },
+ "https://www.colorbox.io": {
+  "label": "fine",
+  "note": "Same tool."
+ },
+ "https://smartmockups.com/": {
+  "label": "fine",
+  "note": "Canva acquired Smartmockups; redirects to the same mockup tool in Canva."
+ }
+}

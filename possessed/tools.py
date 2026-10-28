@@ -101,6 +101,9 @@ class LinkTools:
                                 "capture (try the parent path too), give the verdict with no replacement.")
         if page.status != 200 or not page.text:
             return self._refuse(f"{name}: that snapshot returned {page.status} with no readable text.")
+        if page.title.lower().startswith("index of") or len(page.text) < 200:
+            return self._refuse(f"{name}: that snapshot is an empty listing ('{page.title}'), not the resource. "
+                                "Try another capture, or give the verdict with no replacement.")
         return self._decide(name, replacement=replacement, reason=reason, **extra)
 
     def _refuse(self, message):
