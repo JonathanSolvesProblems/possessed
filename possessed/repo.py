@@ -93,21 +93,32 @@ def apply(root, found, results):
     return fixes
 
 
-def report(results, fixes, checked=None):
+def clip(s, n=60):
+    return s if len(s) <= n else s[:n].rsplit(" ", 1)[0] + "..."
+
+
+def report(results, fixes, checked=None, removed=False):
     flagged = [r for r in results if r["verdict"].get("verdict") in ("possessed", "moved", "dead")]
     checked = len(results) if checked is None else checked
     lines = ["## Possessed links", "",
              "These links still pass a status-code link checker, but they no longer open what was linked. "
              "Gemma 4 compared each live page with the Internet Archive's capture from when the link was added. "
-             "Every replacement below is a page it opened; nothing here is guessed.", "",
+             + ("This PR removes the entries; the archive link in each row shows what the entry used to be."
+                if removed else "Every replacement below is a page it opened; nothing here is guessed."), "",
              "| Link | Added | Today it opens | It was | Fix |", "|---|---|---|---|---|"]
     for r in flagged:
         v = r["verdict"]
         now = v.get("now_shows") or r["live_title"] or r["live_final_url"] or ""
         was = v.get("originally") or r["anchor"]
-        fix = f"[{v['verdict']}]({v['replacement']})" if v.get("replacement") else f"{v['verdict']}, no archived copy: please review"
-        lines.append(f"| `{r['url'][:70]}` in `{r['file']}` | {r['added_on']} | {now[:60]} | {was[:60]} | {fix} |")
-    lines += ["", f"Read {checked} suspicious links; {len(flagged)} need a change, {len(fixes)} fixed in this PR.",
+        if removed:
+            fix = f"removed ([archived original]({v['replacement']}))" if v.get("replacement") else "removed"
+        elif v.get("replacement"):
+            fix = f"[{v['verdict']}]({v['replacement']})"
+        else:
+            fix = f"{v['verdict']}, no archived copy: please review"
+        lines.append(f"| `{r['url'][:70]}` in `{r['file']}` | {r['added_on']} | {clip(now)} | {clip(was)} | {fix} |")
+    done = "removed" if removed else "fixed"
+    lines += ["", f"Read {checked} suspicious links; {len(flagged)} need a change, {len(fixes)} {done} in this PR.",
               "Possessed runs Gemma 4 and EmbeddingGemma locally. It cannot tell you a page was right, only that it "
               "matches what the archive saw when the link was added."]
     return "\n".join(lines)

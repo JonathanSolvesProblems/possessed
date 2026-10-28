@@ -1,0 +1,554 @@
+[
+ {
+  "url": "https://purecss.io/start/",
+  "gemma": "moved",
+  "qwen": "fine",
+  "qwen_now_shows": "The official Pure CSS documentation site",
+  "qwen_why": "The link redirects to the current active documentation for the same project, which is a harmless change due to the site's migration to GitHub Pages.",
+  "evidence": {
+   "link": "https://purecss.io/start/",
+   "linked_on": "2017-09-01",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://pure-css.github.io/",
+    "title": "Pure",
+    "text": "Pure Pure Get Started Layouts Base Grids Forms Buttons Tables Menus Tools Customize Extend Releases A set of small, responsive CSS modules that you can use in every web project. <link rel = \"stylesheet\" href = \"https://cdn.jsdelivr.net/npm/purecss@3.1.0/build/pure-min.css\" integrity = \"sha384-kj0X2NG2KHBie8Tq8fH1kxnyWM9XsXQpq7XdwbKmFKjwwaXGKBlB2Klu3VOltSFx\" crossorigin = \"anonymous\" > Get Started View on GitHub base 0.9KB grids 0.5KB forms 1.4KB buttons 0.7KB tables 0.4KB menus 0.7KB CSS with a minimal footprint. Pure is ridiculously tiny. The entire set of modules clocks in at 3.5KB * minified and gzipped . Crafted with mobile devices in mind, it was important to us to keep our file sizes small, and every line of CSS was carefully considered. If you decide to only use a subset of these modules, you'll save even more bytes. * We can add correctly :) the numbers above are individual module sizes; when grouped together they compress (gzip) even more. Your CSS foundation. Pure builds on Normalize.css and provides layout and styling for native HTML elements, plus the most common UI components. It's what you need, without the cruft. Made with mobile in mind. Pure is responsive out of th"
+   },
+   "archive_when_linked": {
+    "captured": "20170129",
+    "title": "Get Started – Pure",
+    "text": "Get Started – Pure Pure Get Started Layouts Base Grids Forms Buttons Tables Menus Tools Customize Extend Blog Releases Get Started Start your next web project with Pure. Add Pure to Your Page You can add Pure to your page via the free unpkg CDN . Just add the following <link> element into your page's <head> , before your project's stylesheets. <link rel=\"stylesheet\" href=\"https://unpkg.com/purecss@0.6.2/build/pure-min.css\" integrity=\"sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD\" crossorigin=\"anonymous\"> Alternatively, you can download Pure , or check out other CDNs that host Pure. Add the Viewport Meta Element The viewport meta element lets you control the the width and scale of the viewport on mobile browsers. Since you're building a responsive website, you want the width to be equal to the device's native width. Add this into your page's <head> . <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> Understand Pure Grids Pure's grid system is very simple. You create a row by using the .pure-g class, and create columns within that row by using the pure-u-* classes. Here's a grid with three columns: <div class=\"pure-g\"> <div class=\"pure-u-1"
+   }
+  }
+ },
+ {
+  "url": "https://purecss.io/layouts/",
+  "gemma": "moved",
+  "qwen": "fine",
+  "qwen_now_shows": "The same Pure CSS layouts documentation",
+  "qwen_why": "The site moved from purecss.io to the GitHub Pages domain but retains identical content and functionality.",
+  "evidence": {
+   "link": "https://purecss.io/layouts/",
+   "linked_on": "2017-09-01",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://pure-css.github.io/",
+    "title": "Pure",
+    "text": "Pure Pure Get Started Layouts Base Grids Forms Buttons Tables Menus Tools Customize Extend Releases A set of small, responsive CSS modules that you can use in every web project. <link rel = \"stylesheet\" href = \"https://cdn.jsdelivr.net/npm/purecss@3.1.0/build/pure-min.css\" integrity = \"sha384-kj0X2NG2KHBie8Tq8fH1kxnyWM9XsXQpq7XdwbKmFKjwwaXGKBlB2Klu3VOltSFx\" crossorigin = \"anonymous\" > Get Started View on GitHub base 0.9KB grids 0.5KB forms 1.4KB buttons 0.7KB tables 0.4KB menus 0.7KB CSS with a minimal footprint. Pure is ridiculously tiny. The entire set of modules clocks in at 3.5KB * minified and gzipped . Crafted with mobile devices in mind, it was important to us to keep our file sizes small, and every line of CSS was carefully considered. If you decide to only use a subset of these modules, you'll save even more bytes. * We can add correctly :) the numbers above are individual module sizes; when grouped together they compress (gzip) even more. Your CSS foundation. Pure builds on Normalize.css and provides layout and styling for native HTML elements, plus the most common UI components. It's what you need, without the cruft. Made with mobile in mind. Pure is responsive out of th"
+   },
+   "archive_when_linked": {
+    "captured": "20170129",
+    "title": "Layouts – Pure",
+    "text": "Layouts – Pure Pure Get Started Layouts Base Grids Forms Buttons Tables Menus Tools Customize Extend Blog Releases Layouts Quickstart your next web project with these example layouts. Common Layouts Pure was crafted with the goal that it can be used in every web project. To showcase this, we've made some common layouts that leverage Pure. These layouts are responsive and don't require JavaScript (except for certain menu interactions). When viewing these layouts, view or copy the source to get a good understanding of what's happening. These layout examples are free to use in your own projects under the zLib license . Blog A layout example that shows off a blog page with a list of posts. base grids buttons menus View Download Email A layout example that shows off a responsive email layout. base grids buttons menus View Download Photo Gallery A layout example that shows off a responsive photo gallery. base grids forms buttons menus View Download Landing Page A layout example that shows off a responsive product landing page. base grids buttons menus forms View Download Pricing Table A layout example that shows off a responsive pricing table. base grids buttons menus View Download Respo"
+   }
+  }
+ },
+ {
+  "url": "https://zumerlab.github.io/orbit-docs/introduction/",
+  "gemma": "moved",
+  "qwen": "fine",
+  "qwen_now_shows": "The same Orbit documentation page",
+  "qwen_why": "The link redirects to the current official docs site with identical content and structure.",
+  "evidence": {
+   "link": "https://zumerlab.github.io/orbit-docs/introduction/",
+   "linked_on": "2025-04-20",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://zumerlab.com/orbit-docs/introduction/",
+    "title": "About Orbit | Orbit",
+    "text": "About Orbit | Orbit Skip to content Orbit Search Ctrl K Cancel GitHub Telegram Select theme Dark Light Auto Menu orbit-kit — ready-made components new Getting started About Orbit Installation Guide Steps to create a knob Elements bigbang gravity-spot orbit satellite vector side o-arc o-progress capsule Tools Visual Aids Auto resize Colors Themes Depth layers new Integrations React Vue Svelte Examples Layered status rings Circular timer Gauges Overview 180° gauge 240° gauge Fuel gauge Knobs Overview Knob with progress bar LED knob Progress bars Overview Dashed circular progress bar Circular progress with background Circular progress with handle Stacked circular progress bars Charts Overview Donut chart Pie chart Sunburst chart Watch faces Overview Minimalist analog clock Chronograph watch face Roman numeral clock face Smartwatch face Mandalas Overview Geometric square mandala Radial symmetry mandala Calendars & time planners Overview Circular year calendar Pie menues Scifi Chemical structures Dashboards Abstract orbital map Use cases Dashboards IoT and hardware UI Audio app UI Fitness and health apps Sci-fi game UIs GitHub Telegram Select theme Dark Light Auto On this page Overview "
+   },
+   "archive_when_linked": {
+    "captured": "20250219",
+    "title": "About Orbit | Orbit CSS radial UI composer",
+    "text": "About Orbit | Orbit CSS radial UI composer Skip to content Orbit CSS radial UI composer Search Ctrl K Cancel GitHub Telegram Select theme Dark Light Auto Getting started About Orbit Installation Guide Steps to create a knob Elements bigbang gravity-spot orbit satellite vector side o-arc updated o-progress updated capsule Tools Visual Aids Auto resize Colors Themes new Integrations new React Vue Svelte Examples Circular timer new Progress bars Charts Gauges Knobs Pie menues Watch faces Scifi Chemical structures Calendars & time planners Mandalas Dashboards Abstract orbital map GitHub Telegram Select theme Dark Light Auto On this page Overview Why choose Orbit? What is a radial UI? Explore use cases On this page Overview Why choose Orbit? What is a radial UI? Explore use cases About Orbit Orbit is a general-purpose CSS framework designed to create radial UI designs effortlessly. It provides intuitive CSS classes and standard web components for building radial menus, dashboards, creative portfolios, or cutting-edge applications. Whether you’re crafting a futuristic dashboard, an elegant watch face, or even sci-fi-inspired art, Orbit has you covered. Orbit harnesses the power of space-"
+   }
+  }
+ },
+ {
+  "url": "https://zumerlab.github.io/orbit-docs/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "Orbit 1.x documentation with a note that version 2 is out",
+  "qwen_why": "The link redirects to the official docs for the original version while informing users about the new release.",
+  "evidence": {
+   "link": "https://zumerlab.github.io/orbit-docs/",
+   "linked_on": "2025-04-20",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://zumerlab.com/orbit-docs/",
+    "title": "Orbit — Compose radial interfaces with HTML and CSS | Orbit",
+    "text": "Orbit — Compose radial interfaces with HTML and CSS | Orbit Skip to content Orbit 2 is out , with Orbit Kit 2 and a new site. Go to Orbit 2 · What changed . These docs stay here for Orbit 1.x. Orbit Playground Examples Docs GitHub ↗ Build interfaces around a center. Compose menus, charts and instruments with HTML and CSS. Orbit keeps the geometry in place as your interface changes. Try the playground ↗ Get started → Works with React, Vue, Svelte and plain HTML. 1 2 3 4 5 6 Orbit Satellites 6 Animate See how the 3D effect works → Playground Change the controls to see the layout update. Copy or download the HTML. ↺ Reset Satellites Arcs Progress Preview Code Preview Satellites 8 Spread 360° Rotation 0° Diameter 320 px More than 24 satellites are shown as dots. Blue segment 40% Set to zero Reverse order The pink segment is fixed at 25%. Value 63% End shape Rounded Straight Arrow Circle A Circle B Slash Zigzag At 0%, only the background arc remains. HTML CSS JS Current example Copy or download the complete HTML, with Orbit included. The exported HTML works offline. Download HTML ↓ Copy code ↗ Examples Explore the docs ↗ 1 2 3 4 5 6 7 8 Menu Satellites Radial menu Arrange actions around"
+   },
+   "archive_when_linked": {
+    "captured": "20250320",
+    "title": "Home | Orbit CSS radial UI composer",
+    "text": "Home | Orbit CSS radial UI composer Skip to content Orbit requires some CSS selectors or functions that are not supported. Please, update this browser to use Orbit. The CSS radial composer ORBIT GitHub Get started Save time and have fun building radial UIs! Just combine Orbit CSS elements orbits satellites arcs progress vectors sides curved texts - curved texts - curved texts ... to create an amazing UI, like the example below * Press buttons! Piemenu demo text MENU Transform your project today! Place your ⭐ in Orbit! GitHub Get started Documentation Getting started About Orbit Installation Examples Elements gravity-spot orbit satellite vector side o-arc o-progress capsule Tools Visual aids Auto resize Colors Community GitHub Telegram Orbit - Copyright © 2023 - 2025 ZumerLab Released under MIT license - Made by Humans"
+   }
+  }
+ },
+ {
+  "url": "https://purecss.io",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official Pure CSS project site",
+  "qwen_why": "The link redirects to the current GitHub-hosted documentation which describes the exact same product.",
+  "evidence": {
+   "link": "https://purecss.io",
+   "linked_on": "2017-09-01",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://pure-css.github.io/",
+    "title": "Pure",
+    "text": "Pure Pure Get Started Layouts Base Grids Forms Buttons Tables Menus Tools Customize Extend Releases A set of small, responsive CSS modules that you can use in every web project. <link rel = \"stylesheet\" href = \"https://cdn.jsdelivr.net/npm/purecss@3.1.0/build/pure-min.css\" integrity = \"sha384-kj0X2NG2KHBie8Tq8fH1kxnyWM9XsXQpq7XdwbKmFKjwwaXGKBlB2Klu3VOltSFx\" crossorigin = \"anonymous\" > Get Started View on GitHub base 0.9KB grids 0.5KB forms 1.4KB buttons 0.7KB tables 0.4KB menus 0.7KB CSS with a minimal footprint. Pure is ridiculously tiny. The entire set of modules clocks in at 3.5KB * minified and gzipped . Crafted with mobile devices in mind, it was important to us to keep our file sizes small, and every line of CSS was carefully considered. If you decide to only use a subset of these modules, you'll save even more bytes. * We can add correctly :) the numbers above are individual module sizes; when grouped together they compress (gzip) even more. Your CSS foundation. Pure builds on Normalize.css and provides layout and styling for native HTML elements, plus the most common UI components. It's what you need, without the cruft. Made with mobile in mind. Pure is responsive out of th"
+   },
+   "archive_when_linked": {
+    "captured": "20170830",
+    "title": "Pure",
+    "text": "Pure Pure Get Started Layouts Base Grids Forms Buttons Tables Menus Tools Customize Extend Blog Releases A set of small, responsive CSS modules that you can use in every web project. <link rel=\"stylesheet\" href=\"https://unpkg.com/purecss@1.0.0/build/pure-min.css\" integrity=\"sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w\" crossorigin=\"anonymous\"> Get Started View on GitHub base 1.0KB grids 0.8KB forms 1.4KB buttons 0.8KB tables 0.5KB menus 0.8KB CSS with a minimal footprint. Pure is ridiculously tiny. The entire set of modules clocks in at 3.8KB* minified and gzipped . Crafted with mobile devices in mind, it was important to us to keep our file sizes small, and every line of CSS was carefully considered. If you decide to only use a subset of these modules, you'll save even more bytes. * We can add correctly :) the numbers above are individual module sizes; when grouped together they compress (gzip) even more. Your CSS foundation. Pure builds on Normalize.css and provides layout and styling for native HTML elements, plus the most common UI components. It's what you need, without the cruft. Made with mobile in mind. Pure is responsive out of the box, so elemen"
+   }
+  }
+ },
+ {
+  "url": "https://www.blazeui.com/getting-started/install/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official Blaze UI installation page",
+  "qwen_why": "The link still leads to the same documentation content, despite minor text changes and a slight URL structure difference.",
+  "evidence": {
+   "link": "https://www.blazeui.com/getting-started/install/",
+   "linked_on": "2021-03-15",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://www.blazeui.com/getting-started/install/",
+    "title": "Install",
+    "text": "Install Skip to main content Blaze UI Open Source CSS Atoms Blaze Theme Getting Started How to begin using Blaze Install Custom Build Examples Example Login Example Basket Objects Layout and structure Containers Grid Panels Images Drawers Medias Modals Components Fully styled atomic features Accordions Addresses Alerts Autocomplete Avatars Back to top Badges Buttons Calendars Cards Counter Divider File Upload Headings Inputs Lists Menus Overlays Pagination Progress Ranges Sticky Tables Tabs Timelines Toasts Toggles Tooltips Trees Typography Utilities Override helpers Alignment Boxing Elevation Sizes Visibility Install The easiest way to use the toolkit is via CDN. CSS Installing the CSS blaze.css contains everything you need . Link to it by adding the following to your <head></head> . <link rel=\"stylesheet\" href=\"https://unpkg.com/@blaze/css@x.x.x/dist/blaze/blaze.css\"> Specifying a version is optional but it prevents against breaking changes. How to start applying styles We've designed the toolkit not to interfere with others or your own styles, hence Blaze won't automatically do anything to your site. The following won't change by simply linking to blaze.css like it would with ot"
+   },
+   "archive_when_linked": {
+    "captured": "20190920",
+    "title": "Install",
+    "text": "Install Skip to main content Open Source Download Code View Source Getting Started Install Custom Build Generics Global Objects Containers Grid Panels Images Drawers Medias Modals Components Accordions Addresses Alerts Autocomplete Avatars Back to top Badges Breadcrumbs Buttons Calendars Camera Cards Counter Divider Headings Inputs Lists Menus Overlays Pagination Progress Ranges Sticky Tables Tabs Timelines Toasts Toggles Tooltips Trees Typography Utilities Alignment Boxing Elevation Sizes Visibility Download Code View Source Getting Started Install Custom Build Generics Global Objects Containers Grid Panels Images Drawers Medias Modals Components Accordions Addresses Alerts Autocomplete Avatars Back to top Badges Breadcrumbs Buttons Calendars Camera Cards Counter Divider Headings Inputs Lists Menus Overlays Pagination Progress Ranges Sticky Tables Tabs Timelines Toasts Toggles Tooltips Trees Typography Utilities Alignment Boxing Elevation Sizes Visibility Install The easiest way to use the toolkit is via CDN. CSS JavaScript Installing the CSS blaze.css contains everything you need . Link to it by adding the following to your <head></head> . <link rel=\"stylesheet\" href=\"https://unp"
+   }
+  }
+ },
+ {
+  "url": "https://bojler.slicejack.com/documentation/getting-started/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official Bojler documentation page",
+  "qwen_why": "The link still leads to the same project's documentation with identical content.",
+  "evidence": {
+   "link": "https://bojler.slicejack.com/documentation/getting-started/",
+   "linked_on": "2021-03-15",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://bojler.slicejack.com/documentation/getting-started/",
+    "title": "Getting Started - Bojler",
+    "text": "Getting Started - Bojler Homepage Documentation Download Bojler Homepage Documentation Get Started Getting Started In getting started section you’ll find support table, basic information about bojler and how to install and use it properly. If you’re first time user then you should start here. What is Bojler? Bojler is an email framework for developing responsive and lightweight email templates that will render correctly across each of the most popular email clients. If you have experience with email template development, you know how painful it is to build a perfect email template that works across all email clients. To make it easier for you to develop responsive and lightweight email templates we have created Bojler. Download There are 2 ways to download Bojler: Download latest release Simplest way to get Bojler to your computer is to download latest release as .zip . On this page you can find download links to current release and previous ones. Make sure you unzip downloaded file before you proceed to next step. Clone the repo If you’re familiar with git and CLI you can simply clone bojler repo to desired folder. git clone https://github.com/Slicejack/bojler.git Install and get "
+   },
+   "archive_when_linked": {
+    "captured": "20191206",
+    "title": "Getting Started - Bojler",
+    "text": "Getting Started - Bojler Homepage Documentation Download Bojler Homepage Documentation Get Started Getting Started In getting started section you’ll find support table, basic information about bojler and how to install and use it properly. If you’re first time user then you should start here. What is Bojler? Bojler is an email framework for developing responsive and lightweight email templates that will render correctly across each of the most popular email clients. If you have experience with email template development, you know how painful it is to build a perfect email template that works across all email clients. To make it easier for you to develop responsive and lightweight email templates we have created Bojler. Download There are 2 ways to download Bojler: Download latest release Simplest way to get Bojler to your computer is to download latest release as .zip . On this page you can find download links to current release and previous ones. Make sure you unzip downloaded file before you proceed to next step. Clone the repo If you’re familiar with git and CLI you can simply clone bojler repo to desired folder. git clone https://github.com/Slicejack/bojler.git Install and get "
+   }
+  }
+ },
+ {
+  "url": "https://open-props.style/#getting-started",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The same Open Props documentation site",
+  "qwen_why": "The link still opens the original project's documentation page with updated content but no change in purpose or location.",
+  "evidence": {
+   "link": "https://open-props.style/#getting-started",
+   "linked_on": "2022-01-26",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://open-props.style/#getting-started",
+    "title": "Open Props: sub-atomic styles",
+    "text": "Open Props: sub-atomic styles Open Props Get Started Try in browser RAD Supercharged CSS variables. Expertly crafted web design tokens Create consistent components Useful in any framework v1.7.23 MIT @import \"https://unpkg.com/open-props\"; .card { border-radius: var(--radius-2); padding: var(--size-fluid-3); box-shadow: var(--shadow-2); &:hover { box-shadow: var(--shadow-3); } @media (--motionOK) { animation: var(--animation-fade-in); } } Built with Open Props Hero Layout 18 props + normalize.css Adaptive Buttons 10 props Adaptive Cards 8 props + normalize.css Pagination Example 10 props 4 Color Schemes 16 props Light / Dark Switch +2 imports Make it pop Example loads only the animations and easings for a springy scale-in animation Normalize Preview Light + dark HTML5 minimal styles Why Use Open Props? It's non-prescriptive . Design Consistently Incidentally harmonious. Predictable Thanks to consistent naming conventions. Incrementally Adoptable Grab all the props, props as JS, or only what you need. Customizable Map the props from JS or customize builds from the command line. Overview File sizes and links to source: File Sizes The following sizes are for the minified files and aft"
+   },
+   "archive_when_linked": {
+    "captured": "20220126",
+    "title": "Open Props: sub-atomic styles",
+    "text": "Open Props: sub-atomic styles Open Props Get Started Try in browser RAD Supercharged CSS variables. Expertly crafted web design tokens Create consistent components Useful in any framework v1.2.0 MIT @import \"https://unpkg.com/open-props\"; .card { border-radius: var(--radius-2); padding: var(--size-fluid-3); box-shadow: var(--shadow-2); &:hover { box-shadow: var(--shadow-3); } @media (--motionOK) { animation: var(--animation-fade-in); } } Built with Open Props Hero Layout 18 props + normalize.css Adaptive Buttons 10 props Adaptive Cards 8 props + normalize.css Pagination Example 10 props 4 Color Schemes 16 props Why Use Open Props? It's non-prescriptive . Design Consistently Incidentally harmonious. Predictable Thanks to consistent naming conventions. Incrementally Adoptable Grab all the props, props as JS, or only what you need. Customizable Map the props from JS or customize builds from the command line. Overview File sizes and links to source: File Sizes The following sizes are for the minified files and after Brotli compression. Library bundles 3.4 kB open-props.min.css 351 props 1.3 kB normalize.min.css optional brand.css theme.light.css theme.dark.css Individual PropPacks ™ 0."
+   }
+  }
+ },
+ {
+  "url": "https://github.com/vinibiavatti1/TuiCss/wiki",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The TuiCss Wiki page itself",
+  "qwen_why": "The link still opens the original documentation repository where the author intended to direct users.",
+  "evidence": {
+   "link": "https://github.com/vinibiavatti1/TuiCss/wiki",
+   "linked_on": "2021-03-05",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://github.com/vinibiavatti1/TuiCss/wiki",
+    "title": "Home · vinibiavatti1/TuiCss Wiki · GitHub",
+    "text": "Home · vinibiavatti1/TuiCss Wiki · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government See all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust "
+   },
+   "archive_when_linked": {
+    "captured": "20200911",
+    "title": "Home · vinibiavatti1/TuiCss Wiki · GitHub",
+    "text": "Home · vinibiavatti1/TuiCss Wiki · GitHub Skip to content Sign up Why GitHub? Features → Code review Project management Integrations Actions Packages Security Team management Hosting Mobile Customer stories → Security → Team Enterprise Explore Explore GitHub → Learn & contribute Topics Collections Trending Learning Lab Open source guides Connect with others Events Community forum GitHub Education GitHub Stars program Marketplace Pricing Plans → Compare plans Contact Sales Nonprofit → Education → In this repository All GitHub ↵ Jump to ↵ No suggested jump to results In this repository All GitHub ↵ Jump to ↵ In this repository All GitHub ↵ Jump to ↵ Sign in Sign up vinibiavatti1 / TuiCss Watch 4 Star 61 Fork 4 Code Issues 1 Pull requests 2 Actions Projects 0 Wiki Security Insights More Code Issues Pull requests Actions Projects Wiki Security Insights Home Jump to bottom Vinicius Reif Biavatti edited this page Sep 9, 2019 · 10 revisions Text-based user interface CSS framework TuiCss is a framework focused to create web applications using an interface based in ASCII table, like MS-DOS applications. This kind of interface is very eligible because the ultra-contrast colors used and the l"
+   }
+  }
+ },
+ {
+  "url": "https://www.carbondesignsystem.com/components/overview/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The same documentation page with updated navigation and content",
+  "qwen_why": "The link still leads to the official Carbon Design System documentation, merely reflecting a redesign and reorganization of the site's structure.",
+  "evidence": {
+   "link": "https://www.carbondesignsystem.com/components/overview/",
+   "linked_on": "2021-03-15",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://www.carbondesignsystem.com/building-blocks/core/components/overview/components",
+    "title": "Overview | Carbon Design System",
+    "text": "Overview | Carbon Design System Carbon Design System Search Employee login Login Foundations IBM Brand Center IBM Design Language Implementation Carbon Design System Carbon for Cloud Carbon for IBM.com IBM Event Design IBM Workplace Design Practices Enterprise Design Thinking IBM Accessibility IBM Design for AI IBM Design Research IBM Experience Standards Community IBM Design Search Getting started About Carbon Designing Overview Design resources Developing Overview Packages Carbon Core Tutorials React tutorial Web Components tutorial Additional resources Carbon MCP Overview Concepts Onboarding and setup Prompts Token conservation Contributing Overview Product Development Lifecycle Component checklist Methods of contribution Enhancing components Carbon Labs Migrating Guide FAQs Building blocks Foundations 2x Grid Accessibility Carbon for AI Color Content Icons Pictograms Motion Spacing Themes Typography Components Overview Accordion AI label Breadcrumb Button Checkbox Code snippet Contained list Content switcher Data table Date picker Dropdown File uploader Form Inline loading Link List Loading Menu Menu buttons Modal Notification Number input Pagination Popover Progress bar Progre"
+   },
+   "archive_when_linked": {
+    "captured": "20210311",
+    "title": "Overview – Carbon Design System",
+    "text": "Overview – Carbon Design System Skip to main content Carbon Design System Search Foundations IBM Brand Center IBM Design Language Implementation Carbon Design System Carbon for IBM.com IBM Event Design Practices Enterprise Design Thinking IBM Accessibility IBM Design for AI IBM Design Research IBM iX Community IBM Design Racial Equity in Design All about Carbon What is Carbon? How Carbon works The Carbon team Partners Case studies Overview IBM Commerce Platform Designing Get started Design kits Other resources Tutorials Developing Get started Frameworks Developer resources Angular tutorial React tutorial Vue tutorial Contributing Overview Bugs and requests Documentation Components Icons Patterns Pictograms Add ons What’s happening Changelog and roadmap News and articles Meetups Work in progress Guidelines 2x Grid Accessibility Content Color Icons Pictograms Motion Spacing Themes Typography Components Overview Accordion Breadcrumb Button Checkbox Code snippet Content switcher Data table Date picker Dropdown File uploader Form Inline loading Link List Loading Modal Notification Number input Overflow menu Pagination Progress indicator Radio button Search Select Slider Structured list "
+   }
+  }
+ },
+ {
+  "url": "https://responsivebp.com/getting-started/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "ResponsiveBP v4 documentation",
+  "qwen_why": "The link still leads to the official Getting Started page for the current version of Responsive, which is the intended content.",
+  "evidence": {
+   "link": "https://responsivebp.com/getting-started/",
+   "linked_on": "2021-03-15",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://responsivebp.com/getting-started/",
+    "title": "Getting Started ::  Responsive",
+    "text": "Getting Started :: Responsive Responsive Menu Getting Started CSS JavaScript home » getting-started Getting Started An introduction to Responsive, how to use it, with basic templates and examples. Toggle Direction Edit page on GitHub x Like ResponsiveBP? Keep us running by whitelisting ResponsiveBP in your ad blocker. We're serving quality, tech-related ads only. Thank you! Getting Started Download Responsive The HTML Browser Support Accessibility Right-to-Left Languages Heads Up! Looking for the legacy v3 documentation? You can find it here . Download Responsive The simplest and fastest way to get Responsive is to download the precompiled and minified versions of our CSS, and JavaScript. No documentation or original source code files are included. Download Responsive You can also install Responsive with Bower : bower install responsive If you are feeling more adventurous and want to tweak Responsive before use you can download the full Sass and JavaScript source directly from Github. This will require the use of gulp.js to build. Download Source GitHub project Version 4.1.4 Setting up your HTML Inside the zip file you will also find a HTML file containing the default template for "
+   },
+   "archive_when_linked": {
+    "captured": "20210205",
+    "title": "Getting Started ::  Responsive",
+    "text": "Getting Started :: Responsive Responsive Menu Getting Started CSS JavaScript home » getting-started Getting Started An introduction to Responsive, how to use it, with basic templates and examples. Toggle Direction Edit page on GitHub x Like ResponsiveBP? Keep us running by whitelisting ResponsiveBP in your ad blocker. We're serving quality, tech-related ads only. Thank you! Getting Started Download Responsive The HTML Browser Support Accessibility Right-to-Left Languages Heads Up! Looking for the legacy v3 documentation? You can find it here . Download Responsive The simplest and fastest way to get Responsive is to download the precompiled and minified versions of our CSS, and JavaScript. No documentation or original source code files are included. Download Responsive You can also install Responsive with Bower : bower install responsive If you are feeling more adventurous and want to tweak Responsive before use you can download the full Sass and JavaScript source directly from Github. This will require the use of gulp.js to build. Download Source GitHub project Version 4.1.4 Setting up your HTML Inside the zip file you will also find a HTML file containing the default template for "
+   }
+  }
+ },
+ {
+  "url": "https://concisecss.com/documentation/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official documentation page for the same project",
+  "qwen_why": "The link still leads to the active documentation site with updated content but no changes in purpose or ownership.",
+  "evidence": {
+   "link": "https://concisecss.com/documentation/",
+   "linked_on": "2021-03-15",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://concisecss.com/documentation/",
+    "title": "Introduction—Concise CSS",
+    "text": "Introduction—Concise CSS Menu Introduction Why Concise CSS Language additions Installation The Concise CLI Using add-ons Coding conventions Examples Core Settings Typography Grid System Color Palette Print Utils Borders Colors Columns Hide/Show Display Margins Paddings Position Type scale Typography UI Alert box Breadcrumb Button group Button Card Dropdown Progress bar Spinner Tag Archives v2.0.0 v3.0.0 1. Introduction Introduction Why Concise CSS Language additions Installation The Concise CLI Using add-ons Coding conventions Examples Core Utils UI Concise CSS provides a solid foundation to stylize your website. It offers an alternative to frameworks like Bootstrap and Foundation, with the difference that Concise only includes the minimum styles required. That does not mean that the features are limited; is possible to use add-ons on top of the core to extend the functionality as required. The core of the framework only includes styles for native HTML elements. Components and utilities are provided as optional add-ons, Concise UI and Concise Utils, respectively. Concise CSS is written using a custom CSS preprocessor, built on top of Sass and some PostCSS plugins; this means that y"
+   },
+   "archive_when_linked": {
+    "captured": "20201021",
+    "title": "Introduction—Concise CSS",
+    "text": "Introduction—Concise CSS Menu Introduction Why Concise CSS Language additions Installation The Concise CLI Using add-ons Coding conventions Examples Core Settings Typography Grid System Color Palette Print Utils Borders Colors Columns Hide/Show Display Margins Paddings Position Type scale Typography UI Alert box Breadcrumb Button group Button Card Dropdown Progress bar Spinner Tag Archives v2.0.0 v3.0.0 1. Introduction Introduction Why Concise CSS Language additions Installation The Concise CLI Using add-ons Coding conventions Examples Core Utils UI Concise CSS provides a solid foundation to stylize your website. It offers an alternative to frameworks like Bootstrap and Foundation, with the difference that Concise only includes the minimum styles required. That does not mean that the features are limited; is possible to use add-ons on top of the core to extend the functionality as required. The core of the framework only includes styles for native HTML elements. Components and utilities are provided as optional add-ons, Concise UI and Concise Utils, respectively. Concise CSS is written using a custom CSS preprocessor, built on top of Sass and some PostCSS plugins; this means that y"
+   }
+  }
+ },
+ {
+  "url": "https://cirrus-ui.netlify.app/getting-started/setup",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official Cirrus UI documentation setup page",
+  "qwen_why": "The link still leads to the same active documentation content with only minor structural updates.",
+  "evidence": {
+   "link": "https://cirrus-ui.netlify.app/getting-started/setup",
+   "linked_on": "2021-08-23",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://cirrus-ui.netlify.app/getting-started/setup",
+    "title": "Cirrus - Setup",
+    "text": "Cirrus - Setup Cirrus Documentation What's New Blocks Playground Community About Getting Started Setup Browser Support Developing Configuration Managing Build Size Start Guide Release Notes Fundamentals Default Styles Colors Sizes Typography Pseudo Variants Viewports Plugin API Animations Animated Styles Buttons Basics Button Groups Glyphs Variants Elements Accordion Avatar Breadcrumbs Card Code Links Lists Modal Pagination Placeholder Progress Table Tabs Tags Tiles Toast Tooltips Trees Fonts Font Weights Glyphs Headings Letter Spacing Line Height Size Text Elements Forms Checkbox Input Glyphs Input Groups Inputs Radio Toggle Grid Gap Span Templates Layout Columns Divider Footer Frames Header Height Hero Level Margin Max Height Max Width Media Min Height Min Width Padding Spacing Width Utilities Absolutes Border Radius Border Width Box Shadow Clearfix Cursor Display Filters Flexbox Gap Misc Opacity Overflow Positions Transition Duration Vertical Align Z-Index # Setup Follow these simple steps for setting up Cirrus in your project. Below are a couple of different ways to integrate Cirrus into your project. 1. Use a Package Manager (Recommended) Npm npm i cirrus-ui --save Yarn yarn a"
+   },
+   "archive_when_linked": {
+    "captured": "20210804",
+    "title": "Cirrus - Setup",
+    "text": "Cirrus - Setup Cirrus Why Cirrus? Playground About Getting Started Setup Browser Support Developing Examples Release Notes Fundamentals Colors Typography Viewports Animations Animated Styles Buttons Basics Button Groups Glyphs Variants Components Avatar Card Code Links Lists Modal Pagination Placeholder Table Tabs Tags Tiles Toast Tooltips Trees Fonts Font Weights Glyphs Text Elements Forms Inputs With Glyphs Checkbox Radio Toggle Form Groups Grid Templates Span Gap Layout Columns Divider Footer Frames Header Height Hero Level Margin Media Padding Spacing Width Utilities Clearfix Display Flexbox Misc Overflow Positions # Setup Follow these simple steps for setting up Cirrus in your project. Below are a couple of different ways to integrate Cirrus into your project. 1. Use a Package Manager (Recommended) Npm npm i cirrus-ui --save Yarn yarn add cirrus-ui 2. Use a CDN Unpkg https://unpkg.com/cirrus-ui JsDelivr https://cdn.jsdelivr.net/npm/cirrus-ui@0.6.0/dist/cirrus.min.css 3. Download from the repository. Download # Project Configuration Now that Cirrus is installed, it is time to configure it for your project. This step ensures that the project is set up properly to support mobile "
+   }
+  }
+ },
+ {
+  "url": "https://jonathanharrell.github.io/hiq/guide/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official HiQ documentation guide",
+  "qwen_why": "The link still leads to the active project's documentation with no changes in content or ownership.",
+  "evidence": {
+   "link": "https://jonathanharrell.github.io/hiq/guide/",
+   "linked_on": "2018-09-29",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://jonathanharrell.github.io/hiq/guide/",
+    "title": "Getting Started | HiQ. A high-IQ CSS framework.",
+    "text": "Getting Started | HiQ. A high-IQ CSS framework. Skip site navigation Site menu Home page Site Links Guide Reference Theme Builder Github ... Site Links Guide Reference Theme Builder Github ... Sidebar Links Guide Getting Started Installation Usage Individual Files Theming Browser Support Theming Layout Typography Buttons Code Media Tables Forms & Inputs Meters & Progress Interactive Elements # Getting Started # Installation Start using HiQ by using npm to install the package or use the cdn below or use the Github repository to get the latest development version. npm install hiq < link rel = \" stylesheet \" href = \" https://cdn.jsdelivr.net/npm/hiq@latest/dist/hiq.min.css \" > # Usage There are a few different ways you can include HiQ in your project. # Basic Import the compiled minified version in your CSS: @import '~hiq/dist/hiq.min.css' ; # Advanced Import the source version and process your CSS using PostCSS. This will give you access to the utility mixins that HiQ provides. Note that source files use the .css file extension. @import '~hiq/css/hiq.css' ; To take full advantage of the PostCSS features in HiQ, you will need to configure your postcss.config.js to include these plugin"
+   },
+   "archive_when_linked": {
+    "captured": "20200815",
+    "title": "Getting Started | HiQ",
+    "text": "Getting Started | HiQ HiQ Guide Reference Theme Builder GitHub v0.0.0 Guide Reference Theme Builder GitHub v0.0.0 Guide Getting Started Installation Usage Individual Files Theming Browser Support Theming Layout Typography Buttons Code Media Tables Forms & Inputs Meters & Progress Interactive Elements # Getting Started # Installation Start using HiQ by using npm to install the package or use the Github repository to get the latest development version. npm install hiq # Usage There are a few different ways you can include HiQ in your project. # Basic Import the compiled minified version in your CSS: @import 'node_modules/hiq/dist/hiq.min.css' ; # Advanced Import the source version and process your CSS using PostCSS. This will give you access to the utility mixins that HiQ provides. Note that source files use the .css file extension. @import 'node_modules/hiq/css/hiq.css' ; To take full advantage of the PostCSS features in HiQ, you will need to configure your postcss.config.js to include these plugins (already installed with HiQ): module . exports = { plugins : [ require ( 'postcss-mixins' ) , require ( 'postcss-custom-selectors' ) , require ( 'postcss-custom-media' ) ] } ; You may al"
+   }
+  }
+ },
+ {
+  "url": "https://github.com/kevquirk/simple.css/wiki",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The GitHub Wiki page for simple.css",
+  "qwen_why": "The link still opens the intended documentation repository without any harmful changes or redirects.",
+  "evidence": {
+   "link": "https://github.com/kevquirk/simple.css/wiki",
+   "linked_on": "2023-09-10",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://github.com/kevquirk/simple.css/wiki",
+    "title": "Home · kevquirk/simple.css Wiki · GitHub",
+    "text": "Home · kevquirk/simple.css Wiki · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government See all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust c"
+   },
+   "archive_when_linked": {
+    "captured": "20230811",
+    "title": "Home · kevquirk/simple.css Wiki · GitHub",
+    "text": "Home · kevquirk/simple.css Wiki · GitHub Skip to content Toggle navigation Sign up Product Actions Automate any workflow Packages Host and manage packages Security Find and fix vulnerabilities Codespaces Instant dev environments Copilot Write better code with AI Code review Manage code changes Issues Plan and track work Discussions Collaborate outside of code Explore All features Documentation GitHub Skills Blog Solutions For Enterprise Teams Startups Education By Solution CI/CD & Automation DevOps DevSecOps Resources Customer Stories White papers, Ebooks, Webinars Partners Open Source GitHub Sponsors Fund open source developers The ReadME Project GitHub community articles Repositories Topics Trending Collections Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results more quickly Name Query To see all available qualifiers, see our documentation . Cancel Create saved search Sign in Sign up You signed in with a"
+   }
+  }
+ },
+ {
+  "url": "https://github.com/vinibiavatti1/TuiCss/wiki/Examples",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The original wiki page content",
+  "qwen_why": "The link still opens the same examples page on GitHub with no harmful changes.",
+  "evidence": {
+   "link": "https://github.com/vinibiavatti1/TuiCss/wiki/Examples",
+   "linked_on": "2021-03-05",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://github.com/vinibiavatti1/TuiCss/wiki/Examples",
+    "title": "Examples · vinibiavatti1/TuiCss Wiki · GitHub",
+    "text": "Examples · vinibiavatti1/TuiCss Wiki · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government See all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Tr"
+   },
+   "archive_when_linked": {
+    "captured": "20200911",
+    "title": "Examples · vinibiavatti1/TuiCss Wiki · GitHub",
+    "text": "Examples · vinibiavatti1/TuiCss Wiki · GitHub Skip to content Sign up Why GitHub? Features → Code review Project management Integrations Actions Packages Security Team management Hosting Mobile Customer stories → Security → Team Enterprise Explore Explore GitHub → Learn & contribute Topics Collections Trending Learning Lab Open source guides Connect with others Events Community forum GitHub Education GitHub Stars program Marketplace Pricing Plans → Compare plans Contact Sales Nonprofit → Education → In this repository All GitHub ↵ Jump to ↵ No suggested jump to results In this repository All GitHub ↵ Jump to ↵ In this repository All GitHub ↵ Jump to ↵ Sign in Sign up vinibiavatti1 / TuiCss Watch 4 Star 61 Fork 4 Code Issues 1 Pull requests 2 Actions Projects 0 Wiki Security Insights More Code Issues Pull requests Actions Projects Wiki Security Insights Examples Jump to bottom Vinicius Reif Biavatti edited this page Sep 9, 2019 · 13 revisions Introduction Here there are some examples of creations with TuiCss. You can check the sources at the examples folder on repository. Some met frames was rebuild with TuiCss like BIOS, pc-startup and scandisk. Dont forget to check it out! BIOS BI"
+   }
+  }
+ },
+ {
+  "url": "https://stackoverflow.design/product/develop/using-stacks/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official Stack Overflow Design System documentation page",
+  "qwen_why": "The link redirects to the current, active documentation for the same product with no harmful changes.",
+  "evidence": {
+   "link": "https://stackoverflow.design/product/develop/using-stacks/",
+   "linked_on": "2024-05-09",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://stackoverflow.design/system/develop/using-stacks",
+    "title": "Using Stacks - Stack Overflow Design System",
+    "text": "Using Stacks - Stack Overflow Design System Search Search documentation Search components, guidelines, and foundations. Home Brand Copywriting Community Product Develop Using Stacks Building Stacks Conditional classes JavaScript Accessibility Foundation Base Forms Components Email Handbook Resources GitHub Theme Dark mode Custom theme High contrast mode Product / Develop / Using Stacks Edit Last updated: December 5, 2025 Using Stacks A short guide to Stacks, a robust CSS & JavaScript Pattern library for rapidly building Stack Overflow. Goals Stacks is built with a unified goal: We should be writing as little CSS & JavaScript as possible . To achieve this goal, the Stacks team has created a robust set of reusable components. These include components like buttons, tables, and form elements. We’ve also created a powerful set of atomic classes that can be chained together to create just about any layout without writing a single line of new CSS. Further, these atomic classes can be used as modifiers of pre-existing components. Installing Stacks is currently included within various Stack Overflow projects automatically. If you’re working on a Stack Overflow project, chances are it’s alre"
+   },
+   "archive_when_linked": {
+    "captured": "20240423",
+    "title": "Using Stacks - Stacks",
+    "text": "Using Stacks - Stacks Skip to main content Stacks home Product Email Content Brand Dark mode Custom theme High contrast mode Product Email Content Brand Develop Using Stacks Building Stacks Conditional classes JavaScript Foundation Accessibility Color fundamentals Color palette Theming Icons Illustrations Typography Base Backgrounds Borders Border radius Box shadow Box sizing Cursors Current color Display Flex Floats Gap Grid Interactivity Lists Object fit Opacity Outline Overflow Positioning Spacing Transitions Truncation Vertical alignment Visibility Width & height Z-index Forms Checkbox & Radio Inputs Labels Select Textarea Components Activity indicator Avatars Award bling Badges Banners Breadcrumbs Buttons Button groups Cards Code blocks Editor Empty states Expandable Links Link previews Menus Modals Navigation Notices Page titles Pagination Popovers Post summary Progress bars Prose Sidebar widgets Spinner Tables Tags Toggle switch Topbar Uploader User cards Sections Goals Installing How to best use Stacks Getting Help Using Stacks A short guide to Stacks, a robust CSS & JavaScript Pattern library for rapidly building Stack Overflow. Goals Section titled Goals Stacks is built w"
+   }
+  }
+ },
+ {
+  "url": "https://github.com/nostalgic-css/NES.css#installation",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official NES.css documentation page on GitHub",
+  "qwen_why": "The link still opens the same project's installation docs without any harmful changes or redirects.",
+  "evidence": {
+   "link": "https://github.com/nostalgic-css/NES.css#installation",
+   "linked_on": "2019-02-23",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://github.com/nostalgic-css/NES.css#installation",
+    "title": "GitHub - nostalgic-css/NES.css: NES-style CSS Framework | ファミコン風CSSフレームワーク · GitHub",
+    "text": "GitHub - nostalgic-css/NES.css: NES-style CSS Framework | ファミコン風CSSフレームワーク · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government See all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentati"
+   },
+   "archive_when_linked": {
+    "captured": "20190209",
+    "title": "GitHub - nostalgic-css/NES.css: NES-style CSS Framework | ファミコン風CSSフレームワーク",
+    "text": "GitHub - nostalgic-css/NES.css: NES-style CSS Framework | ファミコン風CSSフレームワーク Skip to content Why GitHub? Features → Code review Project management Integrations Actions Team management Social coding Documentation Code hosting Case Studies → Security → Enterprise Explore Explore GitHub → Learn & contribute Topics Collections Trending Learning Lab Open source guides Connect with others Events Community forum GitHub Education Marketplace Pricing Plans → Compare plans Contact Sales Nonprofit → Education → In this repository All GitHub ↵ Jump to ↵ No suggested jump to results In this repository All GitHub ↵ Jump to ↵ In this repository All GitHub ↵ Jump to ↵ Sign in Sign up Watch 125 Star 10,886 Fork 857 nostalgic-css / NES.css Code Issues 23 Pull requests 11 Projects 0 Insights Dismiss Join GitHub today GitHub is home to over 31 million developers working together to host and review code, manage projects, and build software together. Sign up NES-style CSS Framework | ファミコン風CSSフレームワーク https://nostalgic-css.github.io/NES.css/ css css-framework nes scss 8bit 526 commits 9 branches 1 release 34 contributors MIT CSS 59.6% HTML 37.5% JavaScript 2.9% CSS HTML JavaScript Branch: develop New pull "
+   }
+  }
+ },
+ {
+  "url": "https://get.foundation/templates.html",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official HTML Templates page for Foundation",
+  "qwen_why": "The link still leads to the intended content without any significant changes or redirects.",
+  "evidence": {
+   "link": "https://get.foundation/templates.html",
+   "linked_on": "2024-03-16",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://get.foundation/templates.html",
+    "title": "HTML Templates | Foundation",
+    "text": "HTML Templates | Foundation Foundation Home Brands Case Studies Buzz About Foundation Foundation for Sites Home Getting Started Download HTML Templates Building Blocks Resources Docs Foundation for Emails Home Getting Started Download Inliner Email Templates Resources Docs Develop HTML Templates Resources Building Blocks Contribute Annotate Code Tutorials Tutorials Lessons Courses Custom Training Certification Get Involved Connect Foundation Forum FAQs Contribute Yetinauts Partners Sponsorships Foundation Foundation Framework Showcase Brands Case Studies Buzz About Foundation Develop Frameworks Foundation for Sites Foundation for Email Develop HTML Templates Resources Building Blocks Tutorials Tutorials Lessons Courses Custom Training Certification Get Involved Connect Foundation Forum FAQs Contribute Yetinauts Partners Sponsorships Docs Sites Docs Emails Docs Getting Started Foundation for Sites HTML Templates Home Getting Started Download HTML Templates Building Blocks Resources Docs Get eight responsive templates to kick off your projects. Each of these responsive HTML templates were built with the same techniques and principles we teach in our Introduction to Foundation 6 Cours"
+   },
+   "archive_when_linked": {
+    "captured": "20240209",
+    "title": "HTML Templates | Foundation",
+    "text": "HTML Templates | Foundation Foundation Home Brands Case Studies Buzz About Foundation Foundation for Sites Home Getting Started Download HTML Templates Building Blocks Resources Docs Foundation for Emails Home Getting Started Download Inliner Email Templates Resources Docs Develop HTML Templates Resources Building Blocks Contribute Annotate Code Tutorials Tutorials Lessons Courses Custom Training Certification Get Involved Connect Foundation Forum FAQs Contribute Yetinauts Partners Sponsorships Foundation Foundation Framework Showcase Brands Case Studies Buzz About Foundation Develop Frameworks Foundation for Sites Foundation for Email Develop HTML Templates Resources Building Blocks Tutorials Tutorials Lessons Courses Custom Training Certification Get Involved Connect Foundation Forum FAQs Contribute Yetinauts Partners Sponsorships Docs Sites Docs Emails Docs Getting Started Foundation for Sites HTML Templates Home Getting Started Download HTML Templates Building Blocks Resources Docs Get eight responsive templates to kick off your projects. Each of these responsive HTML templates were built with the same techniques and principles we teach in our Introduction to Foundation 6 Cours"
+   }
+  }
+ },
+ {
+  "url": "https://bulma.io/expo/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The Bulma Expo interactive course page",
+  "qwen_why": "The link still leads to the same educational content about Bulma, merely updated with modern design and branding.",
+  "evidence": {
+   "link": "https://bulma.io/expo/",
+   "linked_on": "2021-03-15",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://bulma.io/expo/",
+    "title": "Bulma: Free, open source, and modern CSS framework based on Flexbox",
+    "text": "Bulma: Free, open source, and modern CSS framework based on Flexbox Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials. Docs Documentation Expo Love Sponsor Made with Bulma Backers Bulma Brand Bulma Extensions Download Light Dark System Download Made with Bulma Gorgeous websites built with Bulma. Did you design a gorgeous website with Bulma too? Tell us about it! 🤗 #madewithbulma mullvad klevgrand Starbucks Concept signal tinystore searchcity Vinetos Infinity Search Pentos Vivo Hostel romes formalfounder klimchuk oneprofile pagespeed rydesignsstuff Divjoy Spike FTW Runlet Bulma Play FileGator Counter Network Sinuous Agilox Pingstack mynameismirko pwn SaaSHub Snipper App SME summit Jethro May GreenPeace Uncut Reception Halls Daniel FR faulthero adilmania mattfarley griko shecodes jgthms uigoodies favicon whiterabbitexpress primative getbedtimestories mod jobees mythril immunizationacademy cssninja planhr hodlfund cronhub pollygot reportz mynameismirko anyshortcut ysimplicity bongoutindonesia uploadme Gustav Penmob Brújula Turística LottieFiles Smileonthetiles Sketch for Designrs Bashful Birdie Bugcraft Studio Booknshelf MD5 Driftrock"
+   },
+   "archive_when_linked": {
+    "captured": "20210117",
+    "title": "Expo: beautiful websites designed Bulma",
+    "text": "Expo: beautiful websites designed Bulma Docs Documentation Videos Expo Love Backers More GitHub The official repository Patreon and GitHub Backers Everyone who is supporting Bulma Blog Stay updated with new features Made with Bulma The official community badge Coming from Bootstrap See how Bulma is an alternative to Bootstrap Bulma extensions Side projects to enhance Bulma Bulma start A tiny npm package to get started Sponsor Download Home Expo Expo How people use Bulma to design beautiful websites 😍 Did you design a gorgeous website with Bulma too? Tell us about it! 🤗 #madewithbulma signal 6 Jan 2021 Vinetos 9 Mar 2020 Infinity Search 18 Mar 2020 searchcity 8 Sep 2020 Pentos Feb 26 2020 Vivo Hostel 27 Feb 2020 romes 24 Mar 2020 formalfounder 13 Feb 2020 klimchuk 28 Feb 2020 oneprofile 14 Mar 2020 pagespeed 19 Feb 2020 rydesignsstuff 10 Dec 2019 Divjoy 9 Aug 2019 Spike 13 Aug 2019 FTW 19 June 2019 Runlet 22 Aug 2019 Bulma Play 13 May 2019 FileGator 18 June 2019 Counter Network 28 Mar 2019 Sinuous 21 Sep 2019 Agilox 27 Mar 2019 Pingstack 26 Feb 2019 mynameismirko 26 Jan 2019 pwn 24 Feb 2019 SaaSHub 9 Mar 2019 Snipper App 25 Mar 2019 SME summit 20 Mar 2019 Jethro May 17 Jan 2019 Gree"
+   }
+  }
+ },
+ {
+  "url": "https://getuikit.com/docs/introduction",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official UIkit documentation introduction page",
+  "qwen_why": "The link still leads to the same official documentation content as intended by the author.",
+  "evidence": {
+   "link": "https://getuikit.com/docs/introduction",
+   "linked_on": "2017-09-01",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://getuikit.com/docs/introduction",
+    "title": "Introduction - UIkit",
+    "text": "Introduction - UIkit Skip to main content UIkit Pro Documentation Changelog Download Documentation Getting started Introduction Installation Less Sass JavaScript Webpack Custom icons Avoiding conflicts Accessibility RTL support Migration Components Accordion Alert Align Animation Article Background Badge Base Breadcrumb Button Card Close Column Comment Container Countdown Cover Description List Divider Dotnav Drop Dropbar Dropdown Dropnav Filter Flex Form Grid Heading Height Icon Iconnav Image Inverse Label Leader Lightbox Link List Margin Marker Modal Nav Navbar Notification Off-canvas Overlay Padding Pagination Parallax Placeholder Position Print Progress Scroll Scrollspy Search Section Slidenav Slider Slideshow Sortable Spinner Sticky Subnav SVG Switcher Tab Table Text Thumbnav Tile Toggle Tooltip Totop Transition Upload Utility Video Visibility Width Introduction Get familiar with the basic setup and overview of UIkit. First, you need to download UIkit. For other packages and links to a CDN, head to the installation guide to learn more. Download UIkit Package contents The Zip file contains the compiled CSS and JavaScript files, which is everything you need to get started. Later"
+   },
+   "archive_when_linked": {
+    "captured": "20171116",
+    "title": "UIkit",
+    "text": "UIkit"
+   }
+  }
+ },
+ {
+  "url": "https://tachyons.io/gallery/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The Tachyons CSS gallery page",
+  "qwen_why": "The link still leads to the same functional content with only minor updates and rebranding of sponsors.",
+  "evidence": {
+   "link": "https://tachyons.io/gallery/",
+   "linked_on": "2021-03-15",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://tachyons.io/gallery/",
+    "title": "TACHYONS - Gallery",
+    "text": "TACHYONS - Gallery Tachyons v4.12.0 Docs Components Gallery Resources GitHub Made with interfacelovers.com zarf.co/ coralproject.net/ samueldregan.com/ studiocraft.cc iheanyi.com womenwho.design play.webvr.rocks bluebottlecoffee.com kerem.co topher.design sogol.com npmjs.com segment.com algolia.com spenhar.com fredfahlke.github.io lastjapan.com urlbox.io tylernford.com Home Docs Components Gallery Resources X-Ray Supporting Tachyons Tweet Follow @tachyons_css Need Help? Join our Slack Channel Open an Issue on GitHub Have a question? Need help? Feel free to open an issue on GitHub or ask a question in our slack channel. We’re here to try and help make designing in the browser fun. A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle that always moves faster than light. The word comes from the Greek: ταχύς or tachys, meaning “swift, quick, fast, rapid”"
+   },
+   "archive_when_linked": {
+    "captured": "20200908",
+    "title": "TACHYONS - Gallery",
+    "text": "TACHYONS - Gallery Tachyons v4.12.0 Docs Components Gallery Resources GitHub Made with interfacelovers.com zarf.co/ coralproject.net/ samueldregan.com/ studiocraft.cc iheanyi.com womenwho.design play.webvr.rocks bluebottlecoffee.com kerem.co topher.design sogol.com npmjs.com segment.com algolia.com spenhar.com fredfahlke.github.io lastjapan.com urlbox.io tylernford.com Home Docs Components Gallery Resources X-Ray Supporting Tachyons Tweet Follow @tachyons_css Need Help? Join our Slack Channel Open an Issue on GitHub Have a question? Need help? Feel free to open an issue on GitHub or ask a question in our slack channel. We’re here to try and help make designing in the browser fun. A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle that always moves faster than light. The word comes from the Greek: ταχύς or tachys, meaning “swift, quick, fast, rapid”"
+   }
+  }
+ },
+ {
+  "url": "https://jenil.github.io/chota/#docs",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The same micro CSS framework documentation page",
+  "qwen_why": "The link resolves to the exact same content about the Chota CSS framework, confirming it is still active and unchanged.",
+  "evidence": {
+   "link": "https://jenil.github.io/chota/#docs",
+   "linked_on": "2021-03-15",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://jenil.github.io/chota/#docs",
+    "title": "chota - A micro CSS framework",
+    "text": "chota - A micro CSS framework A micro (~3kb) CSS framework. FWIW, \"choṭā\" means \"small\" in Hindi features start docs GitHub ☀️ Features ⚡️ Super light-weight. Just ~3kb (minified + gzipped). ⛔️ No preprocessor, just plug-n-play 📐 Magical 12 column grid 🌈 Easy to extend with CSS variables 🎲 Comes with a handful of components & utilities ✅ Good Semantics 🌙 Easy dark mode switch 🤡 Supports icons out-of-the-box Getting Started All you need is 1 CSS file, chota.css to be included in your webpage. Link this CSS in your HTML: <link rel= \"stylesheet\" href= \"https://unpkg.com/chota@latest\" > You can get the latest release from GitHub Download .zip Install it from npm or yarn npm install chota Docs customizing components Chota is dead simple to use. It doesn't require learning a lot of class names like other frameworks. It applies a few basic styles to the HTML following the HTML Semantics . Here is a demo of the basic HTML elements. A few addons that Chota provides out-of-the-box for some elements are: Striped tabled Input states Horizontal input alignment by just wrapping them with grouped class Icons Customizing Chota comes with a basic set of CSS variables : :root { --bg-color : #ffffff "
+   },
+   "archive_when_linked": {
+    "captured": "20210307",
+    "title": "chota - A micro CSS framework",
+    "text": "chota - A micro CSS framework A micro (~3kb) CSS framework. FWIW, \"choṭā\" means \"small\" in Hindi features start docs GitHub ☀️ Features ⚡️ Super light-weight. Just ~3kb (minified + gzipped). ⛔️ No preprocessor, just plug-n-play 📐 Magical 12 column grid 🌈 Easy to extend with CSS variables 🎲 Comes with a handful of components & utilities ✅ Good Semantics 🌙 Easy dark mode switch 🤡 Supports icons out-of-the-box Getting Started All you need is 1 CSS file, chota.css to be included in your webpage. Link this CSS in your HTML: <link rel= \"stylesheet\" href= \"https://unpkg.com/chota@latest\" > You can get the latest release from GitHub Download .zip Install it from npm or yarn npm install chota Docs customizing components Chota is dead simple to use. It doesn't require learning a lot of class names like other frameworks. It applies a few basic styles to the HTML following the HTML Semantics . Here is a demo of the basic HTML elements. A few addons that Chota provides out-of-the-box for some elements are: Striped tabled Input states Horizontal input alignment by just wrapping them with grouped class Icons Customizing Chota comes with a basic set of CSS variables : :root { --bg-color : #ffffff "
+   }
+  }
+ },
+ {
+  "url": "https://www.blazeui.com/components/buttons/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official Blaze UI documentation for buttons",
+  "qwen_why": "The link still leads to the same component documentation, which is now part of a rebranded project called Blaze.",
+  "evidence": {
+   "link": "https://www.blazeui.com/components/buttons/",
+   "linked_on": "2018-07-18",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://www.blazeui.com/components/buttons/",
+    "title": "Buttons",
+    "text": "Buttons Skip to main content Blaze UI Open Source CSS Atoms Blaze Theme Getting Started How to begin using Blaze Install Custom Build Examples Example Login Example Basket Objects Layout and structure Containers Grid Panels Images Drawers Medias Modals Components Fully styled atomic features Accordions Addresses Alerts Autocomplete Avatars Back to top Badges Buttons Calendars Cards Counter Divider File Upload Headings Inputs Lists Menus Overlays Pagination Progress Ranges Sticky Tables Tabs Timelines Toasts Toggles Tooltips Trees Typography Utilities Override helpers Alignment Boxing Elevation Sizes Visibility Buttons Probably the first thing people look at when choosing a UI toolkit. The common button! Basic Button To make a button a Blaze button add the .c-button class to buttons, inputs or links. Button Link Button <button type=\"button\" class=\"c-button\">Button</button> <input type=\"button\" class=\"c-button\" value=\"Input\"> <a class=\"c-button\">Link</a> <button type=\"button\" class=\"c-button\" disabled>Button</button> Button Colors There are five button color modifiers: Button Button Button Button Button Button <button type=\"button\" class=\"c-button\">Button</button> <button type=\"butto"
+   },
+   "archive_when_linked": {
+    "captured": "20220712",
+    "title": "Buttons",
+    "text": "Buttons Skip to main content Open Source Download Code View Source Getting Started Install Custom Build Examples Example Basket Example Chat Example Dashboard Example Email Example Login Generics Global Objects Containers Grid Panels Images Drawers Medias Modals Components Accordions Addresses Alerts Autocomplete Avatars Back to top Badges Breadcrumbs Buttons Calendars Cards Counter Divider File Upload Headings Inputs Lists Menus Overlays Pagination Progress Ranges Sticky Tables Tabs Timelines Toasts Toggles Tooltips Trees Typography Utilities Alignment Boxing Elevation Sizes Visibility Buttons Probably the first thing people look at when choosing a UI toolkit. The common button! Basic Button To make a button a Blaze button add the .c-button class to buttons, inputs or links. Button Link Button <button type=\"button\" class=\"c-button\">Button</button> <input type=\"button\" class=\"c-button\" value=\"Input\"> <a class=\"c-button\">Link</a> <button type=\"button\" class=\"c-button\" disabled>Button</button> Button Colors There are five button color modifiers: Button Button Button Button Button Button <button type=\"button\" class=\"c-button\">Button</button> <button type=\"button\" class=\"c-button c-but"
+   }
+  }
+ }
+]

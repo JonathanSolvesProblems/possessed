@@ -1,0 +1,14 @@
+{
+ "_about": "Hand labels for vuejs/awesome-vue, made by Claude (the coding assistant) on 2026-10-28 from a fresh fetch of each live page and the archive capture from when the link was added. 'review' means not settled by hand, so it is left out of any PR. Jonathan's spot-check pending.",
+ "https://www.gamevix.com/": {"label": "possessed", "why": "redirects to baccarat-sites.co.kr, a Korean baccarat casino guide; archive 2018-01-28 shows GameVix: Swap Video Games"},
+ "https://he3.app": {"label": "possessed", "why": "'He3.app for sale | Spaceship.com'; archive 2022-11-18 shows He3: Modern Developer Toolbox"},
+ "https://narrandum.com": {"label": "possessed", "why": "spam blog (structural metalwork, travel, health posts); archive 2020-02-04 shows the customer journey mapping tool"},
+ "https://deskree.com/": {"label": "possessed", "why": "now Tetrix, an AI knowledge-map product; archive 2018-04-12 shows the Deskree collaboration platform"},
+ "https://www.darwin.so": {"label": "possessed", "why": "now an AI agent platform; archive 2021-06-13 shows Darwin Analytics conversion analytics"},
+ "https://blog.codeship.com/consider-vuejs-next-web-project/": {"label": "possessed", "why": "redirects to cloudbees.com/blog/docker-guis, an unrelated post; archive 2016-09-27 shows the Vue article"},
+ "https://inspira-ui.com/": {"label": "fine", "why": "still Inspira UI; the Akaza UI text is a promo banner on a JavaScript page"},
+ "https://admin.spicyboy.cn": {"label": "fine", "why": "Geeker Admin is the project this demo link belongs to"},
+ "https://roastandbrew.coffee/": {"label": "review", "why": "redirects to serversideup.net, the authors' company; the app is gone, not checked further"},
+ "https://nipashe.netlify.app/": {"label": "review", "why": "title 'covidfy' with no readable text; may be a renamed build of the same app"},
+ "https://theroadtoenterprise.com/?utm_source=github&utm_medium=vue-awesome&utm_campaign=vue_the_road_to_enterprise": {"label": "review", "why": "same author's site, now selling other books; the Vue book page was not checked"}
+}
