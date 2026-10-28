@@ -51,7 +51,7 @@ jobs:
 Your repository needs *Settings → Actions → General → Allow GitHub Actions to create and approve
 pull requests* turned on, or the last step cannot open the PR.
 
-On a hosted runner Gemma 4 runs on the CPU, at about three minutes a link, so `limit` keeps a run
+On a hosted runner Gemma 4 runs on the CPU, two to three minutes a link, so `limit` keeps a run
 inside an hour or two; the weekly schedule gets through a long list over a few weeks. A
 self-hosted runner that already has Ollama and a GPU is used as is and reads a thousand-link list
 in under half an hour. The models are cached between runs. The evidence (`possessed.json`, with
@@ -109,8 +109,9 @@ Pull requests that came out of it:
 - [vuejs/awesome-vue#4593](https://github.com/vuejs/awesome-vue/pull/4593): six entries removed, each
   with the archive capture of what it used to be. One of them, listed in 2018 as a PWA for swapping
   video games, opened a baccarat guide.
-- The Action's own PR on a fork of design-resources-for-developers, written by a hosted runner with
-  no GPU: see the post.
+- [design-resources-for-developers#1](https://github.com/JonathanSolvesProblems/design-resources-for-developers/pull/1)
+  on a fork: the Action's own PR, written by a hosted runner with no GPU. Seven links, six of them
+  gambling sites. Its `possessed.json` is in `results/design-resources-action/`.
 
 ## License
 

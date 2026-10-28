@@ -1,0 +1,13 @@
+{
+ "repository": "JonathanSolvesProblems/design-resources-for-developers",
+ "run_id": 40754497245,
+ "run_url": "https://github.com/JonathanSolvesProblems/design-resources-for-developers/actions/runs/40754497245",
+ "runner": "ubuntu-latest, hosted, no GPU",
+ "limit": 8,
+ "created_at": "2026-10-28T19:27:40Z",
+ "updated_at": "2026-10-28T19:57:39Z",
+ "wall_minutes": 30,
+ "models_cached": true,
+ "pull_request": "https://github.com/JonathanSolvesProblems/design-resources-for-developers/pull/1",
+ "note": "The first run (40748268206, 39 minutes, models pulled fresh) judged the same eight links the same way but opened no PR: add-paths **/*.md did not match a README at the repository root. Fixed in eb76cd4; this is the run whose evidence sits beside this file."
+}

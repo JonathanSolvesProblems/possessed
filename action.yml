@@ -8,7 +8,7 @@ inputs:
     description: Folder to scan for markdown, relative to the repository root.
     default: "."
   limit:
-    description: Most links Gemma 4 reads per run. On a hosted runner it reads on the CPU, about three minutes a link.
+    description: Most links Gemma 4 reads per run. On a hosted runner it reads on the CPU, two to three minutes a link.
     default: "40"
   model:
     description: Ollama model that judges each link.

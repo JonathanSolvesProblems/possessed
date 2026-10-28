@@ -1,0 +1,983 @@
+[
+ {
+  "url": "http://openby.design/",
+  "file": "readme.md",
+  "anchor": "openby.design",
+  "sentence": "| openby.design | Custom crafted free UI design resources, for personal and commercial projects.",
+  "added_on": "2022-10-23",
+  "live_final_url": "https://emmasbucketlist.com/",
+  "live_title": "$50 Pokies No Deposit Bonus Australia (2026): Offers, Rules & Cashout",
+  "signals": {
+   "moved_away": true,
+   "to_homepage": false,
+   "parked_words": true
+  },
+  "similarity": 0.1496,
+  "verdict": {
+   "verdict": "possessed",
+   "replacement": "https://web.archive.org/web/20220927200014/http://openby.design/",
+   "reason": "The domain was taken over by a gambling/betting site.",
+   "now_shows": "A gambling/betting site (Pokies bonus)",
+   "originally": "Custom crafted free UI design resources"
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 68.7,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "http://openby.design/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "http://openby.design/",
+       "https://openby.design/",
+       "https://emmasbucketlist.com/"
+      ],
+      "final_url": "https://emmasbucketlist.com/",
+      "title": "$50 Pokies No Deposit Bonus Australia (2026): Offers, Rules & Cashout",
+      "text_start": "$50 Pokies No Deposit Bonus Australia (2026): Offers, Rules & Cashout PokiesBonusFinder $10 Sign Up Bonus $100 Pokies No Deposit $200 No Deposit Bonus 150 Free Spins 25 Free Spins $75 free chip 80 free spins 60 free spins $30 pokies no deposit $50 Pokies No Deposit Bonus in Australia: 2026 Offers Explained An advertised A$50 no deposit pokies bonus may sound straightforward: sign up and receive promotional funds without making a deposit. But the amount on the screen is not the amount you can necessarily cash out. This guide looks at Australian-focused $50 free-chip offers through their actual conditions. For example, x45 wagering turns an A$50 credit into A$2,250 of eligible bets; using a simplified 96% RTP assumption, that playthrough carries about A$90 in theoretical losses. Game restrictions, time limits and withdrawal caps all change what the offer may ultimately be worth. JM Independently reviewed by Jordan Mills , Casino Bonus Analyst \u2014 latest editorial review: September 2026 Our comparison starts with the fine print, not the advertised chip: turnover targets, withdrawal ceilings, permitted pokies, bet limits and bonus deadlines. Compare Bonus Conditions How to Claim the Bonus Casino Information Withdrawal Information Reviewer Assessments Responsible Play Three $50 No Deposit Pokies Offers at a Glance Ozwin Casino 4.8/5 READER FAVOURITE A$50 Promotional Chip Code: WINOZWIN To meet x40 wagering, eligible bets must total A$2,000. Withdrawals from the bonus cannot exceed A"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 55.1,
+    "text": "",
+    "calls": [
+     {
+      "name": "find_snapshot",
+      "args": {
+       "near_date": "2022-10-23",
+       "url": "http://openby.design/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "found": true,
+      "timestamp": "20220927200014",
+      "captured_on": "2022-09-27",
+      "snapshot_url": "https://web.archive.org/web/20220927200014/http://openby.design/"
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 9.8,
+    "text": "",
+    "calls": [
+     {
+      "name": "read_snapshot",
+      "args": {
+       "timestamp": "20220927200014"
+      }
+     }
+    ],
+    "results": [
+     {
+      "snapshot_url": "https://web.archive.org/web/20220927200014/http://openby.design/",
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [],
+      "final_url": "https://web.archive.org/web/20220927200014/http://openby.design/",
+      "title": "Openby.design",
+      "text_start": "Openby.design Design Coded Templates About License Contact Hire Us Free & Open Source Design Assets Custom crafted free UI design resources , for personal and commercial projects. No attribution is required. Dashboards Logos Landing Pages Soon"
+     }
+    ]
+   },
+   {
+    "step": 3,
+    "seconds": 29.6,
+    "text": "",
+    "calls": [
+     {
+      "name": "possessed",
+      "args": {
+       "now_shows": "A gambling/betting site (Pokies bonus)",
+       "originally": "Custom crafted free UI design resources",
+       "reason": "The domain was taken over by a gambling/betting site.",
+       "replacement": "https://web.archive.org/web/20220927200014/http://openby.design/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "possessed",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 4,
+    "seconds": 14.5,
+    "text": "possessed{now_shows:<|\"|>A gambling/betting site (Pokies bonus)<|\"|>,originally:<|\"|>Custom crafted free UI design resources<|\"|>,reason:<|\"|>The domain was taken over by a gambling/betting site.<|\"|>,replacement:<|\"|>https://web.archive.org/web/20220927200014/http://openby.design/<|\"|>}",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://chakra-templates.dev/",
+  "file": "readme.md",
+  "anchor": "Chakra Templates",
+  "sentence": "| Chakra Templates| A growing collection of hand-crafted & responsive Chakra UI templates ready to drop into your React project.",
+  "added_on": "2022-07-17",
+  "live_final_url": "https://mainslotresmi.org/",
+  "live_title": "AGEN338 : Tips Bermain Slot88 & Kumpulan Slot Gacor",
+  "signals": {
+   "moved_away": true,
+   "to_homepage": false,
+   "parked_words": true
+  },
+  "similarity": 0.222,
+  "verdict": {
+   "verdict": "possessed",
+   "replacement": "https://web.archive.org/web/20220603052424/https://chakra-templates.dev/",
+   "reason": "The link was hijacked and now leads to an unrelated casino/betting site.",
+   "now_shows": "A gambling/betting site (AGEN338)",
+   "originally": "A growing collection of hand-crafted & responsive Chakra UI templates"
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 40.7,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://chakra-templates.dev/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://www.francoisleveillee.com/",
+       "https://www.cobblersplus.com/",
+       "https://onfirepizza.com/",
+       "https://sanary-hotel-bon-abri.com/",
+       "https://refereesdrivingschool.com/pre-enrollment/",
+       "https://mainslotresmi.org/"
+      ],
+      "final_url": "https://mainslotresmi.org/",
+      "title": "AGEN338 : Tips Bermain Slot88 & Kumpulan Slot Gacor",
+      "text_start": "AGEN338 : Tips Bermain Slot88 & Kumpulan Slot Gacor KETIK DI GOOGLE 'AGEN338' Account 0 Cart DAFTAR AKUN Explore Categories Popular Products Shop All Designs AGEN338 AGEN338 SLOT SLOT GACOR AGEN338 SLOT GACOR LOGIN DAFTAR Design ID: 74165272 74165272 1 false 1 AGEN338 : Tips Bermain Slot88 & Kumpulan Slot Gacor $18 IDR 5.000 Create an account to favorite this design! Back Slot Gacor DAFTAR LOGIN AGEN338 membangun situs game yang ramah pengguna dan mudah diakses oleh berbagai kalangan, menjadikan pengalaman mengeksplorasi game online jauh lebih menyenangkan. Industri hiburan digital terus berkembang pesat, menuntut platform penyedia game untuk tidak hanya menghadirkan variasi konten, tetapi juga memikirkan aksesibilitas bagi seluruh lapisan pengguna. Pelajari cara memilih permainan Slot88 dan mengenali potensi slot gacor di AGEN338. Referensi terpercaya untuk kenyamanan bermain setiap hari. Salah satu pilar utama dari ekosistem inklusif yang diusung oleh AGEN338 adalah kemudahan navigasi. Memahami bahwa komunitas gamer datang dari latar belakang keahlian teknis yang berbeda-beda, platform ini merancang antarmuka visual yang bersih, terstruktur, dan responsif. Pengguna baru dapat dengan cepat menemukan kategori game favorit tanpa harus melalui alur navigasi yang membingungkan. FAQ (Pertanyaan Umum): Apa yang dimaksud dengan slot gacor di AGEN338? Slot gacor adalah istilah untuk game slot yang sedang memiliki performa terbaik hari ini, di mana mesin lebih sering memberikan kombi"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 39.9,
+    "text": "",
+    "calls": [
+     {
+      "name": "find_snapshot",
+      "args": {
+       "near_date": "2022-07-17",
+       "url": "https://chakra-templates.dev/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "found": true,
+      "timestamp": "20220603052424",
+      "captured_on": "2022-06-03",
+      "snapshot_url": "https://web.archive.org/web/20220603052424/https://chakra-templates.dev/"
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 10.8,
+    "text": "",
+    "calls": [
+     {
+      "name": "read_snapshot",
+      "args": {
+       "timestamp": "20220603052424"
+      }
+     }
+    ],
+    "results": [
+     {
+      "snapshot_url": "https://web.archive.org/web/20220603052424/https://chakra-templates.dev/",
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [],
+      "final_url": "https://web.archive.org/web/20220603052424/https://chakra-templates.dev/",
+      "title": "Chakra Templates",
+      "text_start": "Chakra Templates Chakra Templates Templates Page Sections Large Page Sections like Hero, Features ... Blog A section regarding all blog elements Navigation Header Navigation for Websites & Apps Forms User Login & Newsletter Forms Components Smaller buildings blocks like Cards, Buttons, Result ... Contribute GitHub Discord Production-ready Chakra UI Templates for developers A growing collection of hand-crafted & responsive Chakra UI templates ready to drop into your React project. Responsive Demos Easy Customizable Written in TypeScript 100% Open Source 72 Templates 24 Categories Browse Templates Suggest Template Getting started in 3 easy steps 0 1 Find your template Every template is embedded within an iframe, so you can easily check what they look like and test the responsive behaviour. 0 2 Copy the code Click the code tab to see the actual source code of the template. Copy and paste it into your project and adjust it to your needs. 0 3 Enjoy your free time You've just saved yourself a bunch of time not building the same stuff over and over again. Enjoy your free time, and build business features We're open source and you can become a part of it! If you\u2019re interested in contributing visit our GitHub repository and take a peek at the Template Development project. There are pre-designed templates waiting for you to be implemented. Go ahead, and join these awesome list of contributors: GitHub Stars 881 Templates 72 Contributors 31 Categories 24 Explore 71 + production-ready Tem"
+     }
+    ]
+   },
+   {
+    "step": 3,
+    "seconds": 40.9,
+    "text": "",
+    "calls": [
+     {
+      "name": "possessed",
+      "args": {
+       "now_shows": "A gambling/betting site (AGEN338)",
+       "originally": "A growing collection of hand-crafted & responsive Chakra UI templates",
+       "reason": "The link was hijacked and now leads to an unrelated casino/betting site.",
+       "replacement": "https://web.archive.org/web/20220603052424/https://chakra-templates.dev/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "possessed",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 4,
+    "seconds": 4.3,
+    "text": "possessed",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://bumbag.style/",
+  "file": "readme.md",
+  "anchor": "Bumbag",
+  "sentence": "| Bumbag| Bumbag is a friendly React UI Kit suitable for MVPs or large-scale applications.",
+  "added_on": "2020-08-07",
+  "live_final_url": "https://expireddomains.com/domain/bumbag.style?utm_source=redi",
+  "live_title": "bumbag.style \u2014 Buy this expired domain | ED.com",
+  "signals": {
+   "moved_away": true,
+   "to_homepage": false,
+   "parked_words": true
+  },
+  "similarity": 0.4373,
+  "verdict": {
+   "verdict": "possessed",
+   "replacement": "https://web.archive.org/web/20200805050011/https://bumbag.style/",
+   "reason": "The domain is now for sale and does not host the UI Kit.",
+   "now_shows": "A page selling the expired domain bumbag.style",
+   "originally": "Bumbag, a friendly React UI Kit"
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 39.1,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://bumbag.style/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://bumbag.style/",
+       "https://expireddomains.com/domain/bumbag.style?utm_source=redi"
+      ],
+      "final_url": "https://expireddomains.com/domain/bumbag.style?utm_source=redi",
+      "title": "bumbag.style \u2014 Buy this expired domain | ED.com",
+      "text_start": "bumbag.style \u2014 Buy this expired domain | ED.com Listing ID \u00b7 bumbag.style Home .style bumbag.style Premium domain \u00b7 For sale bumbag .style 6-character brandable .style 6 characters \u00b7 6 years old A short, memorable, established domain ready to power your brand. Backed by 322 referring domains and 6 years of online authority. Buy-it-now $100 USD Buy bumbag.style Afternic GoDaddy checkout Not interested in buying this domain? Browse relevant content instead What happens after you buy Pay Secure checkout on GoDaddy 2 Verify Ownership confirmed 3 Push Delivered within 24h GoDaddy-protected checkout Available \u2014 Premium domain Authority snapshot Sign in to view authority score Established backlink profile with 322 unique referring domains. Backlinks Ref Dom 322 Age 6y View historical screenshot \u00d7 Why bumbag.style is worth it Every claim below is backed by verified third-party data. Smart investment Currently listed below our AI fair-value estimate \u2014 room for upside on resale or development. Asking $100 AI fair value $191 TLD .style Real traffic potential Demand signals indicate strong ranking potential out of the box. Search vol. 13,000 CPC $1.10 Brandable & memorable Short, easy to say, easy to type \u2014 the foundation of any premium brand. Length 6 Radio test Passes Appeal 2.0 Why this name What makes bumbag.style worth owning bumbag.style is a short 6-character name \u2014 the sweet spot for brandable startups and SaaS landings. The .style extension is a working STYLE name with everythin"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 42.9,
+    "text": "",
+    "calls": [
+     {
+      "name": "find_snapshot",
+      "args": {
+       "near_date": "2020-08-07",
+       "url": "https://bumbag.style/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "found": true,
+      "timestamp": "20200805050011",
+      "captured_on": "2020-08-05",
+      "snapshot_url": "https://web.archive.org/web/20200805050011/https://bumbag.style/"
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 10.5,
+    "text": "",
+    "calls": [
+     {
+      "name": "read_snapshot",
+      "args": {
+       "timestamp": "20200805050011",
+       "url": "https://bumbag.style/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "snapshot_url": "https://web.archive.org/web/20200805050011/https://bumbag.style/",
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [],
+      "final_url": "https://web.archive.org/web/20200805050011/https://bumbag.style/",
+      "title": "Bumbag | Rapidly build accessible & themeable React applications with ease",
+      "text_start": "Bumbag | Rapidly build accessible & themeable React applications with ease Documentation Sponsor Discord GitHub Build accessible & themeable React applications with your Bumbag Bumbag is a friendly React UI Kit suitable for MVPs or large-scale applications. Get started Components Accessible by default Powered by Reakit under the hood, all components come with accessible HTML attributes & keyboard interactions out of the box and follow the WAI-ARIA standards. < Alert title = \" An error occurred \" type = \" danger \" > We were unable to save your changes . </ Alert > < div role = \" alert \" aria-labelledby = \" alertTitle \" aria-describedby = \" alertDescription \" > < div id = \" alertTitle \" > An error occurred </ div > < div id = \" alertDescription \" > We were unable to save your changes . </ div > </ div > const theme = { fonts : { default : '\"Comic Sans MS\", sans-serif' , heading : '\"Helvetica\", sans' } , palette : { primary : '#574feb' , success : '#0a7d33' , danger : '#da1717' , warning : '#ed9c22' } , Button : { defaultProps : { palette : 'primary' } } } < BumbagProvider theme = { theme } > ... </ BumbagProvider > Theme your way Put yourself in control and have the ability to customize any component by altering the theme at a global or component level. Learn more about theming Compose for flexibility Flexibly build your own components such as a pricing section, a contact form, or even a call-to-action. Learn more about composition // Compose with `use` < Button use = { Link } "
+     }
+    ]
+   },
+   {
+    "step": 3,
+    "seconds": 36.7,
+    "text": "",
+    "calls": [
+     {
+      "name": "possessed",
+      "args": {
+       "now_shows": "A page selling the expired domain bumbag.style",
+       "originally": "Bumbag, a friendly React UI Kit",
+       "reason": "The domain is now for sale and does not host the UI Kit.",
+       "replacement": "https://web.archive.org/web/20200805050011/https://bumbag.style/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "possessed",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 4,
+    "seconds": 4.3,
+    "text": "possessed",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://oruga.io/",
+  "file": "readme.md",
+  "anchor": "Oruga",
+  "sentence": "| Oruga | Oruga is a lightweight library of UI components for Vue.js without CSS framework dependency.",
+  "added_on": "2021-05-07",
+  "live_final_url": "https://oruga.io/",
+  "live_title": "\u0412\u0430\u0432\u0430\u0434\u0430 \u041a\u0430\u0437\u0438\u043d\u043e \u041a\u0417 \u2014 \u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0421\u0430\u0439\u0442 Vavada 2026",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": true
+  },
+  "similarity": 0.1829,
+  "verdict": {
+   "verdict": "possessed",
+   "replacement": "https://web.archive.org/web/20210120214135/https://oruga.io/",
+   "reason": "The domain was repurposed for gambling/betting.",
+   "now_shows": "a casino/betting site",
+   "originally": "a lightweight library of UI components for Vue.js"
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 42.4,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://oruga.io/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://oruga.io/"
+      ],
+      "final_url": "https://oruga.io/",
+      "title": "\u0412\u0430\u0432\u0430\u0434\u0430 \u041a\u0430\u0437\u0438\u043d\u043e \u041a\u0417 \u2014 \u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0421\u0430\u0439\u0442 Vavada 2026",
+      "text_start": "\u0412\u0430\u0432\u0430\u0434\u0430 \u041a\u0430\u0437\u0438\u043d\u043e \u041a\u0417 \u2014 \u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0421\u0430\u0439\u0442 Vavada 2026 Oruga.io \u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u0430\u0439\u0442 \u0411\u043e\u043d\u0443\u0441\u044b \u0418\u0433\u0440\u044b \u041f\u043b\u0430\u0442\u0435\u0436\u0438 \u0417\u0435\u0440\u043a\u0430\u043b\u043e FAQ \u2715 \u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u0430\u0439\u0442 \u0411\u043e\u043d\u0443\u0441\u044b \u0418\u0433\u0440\u044b \u041f\u043b\u0430\u0442\u0435\u0436\u0438 \u0417\u0435\u0440\u043a\u0430\u043b\u043e FAQ \u269c \u041f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u043e \u042d\u043a\u0441\u043f\u0435\u0440\u0442\u0430\u043c\u0438 \u2022 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d 2026 \u269c \u0412\u0430\u0432\u0430\u0434\u0430 \u041a\u0430\u0437\u0438\u043d\u043e \u041a\u0417 \u2014 \u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u041f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u0434\u043b\u044f \u0418\u0433\u0440\u043e\u043a\u043e\u0432 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0430 \u0418\u0441\u0442\u043e\u0440\u0438\u044f \u043f\u043e\u0431\u0435\u0434 \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442\u0441\u044f \u0437\u0434\u0435\u0441\u044c. Vavada Casino \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442 \u043a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0441\u043a\u0438\u043c \u0438\u0433\u0440\u043e\u043a\u0430\u043c \u0431\u043e\u043b\u0435\u0435 3000 \u0441\u043b\u043e\u0442\u043e\u0432, \u0449\u0435\u0434\u0440\u044b\u0435 \u0431\u043e\u043d\u0443\u0441\u044b \u0438 \u0431\u0435\u0437\u0443\u043f\u0440\u0435\u0447\u043d\u0443\u044e \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u0432\u044b\u043f\u043b\u0430\u0442 \u2014 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e \u0434\u043b\u044f \u0442\u0435\u0445, \u043a\u0442\u043e \u043f\u0440\u0438\u0432\u044b\u043a \u0441\u0442\u0430\u0432\u0438\u0442\u044c \u043f\u043e-\u043a\u0440\u0443\u043f\u043d\u043e\u043c\u0443. \u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c \u0432 \u043a\u0430\u0437\u0438\u043d\u043e, \u0433\u0434\u0435 \u0445\u0430\u0439\u0440\u043e\u043b\u043b\u0435\u0440\u044b \u043f\u0440\u0430\u0432\u044f\u0442 \u0431\u0430\u043b. 0 \u0421\u043b\u043e\u0442\u043e\u0432 0 \u0421\u0442\u0440\u0430\u043d 0 \u041f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440\u043e\u0432 9.2 \u0420\u0435\u0439\u0442\u0438\u043d\u0433 / 10 \ud83c\udfb0 \u0418\u0433\u0440\u0430\u0442\u044c \u0432 \u0412\u0430\u0432\u0430\u0434\u0430 KZ \u2192 \ud83d\udd12 \u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u0430\u0439\u0442 \u00b7 \u0411\u0435\u0437 \u0441\u043a\u0440\u044b\u0442\u044b\u0445 \u0443\u0441\u043b\u043e\u0432\u0438\u0439 \u00b7 18+ \u0412\u0430\u0432\u0430\u0434\u0430 \u041a\u0430\u0437\u0438\u043d\u043e \u0432 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0435: \u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0421\u0430\u0439\u0442 \u041a\u0430\u0436\u0434\u044b\u0439 \u043e\u043f\u044b\u0442\u043d\u044b\u0439 \u0438\u0433\u0440\u043e\u043a \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0430 \u0437\u043d\u0430\u0435\u0442: \u0432\u044b\u0431\u043e\u0440 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u044b \u2014 \u044d\u0442\u043e \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0430 \u0443\u0441\u043f\u0435\u0445\u0430. Vavada Casino \u0441 2017 \u0433\u043e\u0434\u0430 \u043f\u0438\u0448\u0435\u0442 \u0441\u0432\u043e\u044e \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u043d\u0430 \u043a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0441\u043a\u043e\u043c \u0440\u044b\u043d\u043a\u0435, \u0438 \u0437\u0430 \u044d\u0442\u0438 \u0433\u043e\u0434\u044b \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u043d\u0430\u043a\u043e\u043f\u0438\u043b\u0430 \u0440\u0435\u043f\u0443\u0442\u0430\u0446\u0438\u044e, \u043a\u043e\u0442\u043e\u0440\u0443\u044e \u0441\u043b\u043e\u0436\u043d\u043e \u043f\u043e\u043a\u043e\u043b\u0435\u0431\u0430\u0442\u044c. \u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u0430\u0439\u0442 \u0412\u0430\u0432\u0430\u0434\u0430 \u041a\u0417 \u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d \u043a\u0440\u0443\u0433\u043b\u043e\u0441\u0443\u0442\u043e\u0447\u043d\u043e, \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u0435\u0442 \u0438\u0433\u0440\u043e\u043a\u043e\u0432 \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c \u044f\u0437\u044b\u043a\u0435 \u0438 \u043f\u0440\u0438\u043d\u0438\u043c\u0430\u0435\u0442 \u043f\u043b\u0430\u0442\u0435\u0436\u0438 \u0432 \u0442\u0435\u043d\u0433\u0435. \ud83c\udfb0 \u041e\u0441\u043d\u043e\u0432\u0430\u043d\u043d\u043e\u0435 \u0432 2017 Vavada \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0441 2017 \u0433\u043e\u0434\u0430, \u043d\u0430\u043a\u043e\u043f\u0438\u0432 \u043e\u0431\u0448\u0438\u0440\u043d\u0443\u044e \u0431\u0430\u0437\u0443 \u043b\u043e\u044f\u043b\u044c\u043d\u044b\u0445 \u0438\u0433\u0440\u043e\u043a\u043e\u0432 \u043f\u043e \u0432\u0441\u0435\u043c\u0443 \u0421\u041d\u0413. \u041f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u043f\u0440\u043e\u0448\u043b\u0430 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0435\u043c \u0438 \u0440\u0435\u0433\u0443\u043b\u044f\u0442\u043e\u0440\u043d\u044b\u043c\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c\u0438. \ud83d\udd10 \u041b\u0438\u0446\u0435\u043d\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u041f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u0412\u0430\u0432\u0430\u0434\u0430 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0438\u0438 \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0439 \u043b\u0438\u0446\u0435\u043d\u0437\u0438\u0438, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044f SSL-\u0448\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0438 \u0441\u0435\u0440\u0442\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 RNG \u0433\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440\u044b \u0434\u043b\u044f \u0447\u0435\u0441\u0442\u043d\u043e\u0439 \u0438\u0433\u0440\u044b. \ud83c\udf10 \u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a \u0438 \u0422\u0435\u043d\u0433\u0435 \u041f\u043e\u043b\u043d\u0430\u044f \u043b\u043e\u043a\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0434\u043b\u044f \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0430: \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441 \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c \u044f\u0437\u044b\u043a\u0435, \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 24/7 \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c \u0438 \u043a\u0430\u0437\u0430\u0445\u0441\u043a\u043e\u043c, \u0434\u0435\u043f\u043e\u0437\u0438\u0442\u044b \u0438 \u0432\u044b\u0432\u043e\u0434\u044b \u0432 \u0442\u0435\u043d\u0433\u0435 (\u20b8). "
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 46.7,
+    "text": "",
+    "calls": [
+     {
+      "name": "find_snapshot",
+      "args": {
+       "near_date": "2021-05-07",
+       "url": "https://oruga.io/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "found": true,
+      "timestamp": "20210120214135",
+      "captured_on": "2021-01-20",
+      "snapshot_url": "https://web.archive.org/web/20210120214135/https://oruga.io/"
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 9.8,
+    "text": "",
+    "calls": [
+     {
+      "name": "read_snapshot",
+      "args": {
+       "timestamp": "20210120214135"
+      }
+     }
+    ],
+    "results": [
+     {
+      "snapshot_url": "https://web.archive.org/web/20210120214135/https://oruga.io/",
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [],
+      "final_url": "https://web.archive.org/web/20210120214135/https://oruga.io/",
+      "title": "Oruga",
+      "text_start": "Oruga Oruga Home Documentation Examples GitHub Home Documentation Examples GitHub Introduction Components Autocomplete Button Checkbox Collapse Dropdown Field Icon Input Loading Modal Pagination Radio Select Sidebar Skeleton Slider Steps Switch Table Tabs Tooltip Upload Oruga Oruga UI is like a caterpillar, minimal and yet functional. It's in your hands turning it into a butterfly (\ud83d\udc1b) => \ud83e\udd8b CSS framework agnostic No dependency on a specific CSS framework/library but you can easily integrate the components with one of them because they are fully customizable in different ways Components with steroids Most of the components aren't a simple wrapper of native elements but they add new and custom features Lightweight No other internal dependency (except for Vue.js) and import only components that you need MIT Licensed - Copyright \u00a9 2020- Walter Tommasi"
+     }
+    ]
+   },
+   {
+    "step": 3,
+    "seconds": 32.5,
+    "text": "",
+    "calls": [
+     {
+      "name": "possessed",
+      "args": {
+       "now_shows": "a casino/betting site",
+       "originally": "a lightweight library of UI components for Vue.js",
+       "reason": "The domain was repurposed for gambling/betting.",
+       "replacement": "https://web.archive.org/web/20210120214135/https://oruga.io/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "possessed",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 4,
+    "seconds": 4.3,
+    "text": "possessed",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://navnav.co/",
+  "file": "readme.md",
+  "anchor": "NavNav",
+  "sentence": "| NavNav | Responsive navigation examples |",
+  "added_on": "2020-05-26",
+  "live_final_url": "https://navnav.co/",
+  "live_title": "YOLO4D: Platform Togel Online untuk Akses Pasaran dan Hasil Angka Harian",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": true
+  },
+  "similarity": 0.2489,
+  "verdict": {
+   "verdict": "possessed",
+   "replacement": "https://web.archive.org/web/20200331195909/https://navnav.co/",
+   "reason": "The site was repurposed into an unrelated online gambling platform.",
+   "now_shows": "Online gambling/lottery site (YOLO4D)",
+   "originally": "Responsive navigation examples (NavNav)"
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 41.1,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://navnav.co/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://navnav.co/"
+      ],
+      "final_url": "https://navnav.co/",
+      "title": "YOLO4D: Platform Togel Online untuk Akses Pasaran dan Hasil Angka Harian",
+      "text_start": "YOLO4D: Platform Togel Online untuk Akses Pasaran dan Hasil Angka Harian Sell on YOLO4D Start selling in one click Add or edit items Import from Amazon Import from eBay Import from Etsy Import from Shopify Import from inventory file Open a Webstore Help Visit the help center Contact support Seller success tips Read the YOLO4D Selling blog Read the YOLO4D Shopping blog How YOLO4D works Ask the community Submit an idea Login YOLO4D Slot Daftar YOLO4D Daftar YOLO4D togel online Categories Clothing Shoes Accessories Vintage Formal & Wedding Deals Under $100 Under $50 Shop all Fashion Top Brands Anthropologie Ann Taylor Banana Republic Calvin Klein Gap J. Crew Lululemon Michael Kors Nike Ralph Lauren YOLO4D Categories Clothing Shoes Accessories Vintage Formal & Wedding Deals Under $100 Under $50 Shop all Fashion Top Brands American Eagle Banana Republic Brooks Brothers Calvin Klein Gap J. Crew Levi's Nike Ralph Lauren pasaran togel online Categories Bath Bedding Furniture Home Decor Home Improvement Kitchen & Dining Lamps & Ceiling Fans Yard, Garden & Outdoor Shop all pasaran togel online Top Brands Craftsman Cuisinart DeWalt Dyson Keurig KitchenAid Kohler Lenox hasil togel hari ini Categories Bath & Body Dietary Supplements Fragrances Hair Care Health Care Makeup Nail Care Skin Care Vision Care Shop all hasil togel hari ini Top Brands Avon Clinique Dove Estee Lauder Lanc\u00f4me L\u2019Oreal Maybelline Neutrogena Olay hasil angka harian Categories Art Collectibles Antiques Crafts Coins & P"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 31.4,
+    "text": "",
+    "calls": [
+     {
+      "name": "find_snapshot",
+      "args": {
+       "near_date": "2020-05-26",
+       "url": "https://navnav.co/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "found": true,
+      "timestamp": "20200331195909",
+      "captured_on": "2020-03-31",
+      "snapshot_url": "https://web.archive.org/web/20200331195909/https://navnav.co/"
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 9.8,
+    "text": "",
+    "calls": [
+     {
+      "name": "read_snapshot",
+      "args": {
+       "timestamp": "20200331195909"
+      }
+     }
+    ],
+    "results": [
+     {
+      "snapshot_url": "https://web.archive.org/web/20200331195909/https://navnav.co/",
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [],
+      "final_url": "https://web.archive.org/web/20200331195909/https://navnav.co/",
+      "title": "NavNav - 90+ Responsive Navigation Bar Menu Tutorials, Examples, and Demos (CSS, jQuery, JavaScript)",
+      "text_start": "NavNav - 90+ Responsive Navigation Bar Menu Tutorials, Examples, and Demos (CSS, jQuery, JavaScript) NavNav Menu Menu Fullscreen Overlay Dropdown Off-Canvas Scroll About Resources NavNav+ OneStation.dev Find posts Made by Mills Digital A ton of CSS, jQuery, and JavaScript responsive navigation examples, demos, and tutorials from all over the web. Check out NavNav Plus for more examples! Sticky Header CSS Transition Demo: Here Bulb Style Navigation Menu Demo: Here animated menu indicator Demo: Here CSS3 Funny Menu Demo: Here Bootstrap 4 Simple Sidebar Demo: Here Responsive off canvas nav with minimal JS Demo: Here Sidebar Demo: Here Some Responsive Buttons Demo: Here Rings Navigation Concept Demo: Here Custom Dropdown Menu Demo: Here Material Design Menu Demo: Here Netflix\u2019s Mobile Navigation Demo: Here Jelly Menu Demo: Here Sticky Navigation Menu With Smooth Scrolling Demo: Here Toggle menu Demo: Here Next page Loading... No More Posts Load More Posts \u00a9 NavNav 2014\u20132020 Made by Mills Digital"
+     }
+    ]
+   },
+   {
+    "step": 3,
+    "seconds": 34.3,
+    "text": "",
+    "calls": [
+     {
+      "name": "possessed",
+      "args": {
+       "now_shows": "Online gambling/lottery site (YOLO4D)",
+       "originally": "Responsive navigation examples (NavNav)",
+       "reason": "The site was repurposed into an unrelated online gambling platform.",
+       "replacement": "https://web.archive.org/web/20200331195909/https://navnav.co/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "possessed",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 4,
+    "seconds": 4.6,
+    "text": "possessed",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "http://oocss.org/",
+  "file": "readme.md",
+  "anchor": "OOCSS",
+  "sentence": "| OOCSS | OOCSS concepts help us write components that are flexible, modular and interchangeable.",
+  "added_on": "2020-10-04",
+  "live_final_url": "https://oocss.org/",
+  "live_title": "OOCSS.ORG - Learn Code By Playing Games",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": true
+  },
+  "similarity": 0.3298,
+  "verdict": {
+   "verdict": "possessed",
+   "replacement": "https://web.archive.org/web/20200926025002/http://oocss.org/",
+   "reason": "The domain was repurposed to host a gambling/casino site.",
+   "now_shows": "Online casino/gambling site",
+   "originally": "OOCSS concepts and resources"
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 41.2,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "http://oocss.org/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "http://oocss.org/",
+       "https://oocss.org/"
+      ],
+      "final_url": "https://oocss.org/",
+      "title": "OOCSS.ORG - Learn Code By Playing Games",
+      "text_start": "OOCSS.ORG - Learn Code By Playing Games Home Games New CSS Team CSS TOURNAMENT FAQ Join Now LEARN TO PLAY & WIN REAL MONEY ONLINE Built for casino lovers. Designed for real winners. JOIN NOW expected games biggest hits to come out in Pacman November 25, 2025 4:00 PM Rabbits Star 5+ 02:02 Wizard Wer 5+ Watch Stream Wii sports is an undeniably great time January 03, 2026 3:00 PM Project Kill 5+ 03:02 Watch Stream 5+ Watch Stream Intel extreme October 18, 2025 7:00 AM Belgium Squad 5+ 03:02 Williams Sports 5+ Watch Stream FEATURED GAME NEW ONLINE CASINO GAME EVERY MONTH Prev game Next game The Css Wars 8 Groups 19 Players Prize Pool $2000 Book Now HedgeHog Play 3 Groups 96 Players Prize Pool $7000 Book Now Css killer 3 Groups 45 Players Prize Pool $5000 Book Now WELCOME TO OOOCSS Spin Your Way Through Casino Challenges Your luck and strategy are being tested\u2026 Place your bets, hit the tables, and prove your online casino mastery. Master games with fun online casino challenges. Sharpen your skills with online casino challenges. Levels designed for beginners to pro high-rollers. No signup, no setup \u2013 just play and win online. New live casino levels added every month. 1300+ TWITCH STREAMS 1M YOUTUBE STREAMS 12K ESPORTS GAMES 25K PRO TEAMS css PLAYERS CSS TEAM PLAYERS Rabbits Star Bunny Hood II Area Cup Plus Daotsu Counter Santa Paws Asia Pacific Adriana Lola Senior Team Member Serenity Violet Junior Member Annabelle Caroline Senior Team Member Stella Autumn Junior Member Michalina D"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 46.3,
+    "text": "",
+    "calls": [
+     {
+      "name": "find_snapshot",
+      "args": {
+       "near_date": "2020-10-04",
+       "url": "http://oocss.org/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "found": true,
+      "timestamp": "20200926025002",
+      "captured_on": "2020-09-26",
+      "snapshot_url": "https://web.archive.org/web/20200926025002/http://oocss.org/"
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 11.2,
+    "text": "",
+    "calls": [
+     {
+      "name": "read_snapshot",
+      "args": {
+       "timestamp": "20200926025002"
+      }
+     }
+    ],
+    "results": [
+     {
+      "snapshot_url": "https://web.archive.org/web/20200926025002/http://oocss.org/",
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [],
+      "final_url": "https://web.archive.org/web/20200926025002/http://oocss.org/",
+      "title": "Object-oriented CSS",
+      "text_start": "Object-oriented CSS Object-Oriented CSS Hosted Play with these in Firebug to learn the basics. Template Grids Module Content (very alpha) Downloads on Github Velocity download Alternate download Stuck? If you don't keep up with any of the exercises you can view (and download) the finished examples here. Starting Template Exercise 1: Template Exercise 2: Grids Exercise 3: Module Manipulation Exercise 4 Module Creation Welcome, Velocity Conference participants! All the resources you need to get started are linked from the left navigation. Start by downloading the base files. Exercises one and two can be completed in Firebug if you are comfortable with it. Then you can download the finished file at the beginning of Exercise 3. Stubbornella , Github , FAQ"
+     }
+    ]
+   },
+   {
+    "step": 3,
+    "seconds": 32.3,
+    "text": "",
+    "calls": [
+     {
+      "name": "possessed",
+      "args": {
+       "now_shows": "Online casino/gambling site",
+       "originally": "OOCSS concepts and resources",
+       "reason": "The domain was repurposed to host a gambling/casino site.",
+       "replacement": "https://web.archive.org/web/20200926025002/http://oocss.org/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "possessed",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 4,
+    "seconds": 4.3,
+    "text": "possessed",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://uniformcss.com/",
+  "file": "readme.md",
+  "anchor": "Uniform CSS",
+  "sentence": "| Uniform CSS| Fully configurable utility generator and CSS framework built entirely in Sass |",
+  "added_on": "2021-08-12",
+  "live_final_url": "https://uniformcss.com/",
+  "live_title": "ARUSHOKI Uniform UI untuk pengalaman digital yang lebih terarah",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": true
+  },
+  "similarity": 0.4625,
+  "verdict": {
+   "verdict": "possessed",
+   "replacement": "https://web.archive.org/web/20210723190007/https://uniformcss.com/",
+   "reason": "The domain was repurposed and now hosts an unrelated gambling/betting site.",
+   "now_shows": "Gambling/betting site",
+   "originally": "Fully configurable utility generator and CSS framework built entirely in Sass"
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 40.1,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://uniformcss.com/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://uniformcss.com/"
+      ],
+      "final_url": "https://uniformcss.com/",
+      "title": "ARUSHOKI Uniform UI untuk pengalaman digital yang lebih terarah",
+      "text_start": "ARUSHOKI Uniform UI untuk pengalaman digital yang lebih terarah \u00d7 ARUSHOKI ARUSHOKI Masuk ARUSHOKI Daftar ARUSHOKI Login Login Daftar ARUSHOKI \u203a ARUSHOKI Login \u203a ARUSHOKI Daftar \u203a ARUSHOKI Alternatif \u203a ARUSHOKI Situs Resmi Fitur Aktif Gameplay Stabil Top Experience ARUSHOKI Uniform UI untuk pengalaman digital yang lebih terarah 4.8 (999 ulasan) Digunakan 10rb+ Status: Aktif Rp 10.000 Rp 50.000 80% Enam Fondasi Antarmuka Modern: Layout System Typography Color System Buttons & Forms Responsive Design Motion & Effects \u2212 + Ambil Kelas Mulai Bermain Eksplor Fitur Tampilan Digital Modern Struktur Rapi dan Konsisten Ringan dan Responsif ARUSHOKI Uniform UI Inspirasi CSS, komponen UI, dan front-end modern uniformcss.com \u2022 Digital Interface Resource Jelajahi UI Fokus Utama CSS, UI Design dan Front-End Komponen Layout, Tipografi, Warna dan Form Tampilan Responsif untuk Desktop, Tablet dan Mobile Pengalaman Modern, Ringan, Konsisten dan Mudah Digunakan Artikel Sistem UI FAQ Referensi UI ARUSHOKI Website Menyediakan Tampilan Digital Modern ARUSHOKI menghadirkan Uniform UI sebagai ruang referensi digital yang membahas desain antarmuka, struktur CSS, komponen responsif, dan inspirasi front-end modern. Tampilan website yang baik bukan hanya terlihat menarik, tetapi juga memiliki susunan visual yang jelas, konsisten, cepat dipahami, dan nyaman digunakan. Melalui pendekatan desain yang terarah, setiap bagian seperti navigasi, tombol, kartu, formulir, tipografi, warna, serta jarak antarelemen "
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 34.0,
+    "text": "",
+    "calls": [
+     {
+      "name": "find_snapshot",
+      "args": {
+       "near_date": "2021-08-12",
+       "url": "https://uniformcss.com/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "found": true,
+      "timestamp": "20210723190007",
+      "captured_on": "2021-07-23",
+      "snapshot_url": "https://web.archive.org/web/20210723190007/https://uniformcss.com/"
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 9.2,
+    "text": "",
+    "calls": [
+     {
+      "name": "read_snapshot",
+      "args": {
+       "timestamp": "20210723190007"
+      }
+     }
+    ],
+    "results": [
+     {
+      "snapshot_url": "https://web.archive.org/web/20210723190007/https://uniformcss.com/",
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [],
+      "final_url": "https://web.archive.org/web/20210723190007/https://uniformcss.com/",
+      "title": "Uniform CSS - Lightning Fast Utility Generator for Sass",
+      "text_start": "Uniform CSS - Lightning Fast Utility Generator for Sass 1.0.0 \u2318K 1.0.0 Lightning Fast Generator for Sass Flexible responsive utility class generator and CSS framework designed to help you gain the full power of functional CSS without compromising on Sass. Read the docs \u2192 Why in under 2 minutes \"Sass already provides great functionality out of the box. Uniform CSS builds on this strength to help web developers be more productive with the power of immensely flexible utility-first classes.\" \u2014 Jin Su Park, Product Designer @Castle Get Started Setup in minutes Overview Installation Load and control directly in Sass Infuse any Sass-built project with the power of utility-first CSS. Fully configure directly in Sass, or add helpful utilities progressively without requiring a complete project overhaul. Learn how to get started \u2192 39KB with brotli 1.2s build time Literally just one line of code Installing Uniform is a drop-in process. Just load Uniform as a module, compile, then compose, it's that simple. You can even load the CDN version to get started even faster. See how to install \u2192 Configure Uniform directly in Sass @use \"uniform\" as * with ( $config : ( important : true ) ) ; css Generate suite of utilities properties .text-left { text-align : left !important ; } .text-center { text-align : center !important ; } .text-right { text-align : right !important ; } .block { display : block !important ; } .flex { display : flex !important ; } Step 1. Install package or clone repository n"
+     }
+    ]
+   },
+   {
+    "step": 3,
+    "seconds": 39.6,
+    "text": "",
+    "calls": [
+     {
+      "name": "possessed",
+      "args": {
+       "now_shows": "Gambling/betting site",
+       "originally": "Fully configurable utility generator and CSS framework built entirely in Sass",
+       "reason": "The domain was repurposed and now hosts an unrelated gambling/betting site.",
+       "replacement": "https://web.archive.org/web/20210723190007/https://uniformcss.com/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "possessed",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 4,
+    "seconds": 6.9,
+    "text": "possessed",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://budgetpixel.com/sfx",
+  "file": "readme.md",
+  "anchor": "BudgetPixel Sound Effects",
+  "sentence": "| BudgetPixel Sound Effects| 2,600+ AI-generated sound effects in WAV/MP3, CC BY 4.0 (credit required), no sign-up |",
+  "added_on": "2026-09-26",
+  "live_final_url": "https://budgetpixel.com/sfx",
+  "live_title": "Free Sound Effects \u2014 Royalty-Free WAV & MP3 Downloads, No Sign-Up | BudgetPixel",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": true
+  },
+  "similarity": 0.7144,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still points to the BudgetPixel sound effects library, which offers royalty-free SFX, AI generation, and no sign-up, matching the author's intent."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 42.0,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://budgetpixel.com/sfx"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://budgetpixel.com/sfx"
+      ],
+      "final_url": "https://budgetpixel.com/sfx",
+      "title": "Free Sound Effects \u2014 Royalty-Free WAV & MP3 Downloads, No Sign-Up | BudgetPixel",
+      "text_start": "Free Sound Effects \u2014 Royalty-Free WAV & MP3 Downloads, No Sign-Up | BudgetPixel BudgetPixel Images Sound Effects Music Templates Open BudgetPixel Free Sound Effects Royalty-free SFX for videos, games and podcasts. No account, no subscription, just a credit \u2014 and if the sound you need doesn't exist yet, search will offer to generate it with AI \u2014 free. 2790 + free sound effects \u2014 growing every day All Transitions Impacts Stingers UI & Notifications Game Human Animals Vehicles Household Nature Ambience Foley Other Popular: whoosh riser pop notification click boom typing rain wind glitch applause footsteps coin bell beep magic cartoon horror alarm gun explosion train drum laugh monster eating scream casino door water fire glass metal wood paper ice car bird crowd phone whistle chime kitchen machine animal creak rattle snap engine bubble Popular Newest Top rated Duration: Any <1s 1\u20135s 5s+ Pressure Cooker Whistle Build 4.0s \u00b7 \u2605 9.0 Household high-pitched, hissing, rising, sharp, steady, household 376 Cassette Insert Click 2.0s \u00b7 \u2605 9.8 Foley crisp , mechanical , short 362 Rotary Phone Dialing 2.9s \u00b7 \u2605 9.7 Foley mechanical , scratchy , crisp 343 Whoosh Impact Boom Logo 3.0s \u00b7 \u2605 9.5 Stingers whoosh, sweeping, deep boom, impact, resonant 338 Small Cute Sneeze 2.0s \u00b7 \u2605 9.8 Human soft , airy , crisp 333 Food Truck Window And Griddle 5.0s \u00b7 \u2605 9.5 Ambience metallic, sliding, hissing, crisp, ambient, mechanical 333 Night Cricket Ambience 6.0s \u00b7 \u2605 10.0 Nature chirpy, steady, natural, insect,"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 47.5,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still points to the BudgetPixel sound effects library, which offers royalty-free SFX, AI generation, and no sign-up, matching the author's intent."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 5.3,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ }
+]

@@ -5,6 +5,7 @@ data/
 possessed-report.md
 possessed.json
 !results/**/possessed.json
+!results/**/possessed-report.md
 tmp/
 PHASE0.md
 .claude/

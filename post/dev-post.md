@@ -1,10 +1,10 @@
 ---
 title: "Possessed: your link checker is green, and eight of those links now open a casino"
-tags: hf26challenge, gemma, opensource, ai
+tags: devchallenge, hf26challenge, gemma, opensource
 cover_image: post/cover.png (upload on DEV)
 ---
 
-*This is a submission for the [Hacktoberfest Open-Source AI Challenge](https://dev.to/challenges/hacktoberfest-2026): Ghost in the Machine.*
+*This is a submission for the [Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine](https://dev.to/challenges/hacktoberfest-week4-2026-10-26).*
 
 ## What I Built
 
@@ -24,7 +24,7 @@ Across 591 judgments on five lists, the gate fired 21 times, and all 21 were my 
 
 Two pull requests you can open:
 
-- The one the Action wrote on its own, on a fork of design-resources-for-developers, from a hosted GitHub runner with no GPU: [X link]
+- The one the Action wrote on its own, on a fork of design-resources-for-developers, from a hosted GitHub runner with no GPU: [design-resources-for-developers#1](https://github.com/JonathanSolvesProblems/design-resources-for-developers/pull/1). Seven links, six of them gambling sites, each pointed at the archive capture from the month it was added.
 - The one a maintainer actually received, on vuejs/awesome-vue: [#4593](https://github.com/vuejs/awesome-vue/pull/4593). Six entries. One of them was listed in 2018 as a PWA for swapping used video games and today opens a Korean guide to baccarat sites. All six survived the list's dead-link cleanup in January, because they still return 200.
 
 ## Code
@@ -102,11 +102,11 @@ What it gets wrong: a GitHub profile listed as a project's author ("Vue 2048 by 
 
 Pages behind a bot wall, and empty JavaScript shells, cannot be read without a browser. On design-resources that was 36 of the 1,089 passing links. Possessed counts them and says so in the log, instead of judging a "Just a moment..." page.
 
-On a hosted GitHub runner Gemma reads on the CPU, about [X] minutes a link, so the Action has a `limit` input and takes the strongest signals first. On my laptop's GPU the same 194 links took 23 minutes.
+On a hosted GitHub runner Gemma reads on the CPU, two to three minutes a link, so the Action has a `limit` input and takes the strongest signals first. The run that opened the PR above took 30 minutes end to end on a 1,245-link list, with the models cached from the run before: fetching every link, EmbeddingGemma embedding a thousand pages, then 18 minutes of Gemma 4 reading eight links. Seven of the eight were gambling or for-sale pages and all seven got the archived original; the eighth, a sound-effects library, was fine and it said so. Its `possessed.json`, with every tool call, is in the repo under `results/design-resources-action/`. On my laptop's GPU the same 194 links took 23 minutes.
 
 [X DEV study section: across the 1,000 most-loved DEV posts, N links a checker passes now open something else; the reach number; the second judge's agreement on flagged links]
 
-## Why Does Open Innovation Matter
+## Why Does Open Innovation Matter?
 
 A weekly run over a 1,000-link list is about 200 model reads. On a metered API that is a bill, and awesome lists do not have a card on file. On open weights it is runner minutes, which public repositories get for free, and the same workflow file runs on a self-hosted box in a closet.
 
@@ -125,3 +125,7 @@ The one piece of the build I would point at: the gate started as a prompt instru
 A possessed link is a page that died and something else moved into the body. The address is still on the list, people still click it, and what answers is a slot machine wearing the old name.
 
 The week's theme is ghosts, and honoring those who are gone. The fix here is not to forget the page. The entry stays, and the link points at what the page was on the day someone thought it worth sharing, kept by the Internet Archive. For Día de los Muertos you keep a place at the table. The pull request keeps a place on the list.
+
+## Prize Categories
+
+Best Use of Gemma. Gemma 4 is the judge, EmbeddingGemma is the triage, and the ablation table above is what each of them added over a link checker and over plain heuristics.

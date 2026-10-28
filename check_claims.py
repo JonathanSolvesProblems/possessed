@@ -48,7 +48,9 @@ def facts():
     f["dr.gambling"] = len(labels["_gambling"]["urls"])
     possessed_urls = {p["url"] for p in ev["possessed_links"]}
     assert set(labels["_gambling"]["urls"]) <= possessed_urls, "a gambling url is not among the labelled possessed links"
-    lists = [d for d in Path("results").iterdir() if d.is_dir() and (d / "possessed.json").exists()]
+    # the five awesome lists judged locally; the Action run and the DEV study have their own facts
+    lists = [d for d in Path("results").iterdir() if d.is_dir() and (d / "possessed.json").exists()
+             and not d.name.endswith("-action") and d.name != "dev-study"]
     f["lists"] = len(lists)
     judged = [r for d in lists for r in load(d / "possessed.json")]
     f["judged.total"] = len(judged)
@@ -67,6 +69,18 @@ def facts():
     assert spelling_only, "a refused replacement was NOT a spelling variant of an opened snapshot; the post's claim is false"
     dr = load("results/design-resources/possessed.json")
     f["dr.gpu_minutes"] = round(sum(e["seconds"] for r in dr for e in r["trace"]) / 60)
+    act = load("results/design-resources-action/possessed.json")
+    run = load("results/design-resources-action/run.json")
+    asum = load("results/design-resources-action/summary.json")
+    f["action.read"] = len(act)
+    f["action.fixed"] = sum(1 for r in act if r["verdict"].get("replacement"))
+    f["action.gambling"] = sum(1 for r in act if r["url"] in labels["_gambling"]["urls"] and r["verdict"].get("replacement"))
+    f["action.model_minutes"] = round(sum(e["seconds"] for r in act for e in r["trace"]) / 60)
+    mins = sorted(sum(e["seconds"] for e in r["trace"]) / 60 for r in act)
+    median = mins[len(mins) // 2]
+    f["action.minutes_per_link"] = "two to three" if 2 <= median < 3 else f"{median:.1f}"
+    f["action.wall_minutes"] = run["wall_minutes"]
+    f["action.links"] = asum["links"]
     av = load("results/labels_awesome-vue.json")
     f["vue.removed"] = sum(1 for v in av.values() if isinstance(v, dict) and v.get("label") == "possessed")
     return f
@@ -82,7 +96,6 @@ def pct(x):
 
 
 CLAIMS = [
-    ("post/dev-post.md", r"out of ([\d,]+) links the checker passes", "dr.passing", n),
     ("post/dev-post.md", r"turned ([\d,]+) passing links into", "dr.passing", n),
     ("post/dev-post.md", r"passing links into ([\d,]+) reads", "dr.read", n),
     ("post/dev-post.md", r"same ([\d,]+) links from design-resources", "dr.scored", n),
@@ -110,6 +123,17 @@ CLAIMS = [
     ("post/dev-post.md", r", (\w+) were JavaScript-rendered snapshots", "gate.empty", lambda x: {10: "ten", 11: "eleven", 12: "twelve"}.get(x, str(x))),
     ("post/dev-post.md", r"the same 194 links took (\d+) minutes", "dr.gpu_minutes", str),
     ("post/dev-post.md", r"on vuejs/awesome-vue: \[#4593\].*?\. (Six|\d+) entries\.", "vue.removed", lambda x: {6: "Six"}.get(x, str(x))),
+    ("post/dev-post.md", r"pull/1\)\. (\w+) links, \w+ of them gambling sites", "action.fixed", lambda x: {7: "Seven"}.get(x, str(x))),
+    ("post/dev-post.md", r"pull/1\)\. \w+ links, (\w+) of them gambling sites", "action.gambling", lambda x: {6: "six"}.get(x, str(x))),
+    ("post/dev-post.md", r"reads on the CPU, ([\w ]+) minutes a link", "action.minutes_per_link", str),
+    ("post/dev-post.md", r"took (\d+) minutes end to end on a", "action.wall_minutes", str),
+    ("post/dev-post.md", r"end to end on a ([\d,]+)-link list", "action.links", n),
+    ("post/dev-post.md", r"then (\d+) minutes of Gemma 4 reading", "action.model_minutes", str),
+    ("post/dev-post.md", r"of Gemma 4 reading (\w+) links\. (?:\w+) of the", "action.read", lambda x: {8: "eight"}.get(x, str(x))),
+    ("post/dev-post.md", r"\. (\w+) of the \w+ were gambling or for-sale pages", "action.fixed", lambda x: {7: "Seven"}.get(x, str(x))),
+    ("README.md", r"on the CPU, ([\w ]+) minutes a link", "action.minutes_per_link", str),
+    ("README.md", r"no GPU\. (\w+) links, (?:\w+) of them", "action.fixed", lambda x: {7: "Seven"}.get(x, str(x))),
+    ("README.md", r"no GPU\. \w+ links, (\w+) of them", "action.gambling", lambda x: {6: "six"}.get(x, str(x))),
 ]
 
 RETIRED = [  # claims that must never come back
