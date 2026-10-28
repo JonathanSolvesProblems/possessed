@@ -75,10 +75,14 @@ def scan(root, limit=None):
     for l, sig, s in cand[:limit]:
         when = added_on(root, l["file"], l["url"])
         log = []
-        v, tools = judge(l, when, f"{root.name}/{l['file']}", live=pages[l["url"]], log=log)
+        try:
+            v, tools = judge(l, when, f"{root.name}/{l['file']}", live=pages[l["url"]], log=log)
+            refusals = tools.refusals
+        except Exception as e:  # one failed model call must not end the run, and must not look like a verdict
+            v, refusals = {"error": f"{type(e).__name__}: {str(e)[:300]}"}, []
         results.append({"url": l["url"], "file": l["file"], "anchor": l["anchor"], "sentence": l["sentence"],
                         "added_on": when, "live_final_url": pages[l["url"]].final_url, "live_title": pages[l["url"]].title,
-                        "signals": sig, "similarity": round(s, 4), "verdict": v, "refusals": tools.refusals, "trace": log})
+                        "signals": sig, "similarity": round(s, 4), "verdict": v, "refusals": refusals, "trace": log})
         print(f"  {v.get('verdict', 'ERROR'):9s} {l['url'][:100]}", flush=True)
     return found, results, summary
 
