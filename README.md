@@ -51,7 +51,7 @@ jobs:
 Your repository needs *Settings → Actions → General → Allow GitHub Actions to create and approve
 pull requests* turned on, or the last step cannot open the PR.
 
-On a hosted runner Gemma 4 runs on the CPU, at roughly two minutes a link, so `limit` keeps a run
+On a hosted runner Gemma 4 runs on the CPU, at about three minutes a link, so `limit` keeps a run
 inside an hour or two; the weekly schedule gets through a long list over a few weeks. A
 self-hosted runner that already has Ollama and a GPU is used as is and reads a thousand-link list
 in under half an hour. The models are cached between runs. The evidence (`possessed.json`, with

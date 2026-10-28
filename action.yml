@@ -8,7 +8,7 @@ inputs:
     description: Folder to scan for markdown, relative to the repository root.
     default: "."
   limit:
-    description: Most links Gemma 4 reads per run. On a hosted runner it reads on the CPU, roughly two minutes a link.
+    description: Most links Gemma 4 reads per run. On a hosted runner it reads on the CPU, about three minutes a link.
     default: "40"
   model:
     description: Ollama model that judges each link.
@@ -58,5 +58,5 @@ runs:
         branch: possessed/fixes
         title: "Replace links that now open something else"
         body-path: ${{ runner.temp }}/possessed/possessed-report.md
-        add-paths: "**/*.md"
+        add-paths: "*.md"   # git pathspec: * crosses directories, and **/*.md would skip a README at the root
         commit-message: "Replace possessed links with archived originals"
