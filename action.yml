@@ -1,0 +1,56 @@
+name: Possessed links
+description: Your link checker is green. Possessed reads the pages, and Gemma 4 replaces links that now open something else with the archived original.
+branding:
+  icon: link-2
+  color: purple
+inputs:
+  path:
+    description: Folder to scan for markdown, relative to the repository root.
+    default: "."
+  limit:
+    description: Most links Gemma 4 reads per run (it runs on the runner's CPU).
+    default: "60"
+  model:
+    description: Ollama model that judges each link.
+    default: gemma4:e4b
+  token:
+    description: Token used to open the pull request.
+    default: ${{ github.token }}
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+    - name: Install Possessed
+      shell: bash
+      run: pip install "${{ github.action_path }}"
+    - name: Cache models
+      uses: actions/cache@v4
+      with:
+        path: ~/.ollama/models
+        key: ollama-${{ inputs.model }}-embeddinggemma
+    - name: Start Ollama
+      shell: bash
+      run: |
+        curl -fsSL https://ollama.com/install.sh | sh
+        (ollama serve > /tmp/ollama.log 2>&1 &)
+        for i in $(seq 1 30); do curl -sf localhost:11434 >/dev/null && break; sleep 1; done
+        ollama pull "${{ inputs.model }}"
+        ollama pull embeddinggemma
+    - name: Read the links
+      shell: bash
+      env:
+        POSSESSED_MODEL: ${{ inputs.model }}
+      run: python -m possessed.repo "${{ inputs.path }}" --limit "${{ inputs.limit }}"
+    - name: Open the pull request
+      uses: peter-evans/create-pull-request@v7
+      with:
+        token: ${{ inputs.token }}
+        branch: possessed/fixes
+        title: "Replace links that now open something else"
+        body-path: ${{ inputs.path }}/possessed-report.md
+        add-paths: |
+          **/*.md
+          ${{ inputs.path }}/possessed.json
+        commit-message: "Replace possessed links with archived originals"

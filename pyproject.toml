@@ -1,0 +1,19 @@
+[project]
+name = "possessed"
+version = "0.1.0"
+description = "Your link checker is green. Possessed reads the page: Gemma 4 catches links that still answer 200 but now open something else, and brings back the original from the Internet Archive."
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.34.2",
+    "beautifulsoup4>=4.13",
+    "tldextract>=5.3",
+    "numpy>=2.5.3",
+    "ollama>=0.6.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["possessed"]
