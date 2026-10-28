@@ -8,8 +8,8 @@ inputs:
     description: Folder to scan for markdown, relative to the repository root.
     default: "."
   limit:
-    description: Most links Gemma 4 reads per run (it runs on the runner's CPU).
-    default: "60"
+    description: Most links Gemma 4 reads per run. On a hosted runner it reads on the CPU, roughly two minutes a link.
+    default: "40"
   model:
     description: Ollama model that judges each link.
     default: gemma4:e4b
@@ -24,7 +24,7 @@ runs:
         python-version: "3.12"
     - name: Install Possessed
       shell: bash
-      run: pip install "${{ github.action_path }}"
+      run: pip install -q "${{ github.action_path }}"
     - name: Cache models
       uses: actions/cache@v4
       with:
@@ -33,24 +33,30 @@ runs:
     - name: Start Ollama
       shell: bash
       run: |
-        curl -fsSL https://ollama.com/install.sh | sh
-        (ollama serve > /tmp/ollama.log 2>&1 &)
-        for i in $(seq 1 30); do curl -sf localhost:11434 >/dev/null && break; sleep 1; done
+        # A self-hosted runner that already runs Ollama (with a GPU, say) is used as is.
+        if ! curl -sf localhost:11434 >/dev/null; then
+          command -v ollama >/dev/null || curl -fsSL https://ollama.com/install.sh | sh
+          (ollama serve > "$RUNNER_TEMP/ollama.log" 2>&1 &)
+          for i in $(seq 1 30); do curl -sf localhost:11434 >/dev/null && break; sleep 1; done
+        fi
         ollama pull "${{ inputs.model }}"
         ollama pull embeddinggemma
     - name: Read the links
       shell: bash
       env:
         POSSESSED_MODEL: ${{ inputs.model }}
-      run: python -m possessed.repo "${{ inputs.path }}" --limit "${{ inputs.limit }}"
+      run: python -m possessed.repo "${{ inputs.path }}" --limit "${{ inputs.limit }}" --out "$RUNNER_TEMP/possessed"
+    - name: Keep the evidence
+      uses: actions/upload-artifact@v4
+      with:
+        name: possessed
+        path: ${{ runner.temp }}/possessed/
     - name: Open the pull request
       uses: peter-evans/create-pull-request@v7
       with:
         token: ${{ inputs.token }}
         branch: possessed/fixes
         title: "Replace links that now open something else"
-        body-path: ${{ inputs.path }}/possessed-report.md
-        add-paths: |
-          **/*.md
-          ${{ inputs.path }}/possessed.json
+        body-path: ${{ runner.temp }}/possessed/possessed-report.md
+        add-paths: "**/*.md"
         commit-message: "Replace possessed links with archived originals"

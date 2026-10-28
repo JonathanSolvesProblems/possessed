@@ -4,7 +4,10 @@ __pycache__/
 data/
 possessed-report.md
 possessed.json
+!results/**/possessed.json
 tmp/
+PHASE0.md
+.claude/
 runs/*.json
 !runs/.gitkeep
 *.pyc

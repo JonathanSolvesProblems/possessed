@@ -1,0 +1,1818 @@
+[
+ {
+  "url": "https://purecss.io/start/",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2017-09-01",
+  "live_final_url": "https://pure-css.github.io/",
+  "live_title": "Pure",
+  "signals": {
+   "moved_away": true,
+   "to_homepage": true,
+   "parked_words": false
+  },
+  "similarity": 0.1531,
+  "verdict": {
+   "verdict": "moved",
+   "replacement": "https://pure-css.github.io/",
+   "reason": "The project moved its official documentation home from purecss.io to pure-css.github.io."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 4.2,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://purecss.io/start/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://purecss.io/start/",
+       "https://pure-css.github.io/"
+      ],
+      "final_url": "https://pure-css.github.io/",
+      "title": "Pure",
+      "text_start": "Pure Pure Get Started Layouts Base Grids Forms Buttons Tables Menus Tools Customize Extend Releases A set of small, responsive CSS modules that you can use in every web project. <link rel = \"stylesheet\" href = \"https://cdn.jsdelivr.net/npm/purecss@3.1.0/build/pure-min.css\" integrity = \"sha384-kj0X2NG2KHBie8Tq8fH1kxnyWM9XsXQpq7XdwbKmFKjwwaXGKBlB2Klu3VOltSFx\" crossorigin = \"anonymous\" > Get Started View on GitHub base 0.9KB grids 0.5KB forms 1.4KB buttons 0.7KB tables 0.4KB menus 0.7KB CSS with a minimal footprint. Pure is ridiculously tiny. The entire set of modules clocks in at 3.5KB * minified and gzipped . Crafted with mobile devices in mind, it was important to us to keep our file sizes small, and every line of CSS was carefully considered. If you decide to only use a subset of these modules, you'll save even more bytes. * We can add correctly :) the numbers above are individual module sizes; when grouped together they compress (gzip) even more. Your CSS foundation. Pure builds on Normalize.css and provides layout and styling for native HTML elements, plus the most common UI components. It's what you need, without the cruft. Made with mobile in mind. Pure is responsive out of the box, so elements look great on all screen sizes. Stays out of your way. Pure has minimal styles and encourages you to write your application styles on top of it. It's designed to get out of your way and makes it easy to override styles. Create responsive layouts. By using Grids , Menus , and more,"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 5.8,
+    "text": "",
+    "calls": [
+     {
+      "name": "moved",
+      "args": {
+       "new_url": "https://pure-css.github.io/",
+       "reason": "The project moved its official documentation home from purecss.io to pure-css.github.io."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "moved",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 2.9,
+    "text": "moved",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://purecss.io/layouts/",
+  "file": "readme.md",
+  "anchor": "Demo",
+  "sentence": "Demo,",
+  "added_on": "2017-09-01",
+  "live_final_url": "https://pure-css.github.io/",
+  "live_title": "Pure",
+  "signals": {
+   "moved_away": true,
+   "to_homepage": true,
+   "parked_words": false
+  },
+  "similarity": 0.1579,
+  "verdict": {
+   "verdict": "moved",
+   "replacement": "https://pure-css.github.io/",
+   "reason": "The project moved its official site and documentation from purecss.io to pure-css.github.io, but the content remains the same."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 7.3,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://purecss.io/layouts/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://purecss.io/layouts/",
+       "https://pure-css.github.io/"
+      ],
+      "final_url": "https://pure-css.github.io/",
+      "title": "Pure",
+      "text_start": "Pure Pure Get Started Layouts Base Grids Forms Buttons Tables Menus Tools Customize Extend Releases A set of small, responsive CSS modules that you can use in every web project. <link rel = \"stylesheet\" href = \"https://cdn.jsdelivr.net/npm/purecss@3.1.0/build/pure-min.css\" integrity = \"sha384-kj0X2NG2KHBie8Tq8fH1kxnyWM9XsXQpq7XdwbKmFKjwwaXGKBlB2Klu3VOltSFx\" crossorigin = \"anonymous\" > Get Started View on GitHub base 0.9KB grids 0.5KB forms 1.4KB buttons 0.7KB tables 0.4KB menus 0.7KB CSS with a minimal footprint. Pure is ridiculously tiny. The entire set of modules clocks in at 3.5KB * minified and gzipped . Crafted with mobile devices in mind, it was important to us to keep our file sizes small, and every line of CSS was carefully considered. If you decide to only use a subset of these modules, you'll save even more bytes. * We can add correctly :) the numbers above are individual module sizes; when grouped together they compress (gzip) even more. Your CSS foundation. Pure builds on Normalize.css and provides layout and styling for native HTML elements, plus the most common UI components. It's what you need, without the cruft. Made with mobile in mind. Pure is responsive out of the box, so elements look great on all screen sizes. Stays out of your way. Pure has minimal styles and encourages you to write your application styles on top of it. It's designed to get out of your way and makes it easy to override styles. Create responsive layouts. By using Grids , Menus , and more,"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 5.8,
+    "text": "",
+    "calls": [
+     {
+      "name": "moved",
+      "args": {
+       "new_url": "https://pure-css.github.io/",
+       "reason": "The project moved its official site and documentation from purecss.io to pure-css.github.io, but the content remains the same."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "moved",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 3.2,
+    "text": "moved",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://zumerlab.github.io/orbit-docs/introduction/",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2025-04-20",
+  "live_final_url": "https://zumerlab.com/orbit-docs/introduction/",
+  "live_title": "About Orbit | Orbit",
+  "signals": {
+   "moved_away": true,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.2173,
+  "verdict": {
+   "verdict": "moved",
+   "replacement": "https://zumerlab.com/orbit-docs/introduction/",
+   "reason": "The documentation moved from a GitHub Pages subdomain to the project's main domain."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 13.0,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://zumerlab.github.io/orbit-docs/introduction/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://zumerlab.github.io/orbit-docs/introduction/",
+       "https://zumerlab.com/orbit-docs/introduction/"
+      ],
+      "final_url": "https://zumerlab.com/orbit-docs/introduction/",
+      "title": "About Orbit | Orbit",
+      "text_start": "About Orbit | Orbit Skip to content Orbit Search Ctrl K Cancel GitHub Telegram Select theme Dark Light Auto Menu orbit-kit \u2014 ready-made components new Getting started About Orbit Installation Guide Steps to create a knob Elements bigbang gravity-spot orbit satellite vector side o-arc o-progress capsule Tools Visual Aids Auto resize Colors Themes Depth layers new Integrations React Vue Svelte Examples Layered status rings Circular timer Gauges Overview 180\u00b0 gauge 240\u00b0 gauge Fuel gauge Knobs Overview Knob with progress bar LED knob Progress bars Overview Dashed circular progress bar Circular progress with background Circular progress with handle Stacked circular progress bars Charts Overview Donut chart Pie chart Sunburst chart Watch faces Overview Minimalist analog clock Chronograph watch face Roman numeral clock face Smartwatch face Mandalas Overview Geometric square mandala Radial symmetry mandala Calendars & time planners Overview Circular year calendar Pie menues Scifi Chemical structures Dashboards Abstract orbital map Use cases Dashboards IoT and hardware UI Audio app UI Fitness and health apps Sci-fi game UIs GitHub Telegram Select theme Dark Light Auto On this page Overview Why choose Orbit? What is a radial UI? Explore use cases On this page Overview Why choose Orbit? What is a radial UI? Explore use cases Orbit 2 is out , with Orbit Kit 2 and a new site: read the Orbit 2 docs or see what changed . These docs stay here for Orbit 1.x. About Orbit Orbit builds radial in"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 7.5,
+    "text": "",
+    "calls": [
+     {
+      "name": "moved",
+      "args": {
+       "new_url": "https://zumerlab.com/orbit-docs/introduction/",
+       "reason": "The documentation moved from a GitHub Pages subdomain to the project's main domain."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "moved",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 3.2,
+    "text": "moved",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://zumerlab.github.io/orbit-docs/",
+  "file": "readme.md",
+  "anchor": "**Orbit**",
+  "sentence": "- Orbit - CSS framework designed for building any kind of radial UI.",
+  "added_on": "2025-04-20",
+  "live_final_url": "https://zumerlab.com/orbit-docs/",
+  "live_title": "Orbit \u2014 Compose radial interfaces with HTML and CSS | Orbit",
+  "signals": {
+   "moved_away": true,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.6696,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still points to the official documentation for Orbit, a CSS framework designed for radial UIs."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 6.8,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://zumerlab.github.io/orbit-docs/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://zumerlab.github.io/orbit-docs/",
+       "https://zumerlab.com/orbit-docs/"
+      ],
+      "final_url": "https://zumerlab.com/orbit-docs/",
+      "title": "Orbit \u2014 Compose radial interfaces with HTML and CSS | Orbit",
+      "text_start": "Orbit \u2014 Compose radial interfaces with HTML and CSS | Orbit Skip to content Orbit 2 is out , with Orbit Kit 2 and a new site. Go to Orbit 2 \u00b7 What changed . These docs stay here for Orbit 1.x. Orbit Playground Examples Docs GitHub \u2197 Build interfaces around a center. Compose menus, charts and instruments with HTML and CSS. Orbit keeps the geometry in place as your interface changes. Try the playground \u2197 Get started \u2192 Works with React, Vue, Svelte and plain HTML. 1 2 3 4 5 6 Orbit Satellites 6 Animate See how the 3D effect works \u2192 Playground Change the controls to see the layout update. Copy or download the HTML. \u21ba Reset Satellites Arcs Progress Preview Code Preview Satellites 8 Spread 360\u00b0 Rotation 0\u00b0 Diameter 320 px More than 24 satellites are shown as dots. Blue segment 40% Set to zero Reverse order The pink segment is fixed at 25%. Value 63% End shape Rounded Straight Arrow Circle A Circle B Slash Zigzag At 0%, only the background arc remains. HTML CSS JS Current example Copy or download the complete HTML, with Orbit included. The exported HTML works offline. Download HTML \u2193 Copy code \u2197 Examples Explore the docs \u2197 1 2 3 4 5 6 7 8 Menu Satellites Radial menu Arrange actions around a focal point. Change the count, range and starting angle. Edit this example \u2197 Data Arcs Donut chart Compose a chart from values. Following segments move when the data changes. Edit this example \u2197 63 % Progress Progress gauge Build indicators and instrument faces. Set the opening, fill and shape. E"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 3.7,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still points to the official documentation for Orbit, a CSS framework designed for radial UIs."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 4.5,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://purecss.io",
+  "file": "readme.md",
+  "anchor": "**Pure**",
+  "sentence": "- Pure - Set of small, responsive CSS modules that you can use in every web project.",
+  "added_on": "2017-09-01",
+  "live_final_url": "https://pure-css.github.io/",
+  "live_title": "Pure",
+  "signals": {
+   "moved_away": true,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.8389,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link redirects to the official GitHub Pages site, which hosts the same CSS framework and content."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 3.8,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://purecss.io"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://purecss.io/",
+       "https://pure-css.github.io/"
+      ],
+      "final_url": "https://pure-css.github.io/",
+      "title": "Pure",
+      "text_start": "Pure Pure Get Started Layouts Base Grids Forms Buttons Tables Menus Tools Customize Extend Releases A set of small, responsive CSS modules that you can use in every web project. <link rel = \"stylesheet\" href = \"https://cdn.jsdelivr.net/npm/purecss@3.1.0/build/pure-min.css\" integrity = \"sha384-kj0X2NG2KHBie8Tq8fH1kxnyWM9XsXQpq7XdwbKmFKjwwaXGKBlB2Klu3VOltSFx\" crossorigin = \"anonymous\" > Get Started View on GitHub base 0.9KB grids 0.5KB forms 1.4KB buttons 0.7KB tables 0.4KB menus 0.7KB CSS with a minimal footprint. Pure is ridiculously tiny. The entire set of modules clocks in at 3.5KB * minified and gzipped . Crafted with mobile devices in mind, it was important to us to keep our file sizes small, and every line of CSS was carefully considered. If you decide to only use a subset of these modules, you'll save even more bytes. * We can add correctly :) the numbers above are individual module sizes; when grouped together they compress (gzip) even more. Your CSS foundation. Pure builds on Normalize.css and provides layout and styling for native HTML elements, plus the most common UI components. It's what you need, without the cruft. Made with mobile in mind. Pure is responsive out of the box, so elements look great on all screen sizes. Stays out of your way. Pure has minimal styles and encourages you to write your application styles on top of it. It's designed to get out of your way and makes it easy to override styles. Create responsive layouts. By using Grids , Menus , and more,"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 4.2,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link redirects to the official GitHub Pages site, which hosts the same CSS framework and content."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 5.0,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://www.blazeui.com/getting-started/install/",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2021-03-15",
+  "live_final_url": "https://www.blazeui.com/getting-started/install/",
+  "live_title": "Install",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.1657,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still points to the installation documentation for the Blaze UI CSS framework."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 2.2,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://www.blazeui.com/getting-started/install/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://www.blazeui.com/getting-started/install/"
+      ],
+      "final_url": "https://www.blazeui.com/getting-started/install/",
+      "title": "Install",
+      "text_start": "Install Skip to main content Blaze UI Open Source CSS Atoms Blaze Theme Getting Started How to begin using Blaze Install Custom Build Examples Example Login Example Basket Objects Layout and structure Containers Grid Panels Images Drawers Medias Modals Components Fully styled atomic features Accordions Addresses Alerts Autocomplete Avatars Back to top Badges Buttons Calendars Cards Counter Divider File Upload Headings Inputs Lists Menus Overlays Pagination Progress Ranges Sticky Tables Tabs Timelines Toasts Toggles Tooltips Trees Typography Utilities Override helpers Alignment Boxing Elevation Sizes Visibility Install The easiest way to use the toolkit is via CDN. CSS Installing the CSS blaze.css contains everything you need . Link to it by adding the following to your <head></head> . <link rel=\"stylesheet\" href=\"https://unpkg.com/@blaze/css@x.x.x/dist/blaze/blaze.css\"> Specifying a version is optional but it prevents against breaking changes. How to start applying styles We've designed the toolkit not to interfere with others or your own styles, hence Blaze won't automatically do anything to your site. The following won't change by simply linking to blaze.css like it would with others such as Bootstrap or Foundation: <button type=\"button\">Button</button> Button You need to apply our button classes: <button class=\"c-button\" type=\"button\">Button</button> Button This means you have to add classes to each part of your site where you want Blaze to apply. Take a look at the docume"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 4.2,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still points to the installation documentation for the Blaze UI CSS framework."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 5.0,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://bojler.slicejack.com/documentation/getting-started/",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2021-03-15",
+  "live_final_url": "https://bojler.slicejack.com/documentation/getting-started/",
+  "live_title": "Getting Started - Bojler",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.1687,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still opens the documentation for the Bojler email framework, which matches the context of the article."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 1.5,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://bojler.slicejack.com/documentation/getting-started/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://bojler.slicejack.com/documentation/getting-started/"
+      ],
+      "final_url": "https://bojler.slicejack.com/documentation/getting-started/",
+      "title": "Getting Started - Bojler",
+      "text_start": "Getting Started - Bojler Homepage Documentation Download Bojler Homepage Documentation Get Started Getting Started In getting started section you\u2019ll find support table, basic information about bojler and how to install and use it properly. If you\u2019re first time user then you should start here. What is Bojler? Bojler is an email framework for developing responsive and lightweight email templates that will render correctly across each of the most popular email clients. If you have experience with email template development, you know how painful it is to build a perfect email template that works across all email clients. To make it easier for you to develop responsive and lightweight email templates we have created Bojler. Download There are 2 ways to download Bojler: Download latest release Simplest way to get Bojler to your computer is to download latest release as .zip . On this page you can find download links to current release and previous ones. Make sure you unzip downloaded file before you proceed to next step. Clone the repo If you\u2019re familiar with git and CLI you can simply clone bojler repo to desired folder. git clone https://github.com/Slicejack/bojler.git Install and get started Prerequisites \u2014 Node.js and NPM Make sure you have latest Node.js and NPM installed before proceeding to steps below. After you\u2019ve downloaded your bojler project it\u2019s time to install environment around it and to get started working on your new project. 1. Install node packages Firstly, insta"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 3.6,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still opens the documentation for the Bojler email framework, which matches the context of the article."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 4.5,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://open-props.style/#getting-started",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2022-01-26",
+  "live_final_url": "https://open-props.style/#getting-started",
+  "live_title": "Open Props: sub-atomic styles",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.1724,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still points to the Open Props documentation, which is the intended resource for \"Docs\"."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 2.6,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://open-props.style/#getting-started"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://open-props.style/#getting-started"
+      ],
+      "final_url": "https://open-props.style/#getting-started",
+      "title": "Open Props: sub-atomic styles",
+      "text_start": "Open Props: sub-atomic styles Open Props Get Started Try in browser RAD Supercharged CSS variables. Expertly crafted web design tokens Create consistent components Useful in any framework v1.7.23 MIT @import \"https://unpkg.com/open-props\"; .card { border-radius: var(--radius-2); padding: var(--size-fluid-3); box-shadow: var(--shadow-2); &:hover { box-shadow: var(--shadow-3); } @media (--motionOK) { animation: var(--animation-fade-in); } } Built with Open Props Hero Layout 18 props + normalize.css Adaptive Buttons 10 props Adaptive Cards 8 props + normalize.css Pagination Example 10 props 4 Color Schemes 16 props Light / Dark Switch +2 imports Make it pop Example loads only the animations and easings for a springy scale-in animation Normalize Preview Light + dark HTML5 minimal styles Why Use Open Props? It's non-prescriptive . Design Consistently Incidentally harmonious. Predictable Thanks to consistent naming conventions. Incrementally Adoptable Grab all the props, props as JS, or only what you need. Customizable Map the props from JS or customize builds from the command line. Overview File sizes and links to source: File Sizes The following sizes are for the minified files and after Brotli compression. Library bundles 4.0 kB open-props.min.css 500+ props Extras 1.3 kB normalize.min.css demo normalize.light.css normalize.dark.css theme.light.css theme.dark.css 0.81 kB buttons.min.css demo Individual PropPacks \u2122 0.49 kB animations.css demo 0.1 kB aspects.css 0.25 kB borders.cs"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 4.1,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still points to the Open Props documentation, which is the intended resource for \"Docs\"."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 5.7,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://github.com/vinibiavatti1/TuiCss/wiki",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs",
+  "added_on": "2021-03-05",
+  "live_final_url": "https://github.com/vinibiavatti1/TuiCss/wiki",
+  "live_title": "Home \u00b7 vinibiavatti1/TuiCss Wiki \u00b7 GitHub",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.1752,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link points to the project's Wiki, which serves as the documentation, and the content is still relevant to the TuiCss project."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 1.7,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://github.com/vinibiavatti1/TuiCss/wiki"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://github.com/vinibiavatti1/TuiCss/wiki"
+      ],
+      "final_url": "https://github.com/vinibiavatti1/TuiCss/wiki",
+      "title": "Home \u00b7 vinibiavatti1/TuiCss Wiki \u00b7 GitHub",
+      "text_start": "Home \u00b7 vinibiavatti1/TuiCss Wiki \u00b7 GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government See all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAI"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 2.4,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link points to the project's Wiki, which serves as the documentation, and the content is still relevant to the TuiCss project."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 2.0,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://www.carbondesignsystem.com/components/overview/",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2021-03-15",
+  "live_final_url": "https://www.carbondesignsystem.com/building-blocks/core/components/overview/components",
+  "live_title": "Overview | Carbon Design System",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.1835,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link redirected to a new, reorganized section of the Carbon Design System documentation, but the content remains the same (component overview)."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 1.4,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://www.carbondesignsystem.com/components/overview/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://www.carbondesignsystem.com/components/overview/",
+       "https://www.carbondesignsystem.com/building-blocks/core/components/overview/",
+       "https://www.carbondesignsystem.com/building-blocks/core/components/overview",
+       "https://www.carbondesignsystem.com/building-blocks/core/components/overview/components"
+      ],
+      "final_url": "https://www.carbondesignsystem.com/building-blocks/core/components/overview/components",
+      "title": "Overview | Carbon Design System",
+      "text_start": "Overview | Carbon Design System Carbon Design System Search Employee login Login Foundations IBM Brand Center IBM Design Language Implementation Carbon Design System Carbon for Cloud Carbon for IBM.com IBM Event Design IBM Workplace Design Practices Enterprise Design Thinking IBM Accessibility IBM Design for AI IBM Design Research IBM Experience Standards Community IBM Design Search Getting started About Carbon Designing Overview Design resources Developing Overview Packages Carbon Core Tutorials React tutorial Web Components tutorial Additional resources Carbon MCP Overview Concepts Onboarding and setup Prompts Token conservation Contributing Overview Product Development Lifecycle Component checklist Methods of contribution Enhancing components Carbon Labs Migrating Guide FAQs Building blocks Foundations 2x Grid Accessibility Carbon for AI Color Content Icons Pictograms Motion Spacing Themes Typography Components Overview Accordion AI label Breadcrumb Button Checkbox Code snippet Contained list Content switcher Data table Date picker Dropdown File uploader Form Inline loading Link List Loading Menu Menu buttons Modal Notification Number input Pagination Popover Progress bar Progress indicator Radio button Search Select Slider Structured list Tabs Tag Text input Tile Toggle Toggletip Tooltip Tree view UI shell header UI shell left panel UI shell right panel Patterns Overview Common actions Dialogs Disabled states Disclosures Empty states Filtering Fluid styles Forms Global he"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 7.5,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link redirected to a new, reorganized section of the Carbon Design System documentation, but the content remains the same (component overview)."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 3.4,
+    "text": "The link still opens what the author meant. The content is the same, despite the URL structure changing due to site reorganization.",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://responsivebp.com/getting-started/",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2021-03-15",
+  "live_final_url": "https://responsivebp.com/getting-started/",
+  "live_title": "Getting Started ::  Responsive",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.1854,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still opens the official getting started/documentation page for the Responsive CSS framework."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 3.0,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://responsivebp.com/getting-started/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://responsivebp.com/getting-started/"
+      ],
+      "final_url": "https://responsivebp.com/getting-started/",
+      "title": "Getting Started ::  Responsive",
+      "text_start": "Getting Started :: Responsive Responsive Menu Getting Started CSS JavaScript home \u00bb getting-started Getting Started An introduction to Responsive, how to use it, with basic templates and examples. Toggle Direction Edit page on GitHub x Like ResponsiveBP? Keep us running by whitelisting ResponsiveBP in your ad blocker. We're serving quality, tech-related ads only. Thank you! Getting Started Download Responsive The HTML Browser Support Accessibility Right-to-Left Languages Heads Up! Looking for the legacy v3 documentation? You can find it here . Download Responsive The simplest and fastest way to get Responsive is to download the precompiled and minified versions of our CSS, and JavaScript. No documentation or original source code files are included. Download Responsive You can also install Responsive with Bower : bower install responsive If you are feeling more adventurous and want to tweak Responsive before use you can download the full Sass and JavaScript source directly from Github. This will require the use of gulp.js to build. Download Source GitHub project Version 4.1.4 Setting up your HTML Inside the zip file you will also find a HTML file containing the default template for including Responsive in your webpage. Set up your layout as follows. <!DOCTYPE HTML> <html> <head> <meta charset=\"utf-8\" /> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <meta name=\"description\" content=\"Your Page Descrip"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 5.8,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still opens the official getting started/documentation page for the Responsive CSS framework."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 1.6,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://concisecss.com/documentation/",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2021-03-15",
+  "live_final_url": "https://concisecss.com/documentation/",
+  "live_title": "Introduction\u2014Concise CSS",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.1886,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still points to the documentation for Concise CSS, which is what the author intended."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 3.0,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://concisecss.com/documentation/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://concisecss.com/documentation/"
+      ],
+      "final_url": "https://concisecss.com/documentation/",
+      "title": "Introduction\u2014Concise CSS",
+      "text_start": "Introduction\u2014Concise CSS Menu Introduction Why Concise CSS Language additions Installation The Concise CLI Using add-ons Coding conventions Examples Core Settings Typography Grid System Color Palette Print Utils Borders Colors Columns Hide/Show Display Margins Paddings Position Type scale Typography UI Alert box Breadcrumb Button group Button Card Dropdown Progress bar Spinner Tag Archives v2.0.0 v3.0.0 1. Introduction Introduction Why Concise CSS Language additions Installation The Concise CLI Using add-ons Coding conventions Examples Core Utils UI Concise CSS provides a solid foundation to stylize your website. It offers an alternative to frameworks like Bootstrap and Foundation, with the difference that Concise only includes the minimum styles required. That does not mean that the features are limited; is possible to use add-ons on top of the core to extend the functionality as required. The core of the framework only includes styles for native HTML elements. Components and utilities are provided as optional add-ons, Concise UI and Concise Utils, respectively. Concise CSS is written using a custom CSS preprocessor, built on top of Sass and some PostCSS plugins; this means that you can still write Sass code as usual, but you can also enjoy other custom features. 1.1 Why Concise CSS Concise CSS is a hybrid of the most common practices in web development. The small core allows the inclusion of custom styles and add-ons without the bloat or excessive overwrites. The UI add-on "
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 8.0,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still points to the documentation for Concise CSS, which is what the author intended."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 2.1,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://cirrus-ui.netlify.app/getting-started/setup",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2021-08-23",
+  "live_final_url": "https://cirrus-ui.netlify.app/getting-started/setup",
+  "live_title": "Cirrus - Setup",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.1935,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still points to the official setup documentation for the Cirrus UI framework, matching the intent of the original link."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 1.6,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://cirrus-ui.netlify.app/getting-started/setup"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://cirrus-ui.netlify.app/getting-started/setup"
+      ],
+      "final_url": "https://cirrus-ui.netlify.app/getting-started/setup",
+      "title": "Cirrus - Setup",
+      "text_start": "Cirrus - Setup Cirrus Documentation What's New Blocks Playground Community About Getting Started Setup Browser Support Developing Configuration Managing Build Size Start Guide Release Notes Fundamentals Default Styles Colors Sizes Typography Pseudo Variants Viewports Plugin API Animations Animated Styles Buttons Basics Button Groups Glyphs Variants Elements Accordion Avatar Breadcrumbs Card Code Links Lists Modal Pagination Placeholder Progress Table Tabs Tags Tiles Toast Tooltips Trees Fonts Font Weights Glyphs Headings Letter Spacing Line Height Size Text Elements Forms Checkbox Input Glyphs Input Groups Inputs Radio Toggle Grid Gap Span Templates Layout Columns Divider Footer Frames Header Height Hero Level Margin Max Height Max Width Media Min Height Min Width Padding Spacing Width Utilities Absolutes Border Radius Border Width Box Shadow Clearfix Cursor Display Filters Flexbox Gap Misc Opacity Overflow Positions Transition Duration Vertical Align Z-Index # Setup Follow these simple steps for setting up Cirrus in your project. Below are a couple of different ways to integrate Cirrus into your project. 1. Use a Package Manager (Recommended) Npm npm i cirrus-ui --save Yarn yarn add cirrus-ui 2. Use a CDN It is recommended to attach a version number to these CDN links to keep your project consistent with a given version if you want to avoid auto updates. Unpkg https://unpkg.com/cirrus-ui JsDelivr https://cdn.jsdelivr.net/npm/cirrus-ui/dist/cirrus.min.css 3. Download from the"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 4.8,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still points to the official setup documentation for the Cirrus UI framework, matching the intent of the original link."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 4.4,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://jonathanharrell.github.io/hiq/guide/",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2018-09-29",
+  "live_final_url": "https://jonathanharrell.github.io/hiq/guide/",
+  "live_title": "Getting Started | HiQ. A high-IQ CSS framework.",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.1936,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still opens the documentation/guide for the HiQ CSS framework, which is what the author intended."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 2.8,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://jonathanharrell.github.io/hiq/guide/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://jonathanharrell.github.io/hiq/guide/"
+      ],
+      "final_url": "https://jonathanharrell.github.io/hiq/guide/",
+      "title": "Getting Started | HiQ. A high-IQ CSS framework.",
+      "text_start": "Getting Started | HiQ. A high-IQ CSS framework. Skip site navigation Site menu Home page Site Links Guide Reference Theme Builder Github ... Site Links Guide Reference Theme Builder Github ... Sidebar Links Guide Getting Started Installation Usage Individual Files Theming Browser Support Theming Layout Typography Buttons Code Media Tables Forms & Inputs Meters & Progress Interactive Elements # Getting Started # Installation Start using HiQ by using npm to install the package or use the cdn below or use the Github repository to get the latest development version. npm install hiq < link rel = \" stylesheet \" href = \" https://cdn.jsdelivr.net/npm/hiq@latest/dist/hiq.min.css \" > # Usage There are a few different ways you can include HiQ in your project. # Basic Import the compiled minified version in your CSS: @import '~hiq/dist/hiq.min.css' ; # Advanced Import the source version and process your CSS using PostCSS. This will give you access to the utility mixins that HiQ provides. Note that source files use the .css file extension. @import '~hiq/css/hiq.css' ; To take full advantage of the PostCSS features in HiQ, you will need to configure your postcss.config.js to include these plugins (already installed with HiQ): module . exports = { plugins : [ require ( 'postcss-mixins' ) , require ( 'postcss-custom-selectors' ) , require ( 'postcss-custom-media' ) ] } ; You may also want to include the following optional plugins (also installed with HiQ): require ( 'postcss-easy-import' ) ,"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 4.2,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still opens the documentation/guide for the HiQ CSS framework, which is what the author intended."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 6.3,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://github.com/kevquirk/simple.css/wiki",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2023-09-10",
+  "live_final_url": "https://github.com/kevquirk/simple.css/wiki",
+  "live_title": "Home \u00b7 kevquirk/simple.css Wiki \u00b7 GitHub",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.2035,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still points to the project's documentation/wiki."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 2.7,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://github.com/kevquirk/simple.css/wiki"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://github.com/kevquirk/simple.css/wiki"
+      ],
+      "final_url": "https://github.com/kevquirk/simple.css/wiki",
+      "title": "Home \u00b7 kevquirk/simple.css Wiki \u00b7 GitHub",
+      "text_start": "Home \u00b7 kevquirk/simple.css Wiki \u00b7 GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government See all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAIL"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 2.3,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still points to the project's documentation/wiki."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 4.5,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://github.com/vinibiavatti1/TuiCss/wiki/Examples",
+  "file": "readme.md",
+  "anchor": "Demo",
+  "sentence": "Demo,",
+  "added_on": "2021-03-05",
+  "live_final_url": "https://github.com/vinibiavatti1/TuiCss/wiki/Examples",
+  "live_title": "Examples \u00b7 vinibiavatti1/TuiCss Wiki \u00b7 GitHub",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.2101,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still points to the project's examples/demo page on GitHub."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 3.9,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://github.com/vinibiavatti1/TuiCss/wiki/Examples"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://github.com/vinibiavatti1/TuiCss/wiki/Examples"
+      ],
+      "final_url": "https://github.com/vinibiavatti1/TuiCss/wiki/Examples",
+      "title": "Examples \u00b7 vinibiavatti1/TuiCss Wiki \u00b7 GitHub",
+      "text_start": "Examples \u00b7 vinibiavatti1/TuiCss Wiki \u00b7 GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government See all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform "
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 4.5,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still points to the project's examples/demo page on GitHub."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 4.7,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://stackoverflow.design/product/develop/using-stacks/",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2024-05-09",
+  "live_final_url": "https://stackoverflow.design/system/develop/using-stacks",
+  "live_title": "Using Stacks - Stack Overflow Design System",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.2163,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link redirected to a slightly different path within the same design system documentation, but the content remains the same, discussing \"Using Stacks.\""
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 2.4,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://stackoverflow.design/product/develop/using-stacks/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://stackoverflow.design/product/develop/using-stacks/",
+       "https://stackoverflow.design/system/develop/using-stacks/",
+       "https://stackoverflow.design/system/develop/using-stacks"
+      ],
+      "final_url": "https://stackoverflow.design/system/develop/using-stacks",
+      "title": "Using Stacks - Stack Overflow Design System",
+      "text_start": "Using Stacks - Stack Overflow Design System Search Search documentation Search components, guidelines, and foundations. Home Brand Copywriting Community Product Develop Using Stacks Building Stacks Conditional classes JavaScript Accessibility Foundation Base Forms Components Email Handbook Resources GitHub Theme Dark mode Custom theme High contrast mode Product / Develop / Using Stacks Edit Last updated: December 5, 2025 Using Stacks A short guide to Stacks, a robust CSS & JavaScript Pattern library for rapidly building Stack Overflow. Goals Stacks is built with a unified goal: We should be writing as little CSS & JavaScript as possible . To achieve this goal, the Stacks team has created a robust set of reusable components. These include components like buttons, tables, and form elements. We\u2019ve also created a powerful set of atomic classes that can be chained together to create just about any layout without writing a single line of new CSS. Further, these atomic classes can be used as modifiers of pre-existing components. Installing Stacks is currently included within various Stack Overflow projects automatically. If you\u2019re working on a Stack Overflow project, chances are it\u2019s already available for you! If not, reach out to us and we\u2019ll work on getting it set up. To include Stacks in other projects, you can install Stacks via NPM: npm install --save @stackoverflow/stacks You can also include a minified, compiled Stacks CSS style sheet that\u2019s delivered via Unpkg, a CDN for NPM"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 4.7,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link redirected to a slightly different path within the same design system documentation, but the content remains the same, discussing \"Using Stacks.\""
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 4.6,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://github.com/nostalgic-css/NES.css#installation",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2019-02-23",
+  "live_final_url": "https://github.com/nostalgic-css/NES.css#installation",
+  "live_title": "GitHub - nostalgic-css/NES.css: NES-style CSS Framework | \u30d5\u30a1\u30df\u30b3\u30f3\u98a8CSS\u30d5\u30ec\u30fc\u30e0\u30ef\u30fc\u30af \u00b7 GitHub",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.2166,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still points to the repository's installation documentation for the NES-style CSS Framework."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 2.7,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://github.com/nostalgic-css/NES.css#installation"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://github.com/nostalgic-css/NES.css#installation"
+      ],
+      "final_url": "https://github.com/nostalgic-css/NES.css#installation",
+      "title": "GitHub - nostalgic-css/NES.css: NES-style CSS Framework | \u30d5\u30a1\u30df\u30b3\u30f3\u98a8CSS\u30d5\u30ec\u30fc\u30e0\u30ef\u30fc\u30af \u00b7 GitHub",
+      "text_start": "GitHub - nostalgic-css/NES.css: NES-style CSS Framework | \u30d5\u30a1\u30df\u30b3\u30f3\u98a8CSS\u30d5\u30ec\u30fc\u30e0\u30ef\u30fc\u30af \u00b7 GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government See all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise p"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 3.7,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still points to the repository's installation documentation for the NES-style CSS Framework."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 4.5,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://get.foundation/templates.html",
+  "file": "readme.md",
+  "anchor": "Demo",
+  "sentence": "Demo,",
+  "added_on": "2024-03-16",
+  "live_final_url": "https://get.foundation/templates.html",
+  "live_title": "HTML Templates | Foundation",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.2178,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still opens the Foundation HTML Templates page, which is the intended resource."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 1.9,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://get.foundation/templates.html"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://get.foundation/templates.html"
+      ],
+      "final_url": "https://get.foundation/templates.html",
+      "title": "HTML Templates | Foundation",
+      "text_start": "HTML Templates | Foundation Foundation Home Brands Case Studies Buzz About Foundation Foundation for Sites Home Getting Started Download HTML Templates Building Blocks Resources Docs Foundation for Emails Home Getting Started Download Inliner Email Templates Resources Docs Develop HTML Templates Resources Building Blocks Contribute Annotate Code Tutorials Tutorials Lessons Courses Custom Training Certification Get Involved Connect Foundation Forum FAQs Contribute Yetinauts Partners Sponsorships Foundation Foundation Framework Showcase Brands Case Studies Buzz About Foundation Develop Frameworks Foundation for Sites Foundation for Email Develop HTML Templates Resources Building Blocks Tutorials Tutorials Lessons Courses Custom Training Certification Get Involved Connect Foundation Forum FAQs Contribute Yetinauts Partners Sponsorships Docs Sites Docs Emails Docs Getting Started Foundation for Sites HTML Templates Home Getting Started Download HTML Templates Building Blocks Resources Docs Get eight responsive templates to kick off your projects. Each of these responsive HTML templates were built with the same techniques and principles we teach in our Introduction to Foundation 6 Course to build your business upon. Sign up to get all the Foundation 6 templates delivered right to your inbox as well as monthly updates on where Foundation is headed, what's new, and loads of helpful resources! Download Looking for Building Blocks or Legacy Grid Templates or Foundation 5 Templates ? N"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 3.4,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still opens the Foundation HTML Templates page, which is the intended resource."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 6.7,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://bulma.io/expo/",
+  "file": "readme.md",
+  "anchor": "Demo",
+  "sentence": "Demo,",
+  "added_on": "2021-03-15",
+  "live_final_url": "https://bulma.io/expo/",
+  "live_title": "Bulma: Free, open source, and modern CSS framework based on Flexbox",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.2192,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still points to the Bulma framework's Expo demo page, which matches the author's intent."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 2.2,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://bulma.io/expo/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://bulma.io/expo/"
+      ],
+      "final_url": "https://bulma.io/expo/",
+      "title": "Bulma: Free, open source, and modern CSS framework based on Flexbox",
+      "text_start": "Bulma: Free, open source, and modern CSS framework based on Flexbox Learn CSS with \ud83c\udf93 online interactive courses,\ud83d\udcfa educational videos, and \ud83e\uddd1\ud83c\udffb\u200d\ud83d\udcbbproject-building tutorials. Docs Documentation Expo Love Sponsor Made with Bulma Backers Bulma Brand Bulma Extensions Download Light Dark System Download Made with Bulma Gorgeous websites built with Bulma. Did you design a gorgeous website with Bulma too? Tell us about it! \ud83e\udd17 #madewithbulma mullvad klevgrand Starbucks Concept signal tinystore searchcity Vinetos Infinity Search Pentos Vivo Hostel romes formalfounder klimchuk oneprofile pagespeed rydesignsstuff Divjoy Spike FTW Runlet Bulma Play FileGator Counter Network Sinuous Agilox Pingstack mynameismirko pwn SaaSHub Snipper App SME summit Jethro May GreenPeace Uncut Reception Halls Daniel FR faulthero adilmania mattfarley griko shecodes jgthms uigoodies favicon whiterabbitexpress primative getbedtimestories mod jobees mythril immunizationacademy cssninja planhr hodlfund cronhub pollygot reportz mynameismirko anyshortcut ysimplicity bongoutindonesia uploadme Gustav Penmob Br\u00fajula Tur\u00edstica LottieFiles Smileonthetiles Sketch for Designrs Bashful Birdie Bugcraft Studio Booknshelf MD5 Driftrock Jubiwee Pragonauts Kappamon Elevo Oneday Buefy Alt Three How to support Bulma One-time donation Browser testing via Visit our Sponsors Monthly donation Become a sponsor #native_company# #native_desc# #native_cta# Bulma by Jeremy Thomas . Follow @jgthms Contribute on GitHub Share on social media Twi"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 3.6,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still points to the Bulma framework's Expo demo page, which matches the author's intent."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 3.4,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://getuikit.com/docs/introduction",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2017-09-01",
+  "live_final_url": "https://getuikit.com/docs/introduction",
+  "live_title": "Introduction - UIkit",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.22,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still opens the official documentation/introduction page for UIkit, which is the same content the author intended to cite."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 2.4,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://getuikit.com/docs/introduction"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://getuikit.com/docs/introduction"
+      ],
+      "final_url": "https://getuikit.com/docs/introduction",
+      "title": "Introduction - UIkit",
+      "text_start": "Introduction - UIkit Skip to main content UIkit Pro Documentation Changelog Download Documentation Getting started Introduction Installation Less Sass JavaScript Webpack Custom icons Avoiding conflicts Accessibility RTL support Migration Components Accordion Alert Align Animation Article Background Badge Base Breadcrumb Button Card Close Column Comment Container Countdown Cover Description List Divider Dotnav Drop Dropbar Dropdown Dropnav Filter Flex Form Grid Heading Height Icon Iconnav Image Inverse Label Leader Lightbox Link List Margin Marker Modal Nav Navbar Notification Off-canvas Overlay Padding Pagination Parallax Placeholder Position Print Progress Scroll Scrollspy Search Section Slidenav Slider Slideshow Sortable Spinner Sticky Subnav SVG Switcher Tab Table Text Thumbnav Tile Toggle Tooltip Totop Transition Upload Utility Video Visibility Width Introduction Get familiar with the basic setup and overview of UIkit. First, you need to download UIkit. For other packages and links to a CDN, head to the installation guide to learn more. Download UIkit Package contents The Zip file contains the compiled CSS and JavaScript files, which is everything you need to get started. Later, you might want to install and compile UIkit yourself and also create your own UIkit theme . Folder Description /css Contains the UIkit CSS and a right-to-left version. /js Contains the UIkit JavaScript and the Icon Library JavaScript. HTML markup Add the compiled and minified CSS and JavaScript to"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 6.1,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still opens the official documentation/introduction page for UIkit, which is the same content the author intended to cite."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 5.1,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://tachyons.io/gallery/",
+  "file": "readme.md",
+  "anchor": "Demo",
+  "sentence": "Demo,",
+  "added_on": "2021-03-15",
+  "live_final_url": "https://tachyons.io/gallery/",
+  "live_title": "TACHYONS - Gallery",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.225,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still points to the Tachyons framework gallery, which is the intended resource."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 2.4,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://tachyons.io/gallery/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://tachyons.io/gallery/"
+      ],
+      "final_url": "https://tachyons.io/gallery/",
+      "title": "TACHYONS - Gallery",
+      "text_start": "TACHYONS - Gallery Tachyons v4.12.0 Docs Components Gallery Resources GitHub Made with interfacelovers.com zarf.co/ coralproject.net/ samueldregan.com/ studiocraft.cc iheanyi.com womenwho.design play.webvr.rocks bluebottlecoffee.com kerem.co topher.design sogol.com npmjs.com segment.com algolia.com spenhar.com fredfahlke.github.io lastjapan.com urlbox.io tylernford.com Home Docs Components Gallery Resources X-Ray Supporting Tachyons Tweet Follow @tachyons_css Need Help? Join our Slack Channel Open an Issue on GitHub Have a question? Need help? Feel free to open an issue on GitHub or ask a question in our slack channel. We\u2019re here to try and help make designing in the browser fun. A tachyon /\u02c8t\u00e6ki.\u0252n/ or tachyonic particle is a hypothetical particle that always moves faster than light. The word comes from the Greek: \u03c4\u03b1\u03c7\u03cd\u03c2 or tachys, meaning \u201cswift, quick, fast, rapid\u201d"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 4.1,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still points to the Tachyons framework gallery, which is the intended resource."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 4.8,
+    "text": "fine",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://jenil.github.io/chota/#docs",
+  "file": "readme.md",
+  "anchor": "Docs",
+  "sentence": "Docs,",
+  "added_on": "2021-03-15",
+  "live_final_url": "https://jenil.github.io/chota/#docs",
+  "live_title": "chota - A micro CSS framework",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.2253,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still opens the documentation for the chota CSS framework, which is what the author intended."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 1.4,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://jenil.github.io/chota/#docs"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://jenil.github.io/chota/#docs"
+      ],
+      "final_url": "https://jenil.github.io/chota/#docs",
+      "title": "chota - A micro CSS framework",
+      "text_start": "chota - A micro CSS framework A micro (~3kb) CSS framework. FWIW, \"cho\u1e6d\u0101\" means \"small\" in Hindi features start docs GitHub \u2600\ufe0f Features \u26a1\ufe0f Super light-weight. Just ~3kb (minified + gzipped). \u26d4\ufe0f No preprocessor, just plug-n-play \ud83d\udcd0 Magical 12 column grid \ud83c\udf08 Easy to extend with CSS variables \ud83c\udfb2 Comes with a handful of components & utilities \u2705 Good Semantics \ud83c\udf19 Easy dark mode switch \ud83e\udd21 Supports icons out-of-the-box Getting Started All you need is 1 CSS file, chota.css to be included in your webpage. Link this CSS in your HTML: <link rel= \"stylesheet\" href= \"https://unpkg.com/chota@latest\" > You can get the latest release from GitHub Download .zip Install it from npm or yarn npm install chota Docs customizing components Chota is dead simple to use. It doesn't require learning a lot of class names like other frameworks. It applies a few basic styles to the HTML following the HTML Semantics . Here is a demo of the basic HTML elements. A few addons that Chota provides out-of-the-box for some elements are: Striped tabled Input states Horizontal input alignment by just wrapping them with grouped class Icons Customizing Chota comes with a basic set of CSS variables : :root { --bg-color : #ffffff ; --bg-secondary-color : #f3f3f6 ; --color-primary : #14854F ; --color-lightGrey : #d2d6dd ; --color-grey : #747681 ; --color-darkGrey : #3f4144 ; --color-error : #d43939 ; --color-success : #28bd14 ; --grid-maxWidth : 120rem ; --grid-gutter : 2rem ; --font-size : 1.6rem ; --font-color : #333333 ; -"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 2.3,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still opens the documentation for the chota CSS framework, which is what the author intended."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 2.4,
+    "text": "The link still opens the documentation for the chota CSS framework, which is what the author intended.",
+    "calls": [],
+    "results": []
+   }
+  ]
+ },
+ {
+  "url": "https://www.blazeui.com/components/buttons/",
+  "file": "readme.md",
+  "anchor": "Demo",
+  "sentence": "Demo,",
+  "added_on": "2018-07-18",
+  "live_final_url": "https://www.blazeui.com/components/buttons/",
+  "live_title": "Buttons",
+  "signals": {
+   "moved_away": false,
+   "to_homepage": false,
+   "parked_words": false
+  },
+  "similarity": 0.2294,
+  "verdict": {
+   "verdict": "fine",
+   "reason": "The link still opens the official documentation page for the Blaze UI buttons component, which is the intended resource."
+  },
+  "refusals": [],
+  "trace": [
+   {
+    "step": 0,
+    "seconds": 4.8,
+    "text": "",
+    "calls": [
+     {
+      "name": "fetch_live",
+      "args": {
+       "url": "https://www.blazeui.com/components/buttons/"
+      }
+     }
+    ],
+    "results": [
+     {
+      "status": 200,
+      "checker_says": "ok",
+      "error": null,
+      "redirect_chain": [
+       "https://www.blazeui.com/components/buttons/"
+      ],
+      "final_url": "https://www.blazeui.com/components/buttons/",
+      "title": "Buttons",
+      "text_start": "Buttons Skip to main content Blaze UI Open Source CSS Atoms Blaze Theme Getting Started How to begin using Blaze Install Custom Build Examples Example Login Example Basket Objects Layout and structure Containers Grid Panels Images Drawers Medias Modals Components Fully styled atomic features Accordions Addresses Alerts Autocomplete Avatars Back to top Badges Buttons Calendars Cards Counter Divider File Upload Headings Inputs Lists Menus Overlays Pagination Progress Ranges Sticky Tables Tabs Timelines Toasts Toggles Tooltips Trees Typography Utilities Override helpers Alignment Boxing Elevation Sizes Visibility Buttons Probably the first thing people look at when choosing a UI toolkit. The common button! Basic Button To make a button a Blaze button add the .c-button class to buttons, inputs or links. Button Link Button <button type=\"button\" class=\"c-button\">Button</button> <input type=\"button\" class=\"c-button\" value=\"Input\"> <a class=\"c-button\">Link</a> <button type=\"button\" class=\"c-button\" disabled>Button</button> Button Colors There are five button color modifiers: Button Button Button Button Button Button <button type=\"button\" class=\"c-button\">Button</button> <button type=\"button\" class=\"c-button c-button--brand\">Button</button> <button type=\"button\" class=\"c-button c-button--info\">Button</button> <button type=\"button\" class=\"c-button c-button--warning\">Button</button> <button type=\"button\" class=\"c-button c-button--success\">Button</button> <button type=\"button\" class=\"c-b"
+     }
+    ]
+   },
+   {
+    "step": 1,
+    "seconds": 5.5,
+    "text": "",
+    "calls": [
+     {
+      "name": "fine",
+      "args": {
+       "reason": "The link still opens the official documentation page for the Blaze UI buttons component, which is the intended resource."
+      }
+     }
+    ],
+    "results": [
+     {
+      "ok": true,
+      "verdict": "fine",
+      "next": "Done with this link. End your turn."
+     }
+    ]
+   },
+   {
+    "step": 2,
+    "seconds": 2.1,
+    "text": "",
+    "calls": [],
+    "results": []
+   }
+  ]
+ }
+]
