@@ -1,7 +1,7 @@
 ---
 title: "Possessed: your link checker is green, and eight of those links now open a casino"
 tags: hf26challenge, gemma, opensource, ai
-cover_image: [X]
+cover_image: post/cover.png (upload on DEV)
 ---
 
 *This is a submission for the [Hacktoberfest Open-Source AI Challenge](https://dev.to/challenges/hacktoberfest-2026): Ghost in the Machine.*
@@ -60,7 +60,28 @@ Three open-weight models, all through Ollama, no API key anywhere:
 
 Gemma chooses its own evidence. It has `fetch_live`, `find_snapshot`, `list_snapshots` and `read_snapshot`, and four verdict tools. A possessed link usually takes it three or four steps: open the live page, find the capture nearest the day the link was added, read it, decide. When the nearest capture is already the parked page, it lists captures and goes back further.
 
-Here is the gate doing its job. [X trace excerpt: the refusal and the retry]
+Here is one judgment as logged, the Chakra Templates link, added to the list on 2022-07-17. Four tool calls, 7.7 seconds on my laptop's GPU:
+
+```
+fetch_live(url="https://chakra-templates.dev/")
+  -> 200, final_url "https://mainslotresmi.org/",
+     title "AGEN338 : Tips Bermain Slot88 & Kumpulan Slot Gacor"
+
+find_snapshot(near_date="2022-07-17")
+  -> captured 2022-06-03,
+     https://web.archive.org/web/20220603052424/https://chakra-templates.dev/
+
+read_snapshot(timestamp="20220603052424")
+  -> 200, title "Chakra Templates",
+     text "Templates Page Sections Large Page Sections like Hero, Features ..."
+
+possessed(now_shows="Gambling/betting site (AGEN338)",
+          originally="A collection of Chakra UI templates for React projects",
+          replacement="https://web.archive.org/web/20220603052424/https://chakra-templates.dev/")
+  -> ok. Done with this link.
+```
+
+The gate let that replacement through because the third call opened it. Had Gemma written any other URL there, the fourth call would have come back as an error.
 
 The hard part was the rubric. A product that was acquired and now redirects to the buyer is moved if the thing itself still exists there, and possessed if only the brand does: InVision links land on Miro's homepage, and nothing of InVision is there, so they are possessed. A login wall is fine, with "cannot verify" in the reason. Twitter links that land on x.com are fine. The prompt holds those as named examples, because a model this size follows an example better than a definition.
 
@@ -93,7 +114,11 @@ The other reason is that a maintainer can read the judge. The rubric Gemma follo
 
 ## My Agent Session
 
-[X honest paragraph: built with Claude Code; what the agent did (code, the first pass of hand labels by reading pages) and what I did (spot checks, the calls on rubric and on what to post upstream); the labels file names who labelled what]
+I built this with Claude Code over four days. It wrote most of the code, and it wrote the first pass of the hand labels: for each link where Gemma and Qwen disagreed, it opened the live page and the archive capture and wrote the verdict and the reason into `results/labels_*.json`. The file says so in its first lines, because a label that does not say who made it is not a label.
+
+The calls were mine. What counts as moved and what counts as possessed, after watching it get InVision wrong. Which lists to send fixes to, and which to leave alone: design-resources-for-developers has outside contributions paused, so nothing went there, and its findings are in this post instead. Before posting I spot-checked [X] of the labels against the live pages myself.
+
+The one piece of the build I would point at: the gate started as a prompt instruction, "never invent a URL". The rules file I keep for agent work says a rule with an objective test goes in code, not in the prompt, so it became twenty lines in `tools.py`. Those twenty lines are what turned up my own two bugs.
 
 ## The Spirit of It
 

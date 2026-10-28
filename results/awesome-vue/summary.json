@@ -1,0 +1,16 @@
+{
+ "links": 1111,
+ "unique": 1111,
+ "files": 1,
+ "checker": {
+  "blocked": 133,
+  "ok": 935,
+  "unreachable": 21,
+  "dead": 22
+ },
+ "unreadable": 9,
+ "readable": 926,
+ "candidates": 159,
+ "read": 0,
+ "scanned_on": "2026-10-28"
+}
