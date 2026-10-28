@@ -52,7 +52,7 @@ def main(path, labels_path=None):
     detectors = {
         "status-code link checker": [False] * len(rows),
         "URL heuristics (other domain, homepage, parking words)": [r["signals"]["moved_away"] or r["signals"]["to_homepage"] or r["signals"]["parked_words"] for r, _, _ in rows],
-        "EmbeddingGemma similarity": [r["similarity"] <= low for r, _, _ in rows],
+        "EmbeddingGemma similarity": [r.get("low_similarity", r["similarity"] <= low) for r, _, _ in rows],
         "Possessed (Gemma 4)": [g in FIX for _, g, _ in rows],
     }
     out = {

@@ -1,0 +1,14 @@
+{
+ "links": 150,
+ "unique": 150,
+ "files": 1,
+ "checker": {
+  "ok": 145,
+  "dead": 5
+ },
+ "unreadable": 0,
+ "readable": 145,
+ "candidates": 24,
+ "read": 0,
+ "scanned_on": "2026-10-28"
+}

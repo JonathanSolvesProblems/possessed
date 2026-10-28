@@ -4,6 +4,20 @@
   "checked_by": "Claude (the coding assistant), against the live page and the archive capture in second_opinion.json; spot-checks by Jonathan pending",
   "rule": "A redirect that still reaches the same thing, or its official successor, is fine (no fix needed). possessed = the address now serves something the author did not mean. dead = the thing is gone."
  },
+ "_gambling": {
+  "checked_on": "2026-10-28",
+  "how": "Fresh fetch of each live page; the title or first lines sell casino, slot, pokies, togel or betting services.",
+  "urls": {
+   "http://openby.design/": "redirects to emmasbucketlist.com: $50 Pokies No Deposit Bonus Australia",
+   "https://verandacolor.com": "redirects to pin-upcasino.com.in: Pin Up Casino India",
+   "https://chakra-templates.dev/": "redirects to mainslotresmi.org: AGEN338 Slot88 / Slot Gacor",
+   "https://oruga.io/": "Vavada Casino KZ, in Russian",
+   "https://navnav.co/": "YOLO4D togel (Indonesian lottery) platform",
+   "https://uniformcss.com/": "ARUSHOKI gambling sign-up, in Indonesian",
+   "https://alyle.io/": "redirects to visitcryptoville.com: Xoilac TV sports betting, in Vietnamese",
+   "http://oocss.org/": "'Learn to play & win real money online. Built for casino lovers.'"
+  }
+ },
  "https://bumbag.style/": {
   "label": "possessed",
   "note": "Redirects to an expireddomains.com 'buy this expired domain' listing; was the Bumbag React UI kit."

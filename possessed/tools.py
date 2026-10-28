@@ -18,6 +18,11 @@ def error(category, message, retryable=False):
     return {"isError": True, "errorCategory": category, "isRetryable": retryable, "message": message}
 
 
+def _key(url):
+    """One spelling for a URL the model may write back with or without a trailing slash or the archive's id_ marker."""
+    return url.replace("id_/", "/").rstrip("/")
+
+
 def short(page, n=1500):
     return {
         "status": page.status, "checker_says": page.kind, "error": page.error,
@@ -32,17 +37,17 @@ class LinkTools:
         self.seen_live = {}                          # url -> Page
         self.seen_snapshots = {}                     # snapshot url -> Page
         if live is not None:
-            self.seen_live[link["url"]] = live
+            self.seen_live[_key(link["url"])] = live
         self.verdict = None
         self.refusals = []
 
     # ---- evidence
     def fetch_live(self, url: str | None = None):
         url = url or self.link["url"]
-        page = self.seen_live.get(url) or fetch(url)
-        self.seen_live[url] = page
+        page = self.seen_live.get(_key(url)) or fetch(url)
+        self.seen_live[_key(url)] = page
         if page.final_url:
-            self.seen_live.setdefault(page.final_url, page)
+            self.seen_live.setdefault(_key(page.final_url), page)
         return short(page)
 
     def find_snapshot(self, url: str | None = None, near_date: str | None = None):
@@ -68,7 +73,7 @@ class LinkTools:
         page = archived(str(timestamp), url)
         if page.error:
             return error("transient", page.error, retryable=True)
-        self.seen_snapshots[page.url] = page
+        self.seen_snapshots[_key(page.url)] = page
         return {"snapshot_url": page.url, **short(page)}
 
     # ---- verdicts
@@ -76,7 +81,7 @@ class LinkTools:
         return self._decide("fine", reason=reason)
 
     def moved(self, new_url: str, reason: str):
-        page = self.seen_live.get(new_url)
+        page = self.seen_live.get(_key(new_url))
         if page is None:
             return self._refuse(f"moved: {new_url} was never opened with fetch_live in this session. Open it first.")
         if page.kind != "ok":
@@ -94,17 +99,20 @@ class LinkTools:
         return self._archived_verdict("dead", replacement, reason)
 
     def _archived_verdict(self, name, replacement, reason, **extra):
-        page = self.seen_snapshots.get(replacement)
+        page = self.seen_snapshots.get(_key(replacement))
         if page is None:
             return self._refuse(f"{name}: {replacement} is not a snapshot you opened with read_snapshot. "
                                 "Open the snapshot you want to link to, then try again. If the archive has no "
                                 "capture (try the parent path too), give the verdict with no replacement.")
         if page.status != 200 or not page.text:
             return self._refuse(f"{name}: that snapshot returned {page.status} with no readable text.")
-        if page.title.lower().startswith("index of") or len(page.text) < 200:
-            return self._refuse(f"{name}: that snapshot is an empty listing ('{page.title}'), not the resource. "
+        if page.title.lower().startswith("index of"):
+            return self._refuse(f"{name}: that snapshot is a bare directory listing ('{page.title}'), not the resource. "
                                 "Try another capture, or give the verdict with no replacement.")
-        return self._decide(name, replacement=replacement, reason=reason, **extra)
+        if not page.readable:
+            return self._refuse(f"{name}: that snapshot has almost no text and only a generic title ('{page.title}'); "
+                                "the archive could not render it. Try another capture, or give the verdict with no replacement.")
+        return self._decide(name, replacement=page.url, reason=reason, **extra)
 
     def _refuse(self, message):
         self.refusals.append(message)

@@ -97,9 +97,38 @@ def judge_all(limit=None):
             print(f"[{i}/{len(todo)}] {v.get('verdict', 'ERROR'):9s} {r['url'][:90]}", flush=True)
 
 
+def export():
+    """Write the judged links in the same shape repo.py produces, so second_opinion and eval run unchanged.
+
+    Traces stay in data/ except for flagged links, whose trace is the evidence."""
+    best, checks = cases()
+    tri = {r["url"]: r for r in load(DATA / "triage.jsonl")}
+    out = []
+    for v in load(DATA / "verdicts.jsonl"):
+        c, t, k = best[v["url"]], tri[v["url"]], checks[v["url"]]
+        flagged = v["verdict"].get("verdict") in ("possessed", "moved", "dead")
+        out.append({"url": v["url"], "file": c["post_url"], "anchor": c.get("anchor", ""), "sentence": c.get("sentence", ""),
+                    "added_on": c["published"][:10], "live_final_url": k.get("final_url"), "live_title": k.get("title"),
+                    "signals": {s: t[s] for s in ("moved_away", "to_homepage", "parked_words")},
+                    "similarity": t["similarity"], "low_similarity": t["low_similarity"], "control": v["control"],
+                    "post_id": v["post_id"], "post_title": c["post_title"], "reactions": c["reactions"],
+                    "verdict": v["verdict"], "refusals": v["refusals"], "seconds": v["seconds"],
+                    "trace": v["trace"] if flagged else None})
+    p = Path("results/dev-study/possessed.json")
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(out, indent=1, default=str, ensure_ascii=False), encoding="utf-8")
+    kinds = {}
+    for v in out:
+        key = v["verdict"].get("verdict", "ERROR")
+        kinds[key] = kinds.get(key, 0) + 1
+    print(f"{len(out)} judged -> {p}: {kinds}")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "triage"
     if cmd == "triage":
         triage()
+    elif cmd == "export":
+        export()
     else:
         judge_all(int(sys.argv[2]) if len(sys.argv) > 2 else None)

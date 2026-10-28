@@ -65,7 +65,11 @@ def scan(root, limit=None):
     kinds = {}
     for p in pages.values():
         kinds[p.kind] = kinds.get(p.kind, 0) + 1
-    print(f"link checker view: {kinds}; Gemma 4 will read {min(len(cand), limit or len(cand))} of the {len(ok)} it passes", flush=True)
+    read = len(cand) if limit is None else min(len(cand), limit)
+    print(f"link checker view: {kinds}; Gemma 4 will read {read} of the {len(ok)} it passes", flush=True)
+    summary = {"links": len(found), "unique": len(urls), "files": len({l["file"] for l in found}), "checker": kinds,
+               "unreadable": len(unreadable), "readable": len(ok), "candidates": len(cand), "read": read,
+               "scanned_on": date.today().isoformat()}
 
     results = []
     for l, sig, s in cand[:limit]:
@@ -76,7 +80,7 @@ def scan(root, limit=None):
                         "added_on": when, "live_final_url": pages[l["url"]].final_url, "live_title": pages[l["url"]].title,
                         "signals": sig, "similarity": round(s, 4), "verdict": v, "refusals": tools.refusals, "trace": log})
         print(f"  {v.get('verdict', 'ERROR'):9s} {l['url'][:100]}", flush=True)
-    return found, results
+    return found, results, summary
 
 
 def apply(root, found, results):
@@ -131,10 +135,11 @@ if __name__ == "__main__":
     ap.add_argument("--no-write", action="store_true", help="judge only, do not edit files")
     ap.add_argument("--out", help="folder for possessed.json and possessed-report.md (default: the repository)")
     a = ap.parse_args()
-    found, results = scan(a.path, a.limit)
+    found, results, summary = scan(a.path, a.limit)
     fixes = {} if a.no_write else apply(a.path, found, results)
     out = Path(a.out or a.path)
     out.mkdir(parents=True, exist_ok=True)
     (out / "possessed.json").write_text(json.dumps(results, indent=1, default=str), encoding="utf-8")
+    (out / "summary.json").write_text(json.dumps(summary, indent=1), encoding="utf-8")
     (out / "possessed-report.md").write_text(report(results, fixes), encoding="utf-8")
     print(f"{len(fixes)} links fixed; report in {out / 'possessed-report.md'}")

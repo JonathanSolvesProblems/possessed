@@ -20,7 +20,8 @@ BLOCKED = {401, 403, 405, 406, 429, 451, 999}
 CHALLENGE = re.compile(r"^(client challenge|just a moment|attention required|verify you are human|human verification|"
                        r"access denied|are you a robot|security check|ddos-guard|please wait)", re.I)
 MIN_TEXT = 200  # less visible text than this, with no real title, is a JavaScript shell we cannot read without a browser
-GENERIC_TITLE = re.compile(r"^(vue app|react app|vite app|app|loading\.*|untitled|home|document|chrome web store)$", re.I)
+GENERIC_TITLE = re.compile(r"^(vue app|react app|vite app|vite \+ [\w +]+|webpack app|storybook|app|untitled|home|document|"
+                           r"chrome web store|sandbox - codesandbox|.*\bloading\b.*)$", re.I)
 TIMEOUT = 20
 _session = requests.Session()
 _session.headers.update({"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
