@@ -1,14 +1,14 @@
 # YouTube upload
 
-File: b-roll\possessed-demo.mp4 (1920x1080, 87 s, 48 kHz). Thumbnail: b-roll\s00-title.png or post\cover.png.
+File: b-roll\possessed-demo.mp4 (1920x1080, 87 s, 48 kHz). Thumbnail: b-roll\thumbnail\a-200-ok.jpg.
 
 ## Title
 
-Your link checker is green. Eight of those links open a casino. (Possessed, built on Gemma 4)
+I found 8 casino sites hiding in a 67k-star GitHub repo (Gemma 4 agent)
 
 ## Description
 
-A link checker asks one question: did the server answer? When a domain expires and someone buys it, the server still answers 200, and your readers land on a slot site.
+A link checker asks one question: did the server answer? When a domain expires and someone buys it, the server still answers 200 OK, and your readers land on a slot site.
 
 Possessed is a GitHub Action that runs after your link checker. For every link the checker passed, Gemma 4 (through Ollama, on the runner, no API key) opens the page as it is today and the Internet Archive's capture from the day the link was added, and decides: fine, moved, possessed, or dead. It cannot invent a fix: a replacement it never opened is refused by code. Then it opens one pull request with the evidence in every row.
 
@@ -30,6 +30,8 @@ Built for the DEV Hacktoberfest Open-Source AI Challenge, week 4: Ghost in the M
 1:03 awesome-vue #4593
 1:18 Every Monday
 
+#Gemma4 #Hacktoberfest #OpenSource
+
 ## Tags
 
-gemma, ollama, github actions, link checker, open source, internet archive, hacktoberfest, dev challenge, ai agents, local llm
+gemma 4, gemma, ollama, local llm, open source ai, ai agent, github actions, link checker, broken links, internet archive, wayback machine, hacktoberfest, hacktoberfest 2026, dev challenge, open weights
