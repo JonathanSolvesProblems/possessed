@@ -1,6 +1,6 @@
 # YouTube upload
 
-File: b-roll\possessed-demo.mp4 (1920x1080, 91 s, 48 kHz). Thumbnail: b-roll\s00-title.png or post\cover.png.
+File: b-roll\possessed-demo.mp4 (1920x1080, 87 s, 48 kHz). Thumbnail: b-roll\s00-title.png or post\cover.png.
 
 ## Title
 
