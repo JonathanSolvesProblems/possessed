@@ -3,14 +3,14 @@
  "app_type": "web",
  "browser": {"color_scheme": "dark"},
  "shots": [
-  {"id": "01-repo", "label": "design-resources-for-developers", "capture_type": "web_screencast", "effect": "none", "duration": 12,
+  {"id": "01-repo", "label": "design-resources-for-developers", "capture_type": "web_screencast", "effect": "none", "duration": 4,
    "actions": [
     {"type": "navigate", "url": "https://github.com/bradtraversy/design-resources-for-developers"},
-    {"type": "wait", "seconds": 2.5},
-    {"type": "scroll"}, {"type": "wait", "seconds": 1.2}, {"type": "scroll"}, {"type": "wait", "seconds": 1.2},
-    {"type": "scroll"}, {"type": "wait", "seconds": 2}
+    {"type": "wait", "seconds": 2},
+    {"type": "smooth_scroll", "pixels": 1300, "seconds": 6},
+    {"type": "wait", "seconds": 2}
    ]},
-  {"id": "02-chakra", "label": "Click Chakra Templates", "capture_type": "web_screencast", "effect": "none", "duration": 18,
+  {"id": "02-chakra", "label": "Click Chakra Templates", "capture_type": "web_screencast", "effect": "none", "duration": 4,
    "actions": [
     {"type": "navigate", "url": "https://github.com/bradtraversy/design-resources-for-developers#react-ui-libraries"},
     {"type": "wait", "seconds": 2},
@@ -18,52 +18,56 @@
     {"type": "hover", "selector": "a[href=\"https://chakra-templates.dev/\"]"},
     {"type": "wait", "seconds": 1.2},
     {"type": "click", "selector": "a[href=\"https://chakra-templates.dev/\"]"},
-    {"type": "wait", "seconds": 8}
+    {"type": "wait", "seconds": 3},
+    {"type": "smooth_scroll", "pixels": 1800, "seconds": 5},
+    {"type": "wait", "seconds": 2.5}
    ]},
-  {"id": "03-action-run", "label": "The Action on a hosted runner", "capture_type": "web_screencast", "effect": "none", "duration": 16,
+  {"id": "03-action-run", "label": "The Action on a hosted runner", "capture_type": "web_screencast", "effect": "none", "duration": 4,
    "actions": [
     {"type": "navigate", "url": "https://github.com/JonathanSolvesProblems/design-resources-for-developers/actions/runs/40754497245/job/123049681719"},
-    {"type": "wait", "seconds": 3},
-    {"type": "evaluate", "script": "const el=[...document.querySelectorAll('summary, button, span, div')].find(e=>e.children.length<3 && e.textContent.trim().startsWith('Read the links')); if(el) el.click();", "settle": 3},
-    {"type": "scroll"}, {"type": "wait", "seconds": 1.2}, {"type": "scroll"}, {"type": "wait", "seconds": 1.2}, {"type": "scroll"}, {"type": "wait", "seconds": 2}
+    {"type": "wait", "seconds": 1.5},
+    {"type": "evaluate", "script": "const el=[...document.querySelectorAll('summary, button, span, div')].find(e=>e.children.length<3 && e.textContent.trim().startsWith('Read the links')); if(el) el.click();", "settle": 1.5},
+    {"type": "smooth_scroll", "pixels": 1200, "seconds": 5},
+    {"type": "wait", "seconds": 2}
    ]},
-  {"id": "04-readme", "label": "Possessed", "capture_type": "web_screencast", "effect": "none", "duration": 9,
+  {"id": "04-readme", "label": "Possessed", "capture_type": "web_screencast", "effect": "none", "duration": 4,
    "actions": [
     {"type": "navigate", "url": "https://github.com/JonathanSolvesProblems/possessed"},
-    {"type": "wait", "seconds": 2.5},
-    {"type": "scroll"}, {"type": "wait", "seconds": 1.5}, {"type": "scroll"}, {"type": "wait", "seconds": 2}
+    {"type": "wait", "seconds": 1},
+    {"type": "smooth_scroll", "pixels": 700, "seconds": 3.5},
+    {"type": "wait", "seconds": 1.5}
    ]},
-  {"id": "05-pr1", "label": "The PR the Action opened", "capture_type": "web_screencast", "effect": "none", "duration": 22,
+  {"id": "05-pr1", "label": "The PR the Action opened", "capture_type": "web_screencast", "effect": "none", "duration": 4,
    "actions": [
     {"type": "navigate", "url": "https://github.com/JonathanSolvesProblems/design-resources-for-developers/pull/1"},
-    {"type": "wait", "seconds": 2.5},
-    {"type": "scroll"}, {"type": "wait", "seconds": 1.5}, {"type": "scroll"}, {"type": "wait", "seconds": 1.5},
+    {"type": "wait", "seconds": 1.5},
+    {"type": "smooth_scroll", "pixels": 900, "seconds": 4},
+    {"type": "wait", "seconds": 0.8},
     {"type": "click", "selector": "a[href=\"https://web.archive.org/web/20220603052424/https://chakra-templates.dev/\"]"},
-    {"type": "wait", "seconds": 10}
+    {"type": "wait", "seconds": 3},
+    {"type": "smooth_scroll", "pixels": 600, "seconds": 3},
+    {"type": "wait", "seconds": 2}
    ]},
-  {"id": "06-pr4593", "label": "vuejs/awesome-vue #4593", "capture_type": "web_screencast", "effect": "none", "duration": 14,
+  {"id": "06-pr4593", "label": "vuejs/awesome-vue #4593", "capture_type": "web_screencast", "effect": "none", "duration": 4,
    "actions": [
     {"type": "navigate", "url": "https://github.com/vuejs/awesome-vue/pull/4593"},
-    {"type": "wait", "seconds": 2.5},
-    {"type": "scroll"}, {"type": "wait", "seconds": 1.5}, {"type": "scroll"}, {"type": "wait", "seconds": 1.5}, {"type": "scroll"}, {"type": "wait", "seconds": 2}
+    {"type": "wait", "seconds": 1.5},
+    {"type": "smooth_scroll", "pixels": 1500, "seconds": 6},
+    {"type": "wait", "seconds": 2}
    ]},
-  {"id": "07-gamevix", "label": "gamevix.com today", "capture_type": "web_screencast", "effect": "none", "duration": 10,
+  {"id": "07-gamevix", "label": "gamevix.com today", "capture_type": "web_screencast", "effect": "none", "duration": 4,
    "actions": [
     {"type": "navigate", "url": "https://www.gamevix.com/"},
-    {"type": "wait", "seconds": 5},
-    {"type": "scroll"}, {"type": "wait", "seconds": 2}
+    {"type": "wait", "seconds": 3},
+    {"type": "smooth_scroll", "pixels": 1000, "seconds": 4},
+    {"type": "wait", "seconds": 1.5}
    ]},
-  {"id": "08-pr4593-files", "label": "Six entries removed", "capture_type": "web_screencast", "effect": "none", "duration": 12,
+  {"id": "08-pr4593-files", "label": "Six entries removed", "capture_type": "web_screencast", "effect": "none", "duration": 4,
    "actions": [
     {"type": "navigate", "url": "https://github.com/vuejs/awesome-vue/pull/4593/files"},
-    {"type": "wait", "seconds": 3},
-    {"type": "scroll"}, {"type": "wait", "seconds": 1.5}, {"type": "scroll"}, {"type": "wait", "seconds": 3}
-   ]},
-  {"id": "09-archive-chakra", "label": "Chakra Templates, June 2022", "capture_type": "web_screencast", "effect": "none", "duration": 10,
-   "actions": [
-    {"type": "navigate", "url": "https://web.archive.org/web/20220603052424/https://chakra-templates.dev/"},
-    {"type": "wait", "seconds": 4},
-    {"type": "scroll"}, {"type": "wait", "seconds": 1.5}, {"type": "scroll"}, {"type": "wait", "seconds": 2}
+    {"type": "wait", "seconds": 2},
+    {"type": "smooth_scroll", "pixels": 1400, "seconds": 5.5},
+    {"type": "wait", "seconds": 2}
    ]}
  ]
 }

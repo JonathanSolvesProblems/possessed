@@ -1,6 +1,6 @@
 # YouTube upload
 
-File: b-roll\possessed-demo.mp4 (1920x1080, 92 s, 48 kHz). Thumbnail: b-roll\s00-title.png or post\cover.png.
+File: b-roll\possessed-demo.mp4 (1920x1080, 91 s, 48 kHz). Thumbnail: b-roll\s00-title.png or post\cover.png.
 
 ## Title
 
@@ -22,13 +22,13 @@ Write-up: [DEV post link]
 Built for the DEV Hacktoberfest Open-Source AI Challenge, week 4: Ghost in the Machine. Models: gemma4:e4b, embeddinggemma, qwen3.5:4b as a blind second judge.
 
 0:00 The checker is green
-0:12 Click Chakra Templates
-0:25 Possessed on the GitHub runner
-0:34 Gemma 4 picks its own evidence
-0:49 The gate refuses an unopened replacement
-0:55 The pull request
-1:05 awesome-vue #4593
-1:17 Every Monday
+0:10 Click Chakra Templates
+0:24 Possessed on the GitHub runner
+0:33 Gemma 4 picks its own evidence
+0:48 The gate refuses an unopened replacement
+0:54 The pull request
+1:03 awesome-vue #4593
+1:18 Every Monday
 
 ## Tags
 
