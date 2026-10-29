@@ -1,0 +1,20 @@
+{
+ "posts": 1000,
+ "unique_links": 13788,
+ "checker": {
+  "ok": 11259,
+  "dead": 772,
+  "blocked": 1267,
+  "unreachable": 490
+ },
+ "readable_passing": 11119,
+ "candidates": 2951,
+ "controls": 150,
+ "signal_counts": {
+  "moved_away": 902,
+  "to_homepage": 126,
+  "parked_words": 46,
+  "low_similarity": 2224
+ },
+ "crawled_on": "2026-10-27"
+}

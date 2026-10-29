@@ -4436,5 +4436,281 @@
     "text": "800+ Free Website Templates | HTML & Bootstrap 2020 - Colorlib skip to Main Content Our free WordPress themes are downloaded over 3 MILLION times. Get them now! Twitter Facebook Pinterest Instagram LinkedIn Youtube Github Home We Are Hiring! About Colorlib Advertise on Colorlib Contact us Our Contributors Privacy Policy Terms and Conditions Support Forum Free Themes Activello About Activello Activello Documentation Illdy Theme About Illdy Illdy Documentation Shapely About Shapely Shapely Documentation Sparkling About Sparkling Sparkling Documentation Dazzling About Dazzling Dazzling Documentation Travelify About Travelify Travelify Documentation Unite About Unite Unite Documentation Pinbin About Pinbin Pinbin Documentation Other WP Themes HTML Templates Premium Themes Theme Collections 3 Column Affiliate Marketing Creative Genesis Child Themes eCommerce Education Health & Medical HQ Themes Landing Page Magazine Multipurpose Most Popular SPA & Hair Salon Theme Collections App Showcase AdSense Ready Blog Business Coming Soon Church Directory Eco & Green Flat Design Portfolio One Page SEO Friendly Theme Collections Architect Bootstrap Fashion Job Board FullScreen Fast Loading Feminine"
    }
   }
+ },
+ {
+  "url": "https://www.devwares.com/windframe/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The same Tailwind CSS builder tool",
+  "qwen_why": "The site rebranded its URL but remains the original product with identical core functionality.",
+  "evidence": {
+   "link": "https://www.devwares.com/windframe/",
+   "linked_on": "2021-09-20",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://windframe.dev/",
+    "title": "Tailwind Builder - AI-Powered Tailwind CSS Visual Builder",
+    "text": "Tailwind Builder - AI-Powered Tailwind CSS Visual Builder Docs MCP Styles Import Blocks Pricing Support Refer and earn Changelog Login Sign Up 🚀 Just launched Apple UI design taste for AI agents — create polished UIs using Apple’s design style. Try it now → Built in Windframe ✨ Create stunning UIs & websites 10x faster Get Started Explore docs Use our Tailwind builder to create beautiful websites and UIs 10x faster. Generate designs with AI or using prebuilt templates, tweak them in a powerful visual editor, and export production-ready Tailwind CSS code for React, Vue, Svelte, or HTML. Used by over 15k+ developers Used by Engineers at How It Works Transform your ideas into production-ready applications with our intelligent Tailwind builder and design system. AI & Templates Start with AI or browse templates. AI Generation \"Modern landing page with hero section\" Generating... Template Library Generate with AI & Templates Start with AI generation from simple prompts or choose from 1,000+ professionally crafted templates. Get great defaults out of the box with smart design decisions built in. Visual Editor Customize with precision. Drag & Drop Editor Properties Panel Color Size Customi"
+   },
+   "archive_when_linked": {
+    "captured": "20210920",
+    "title": "Windframe - Most advanced no code Tailwind CSS page builder",
+    "text": "Windframe - Most advanced no code Tailwind CSS page builder Windframe Resources Products Docs Blog Contact Sign up Sign in Windframe Resources Products Docs Blog Sign In Sign Up Rapidly Build and Prototype websites using a drag and drop Tailwind CSS page builder Create stunning websites and prototypes using a tailwind website builder built with development in mind. Easily create a lanidng, product, About us, contact page website or prototype in minutes using 200+ editable tailwind template blocks you can put together in any form you wish. Create a website Windframe gives you the ability to build tailwindcss websites using a drag and drop interface with immeasurable customization options. Start building for free Your browser does not support the video tag. Numerous Tailwindcss blocks to build with using a drag and drop editor Windframe features a large collection of beautiful already built tailwindcss blocks which you can customize in any way you want using an intuitive drag and drop editor. Preview Components Edit and update website content easily Projects and websites built on windframe can be saved and easily updated anytime. This makes the process more intutitve and not requirin"
+   }
+  }
+ },
+ {
+  "url": "https://ikonate.com/",
+  "gemma": "possessed",
+  "qwen": "possessed",
+  "qwen_now_shows": "Domain for sale",
+  "qwen_why": "The link now redirects to a domain listing page indicating the site is available for purchase rather than the original icon service.",
+  "evidence": {
+   "link": "https://ikonate.com/",
+   "linked_on": "2020-05-15",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://www.DropCatch.com/domain/ikonate.com",
+    "title": "DropCatch.com",
+    "text": "DropCatch.com"
+   },
+   "archive_when_linked": {
+    "captured": "20200514",
+    "title": "Ikonate – fully customisable & accessible vector icons",
+    "text": "Ikonate – fully customisable & accessible vector icons"
+   }
+  }
+ },
+ {
+  "url": "https://material-ui.com/",
+  "gemma": "moved",
+  "qwen": "fine",
+  "qwen_now_shows": "The official Material UI website with updated branding and v9 announcement",
+  "qwen_why": "The link redirects to the current official site, which is a harmless rebranding of the original project.",
+  "evidence": {
+   "link": "https://material-ui.com/",
+   "linked_on": "2020-05-06",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://mui.com/material-ui/",
+    "title": "Material UI: React components that implement Material Design",
+    "text": "Material UI: React components that implement Material Design Skip to content 🚀 Material UI and MUI X v9 are out! Check out the announcement blogpost → Products Docs Pricing About us Blog Search… Products MUI Core Ready-to-use foundational React components, free forever. MUI X Advanced and powerful components for complex use cases. Templates Fully built templates for your application. Design Kits Material UI components in your favorite design tool. Docs Material UI Component library that implements Google's Material Design. Base UI Unstyled components for building accessible UIs. MUI System CSS utilities for rapidly laying out custom designs. MUI X Advanced components for complex use cases. Pricing About us Blog MUI Core / Material UI Ready to use Material Design components Material UI is an open-source React component library that implements Google's Material Design. It's comprehensive and can be used in production out of the box. Get started View templates $ npm install @mui/material @emotion/react @emotion/styled Copy Material UI installation command Search for React UI libraries Spot Material UI Choose Material UI Usage Material UI components work in isolation. They are self-con"
+   },
+   "archive_when_linked": {
+    "captured": "20200503",
+    "title": "Material-UI: A popular React UI framework",
+    "text": "Material-UI: A popular React UI framework Skip to content English 0 MATERIAL-UI React components for faster and easier web development. Build your own design system, or start with Material Design. Get Started Star Follow Get Professional Support A quick word from our sponsors: Installation Install Material-UI's source files via npm. We take care of injecting the CSS needed. $ npm install @material - ui / core or use a CDN. Load the default Roboto font. < link rel = \" stylesheet \" href = \" https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap \" /> Read installation docs Usage Material-UI components work without any additional setup, and don't pollute the global scope. import React from 'react' ; import { Button } from '@material-ui/core' ; function App ( ) { return < Button color = \" primary \" > Hello World </ Button > ; } Explore the docs Material-UI Community GitHub Twitter StackOverflow Team Resources Support Blog Material Icons Company About Contact Us Currently v4.9.12 . Released under the MIT License . Copyright © 2020 Material-UI."
+   }
+  }
+ },
+ {
+  "url": "https://vuetensils.stegosource.com/",
+  "gemma": "moved",
+  "qwen": "fine",
+  "qwen_now_shows": "The same component library website",
+  "qwen_why": "The domain was simply redirected from stegosource.com to austingil.com while maintaining the exact same content and purpose.",
+  "evidence": {
+   "link": "https://vuetensils.stegosource.com/",
+   "linked_on": "2022-03-22",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://vuetensils.austingil.com/",
+    "title": "| Vuetensils",
+    "text": "| Vuetensils Vuetensils Home Docs GitHub open in new window Home Docs GitHub open in new window Vuetensils A 'naked' component library for building accessible, lightweight, on-brand applications. Get Started → A11y Focused Follows WAI-ARIA authoring practices for accessibility baked in; semantics, ARIA attributes, roles, etc. Lightweight Include only the functionality you need, start from bare minimum styles, avoid bloat from unused code. Extensible Common features that can be used to build complex applications or as a foundation for a custom library. Sign up for the newsletter to get the latest updates. MIT Licensed | Copyright © 2018-present | Made with ❤️️ by Austin Gil"
+   },
+   "archive_when_linked": {
+    "captured": "20220125",
+    "title": "Vuetensils",
+    "text": "Vuetensils Vuetensils Home Docs GitHub (opens new window) Home Docs GitHub (opens new window) Introduction Components Alert Async Btn Date Dialog Drawer Dropdown File Form Img Input Intersect Resize Skip Tabs Table Toggle Tooltip Try Directives autofocus clickout copy intersect Filters capitalize currency number plural truncate Composables useAsync WIP useForm WIP Cookbook Vuetensils A 'naked' component library for building accessible, lightweight, on-brand applications. Get Started → A11y Focused Follows WAI-ARIA authoring practices for accessibility baked in; semantics, ARIA attributes, roles, etc. Lightweight Include only the functionality you need, start from bare minimum styles, avoid bloat from unused code. Extensible Common features that can be used to build complex applications or as a foundation for a custom library. Sign up for the newsletter to get the latest updates. MIT Licensed | Copyright © 2018-present | Made with ❤️️ by Austin Gil"
+   }
+  }
+ },
+ {
+  "url": "https://reaviz.io",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official documentation site for the Reaviz library",
+  "qwen_why": "The domain was simply updated from reaviz.io to reaviz.dev while maintaining the same content and purpose.",
+  "evidence": {
+   "link": "https://reaviz.io",
+   "linked_on": "2020-05-11",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://reaviz.dev",
+    "title": "reaviz - Data visualization library for React",
+    "text": "reaviz - Data visualization library for React Skip to Content CTRL K Home Docs 👋 ⏐ Introduction 🚀 ⏐ Getting Started Setup Why Developing Data Shapes Colors Custom Charts Migration Guide 📊 ⏐ Charts Area Chart Bar Chart Bar List Bubble Chart Funnel Chart Heatmap Line Chart Linear Gauge Map Meter Pie Chart Radar Radial Area Chart Radial Bar Chart Radial Gauge Radial Scatter Plot Sankey Plot Scatter Plot Sunburst Chart 🆕 Sparkline Tree Map Venn Diagram Word Cloud 🆕 ⚙️ ⏐ Utils Axis Brush Count Glow Gradient Gridlines Legends Markline Mask Tooltips Value Marker Zoom Pan 🤖 ⏐ AI Skills 📓 ⏐ Changelog Blocks 👋 ⏐ Introduction 📊 ⏐ Charts Area Chart Bar Chart Funnel Chart Heatmap Scatter Plot Storybook Support Light Reaviz Open main menu Docs Blocks Storybook GitHub Enterprise ready Open-Source Data Visualizations Our collection of 22+ enterprise-grade, open-source data visualization components for React provide the building blocks you need to bring your data to life. Get Started Demos → Highly Customizable Built on D3 for high customization and flexibility Seamless Animations Reaviz uses Motion for smooth animations and transitions. Accessibility Built with accessibility in mind, featuring scr"
+   },
+   "archive_when_linked": {
+    "captured": "20191205",
+    "title": "Storybook",
+    "text": "Storybook REAVIZ"
+   }
+  }
+ },
+ {
+  "url": "https://shape.so/pricing",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "Pricing page for Shape 2",
+  "qwen_why": "The link redirects to the current pricing page of the same product, which is harmless and functional.",
+  "evidence": {
+   "link": "https://shape.so/pricing",
+   "linked_on": "2020-05-06",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://shape.so/pricing/",
+    "title": "Shape 2",
+    "text": "Shape 2"
+   },
+   "archive_when_linked": {
+    "captured": "20201126",
+    "title": "Shape 2",
+    "text": "Shape 2"
+   }
+  }
+ },
+ {
+  "url": "https://github.com/mrdoob/three.js/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The official three.js repository on GitHub",
+  "qwen_why": "The link still points to the correct project page where the library is hosted and documented.",
+  "evidence": {
+   "link": "https://github.com/mrdoob/three.js/",
+   "linked_on": "2020-05-08",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://github.com/mrdoob/three.js/",
+    "title": "GitHub - mrdoob/three.js: JavaScript 3D Library. · GitHub",
+    "text": "GitHub - mrdoob/three.js: JavaScript 3D Library. · GitHub Skip to content Navigation Menu Sign in Products Platform GitHub Repository hosting, code review, and collaboration Copilot AI coding agent for tasks, projects and automated work Build & Ship Actions CI/CD and automation Code Quality Quality analysis, fixes, and enforcement Codespaces Cloud development environments Secure Code Security Vulnerability detection and remediation Secret Protection Secret scanning and leak prevention All Features Developers Learn Documentation Training Certifications Build Build with Copilot Customize Copilot Integrations Explore Trending repos GitHub Sponsors Events Changelog Changelog Your source for the latest features, improvements, and fixes across GitHub products, all in one place. Businesses By Stage Enterprises Team Startups Nonprofits By Industry Healthcare Financial services Manufacturing Government See all industries Evaluate GitHub Why GitHub Customer Stories Business insights Trust Center Add-ons GitHub Advanced Security Enterprise-grade code security Copilot for business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Resources Learn & Connect Documentation"
+   },
+   "archive_when_linked": {
+    "captured": "20200501",
+    "title": "GitHub - mrdoob/three.js: JavaScript 3D library.",
+    "text": "GitHub - mrdoob/three.js: JavaScript 3D library. Skip to content Why GitHub? Features → Code review Project management Integrations Actions Packages Security Team management Hosting Customer stories → Security → Team Enterprise Explore Explore GitHub → Learn & contribute Topics Collections Trending Learning Lab Open source guides Connect with others Events Community forum GitHub Education Marketplace Pricing Plans → Compare plans Contact Sales Nonprofit → Education → In this repository All GitHub ↵ Jump to ↵ No suggested jump to results In this repository All GitHub ↵ Jump to ↵ In this repository All GitHub ↵ Jump to ↵ Sign in Sign up mrdoob / three.js Watch 2.5k Star 60.2k Fork 23.3k Code Issues 447 Pull requests 123 Actions Projects 1 Wiki Security Insights Dismiss Join GitHub today GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together. Sign up JavaScript 3D library. https://threejs.org/ javascript 3d virtual-reality augmented-reality webgl webgl2 webaudio webxr canvas svg html5 32,893 commits 6 branches 0 packages 108 releases 1,253 contributors MIT JavaScript Other JavaScript 99.2% Other 0.8% Branch: "
+   }
+  }
+ },
+ {
+  "url": "https://www.a1.gallery",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The same curated website gallery with updated branding and a new Chrome extension feature.",
+  "qwen_why": "The site is live and functioning exactly as described in the article, offering the same core value of filtering websites by design attributes.",
+  "evidence": {
+   "link": "https://www.a1.gallery",
+   "linked_on": "2026-03-03",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://www.a1.gallery/",
+    "title": "Website design inspiration gallery · A1",
+    "text": "Website design inspiration gallery · A1 Skip to main content New Chrome extension: Design inspiration in every new tab → Websites Templates Pages Sections OG images Profiles Fonts Pricing Websites Templates Pages Sections OG images Profiles Fonts Pricing Submit Websites Templates Pages Sections OG images Profiles Fonts Pricing Sponsor Community boards New Blog Subscribe Chrome extension New MCP server About Feedback Log in or sign up Submit a site → The best websites on the web Web design inspiration for designers & developers Email address Get weekly roundup → Join 6,750+ designers. Unsubscribe at any time. All Agency Blog Directory Landing One page Portfolio Shop Template Waitlist AI Business Charity Climate Data Design Development Education Energy Entertainment Events Fashion Finance Food & drink Hardware Health Homeware Human resources Legal Marketing Music Photography Productivity Professional services Real estate Retail Science Security Social Software Sports Technology Transport Travel Typography Venture capital Video Web3 & crypto Writing Latest Torch Like Use for free Free AlterG Resources Like ↗ Lumen Like Buy for $79 $79 Clara Newman Like Use for free Free RmcStudio Like"
+   },
+   "archive_when_linked": {
+    "captured": "20260227",
+    "title": "A1 Gallery · Website design inspiration gallery",
+    "text": "A1 Gallery · Website design inspiration gallery Skip to main content Websites Templates Profiles Fonts Blog About Subscribe Submit Websites Templates Profiles Fonts Blog About Subscribe Submit a site → The best websites on the web Web design inspiration for designers & developers Email address Get weekly roundup → All Agency Blog Directory Landing One page Portfolio Shop Template Waitlist AI Business Charity Climate Data Design Development Education Energy Entertainment Events Fashion Finance Food & drink Hardware Health Homeware Human resources Legal Marketing Music Photography Productivity Professional services Real estate Retail Science Security Social Software Sports Technology Transport Travel Typography Venture capital Video Web3 & crypto Writing Michele Greco ↗ Last Studio Get template · Free Poch Studio ↗ Eduardo Duccigne ↗ Unlimited Framer templates Sponsored Google Cloud x Team USA ↗ Andre Candido ↗ Uttkarsh Mandaknale ↗ Framer Sponsored Edoardo Lunardi ↗ Will Beeching ↗ New Studio ↗ Delcio Designs ↗ ToDesktop ↗ Top collections All collections → Animated + Landing 181 sites Sans-serif + Landing 153 sites Minimal + Design 133 sites Pattern + Landing 124 sites Webflow + Lan"
+   }
+  }
+ },
+ {
+  "url": "https://www.publicdomainpictures.net/en/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The same public domain image hosting site with updated AI features",
+  "qwen_why": "The link still leads to the exact same service offering free public domain images, despite minor UI updates and a rebranding of their tools.",
+  "evidence": {
+   "link": "https://www.publicdomainpictures.net/en/",
+   "linked_on": "2020-05-06",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://www.publicdomainpictures.net/en/",
+    "title": "Free Public Domain Images, Photos & Illustrations | Public Domain Pictures",
+    "text": "Free Public Domain Images, Photos & Illustrations | Public Domain Pictures Skip to main content Images AI Studio Collections Popular Pro Competition Upload Free public domain images since 2007 Free Public Domain Images, Photos & Illustrations Search 790,000+ public domain pictures, from photos and illustrations to backgrounds and more. Download an image or create something new with our AI image generator and editor. Search images Generate with AI Edit with AI Search public domain images Search Seasonal ideas: Halloween Thanksgiving Black Friday Christmas 790,000+ public domain images Free downloads Standard-size images AI tools Generate and edit images Since 2007 Supporting a global community Advertisement Curated images Explore public domain pictures Latest Most popular View Snowflakes frame Vera Kratochvil View Magic Larisa Koshkina View Graffiti Michael Drummond View Gulf Fritilary Butterfly Paul Brennan View Made For Each Other clement joshua s View Strawberry splash Petr Kratochvil View Football boots Anna Langova View Girl 016 sokyun moeesyugyouchu View Wrinkles animal Rostislav Kralik View Brown branches pattern Petr Kratochvil View Alligator closeup Paul Brennan View Valent"
+   },
+   "archive_when_linked": {
+    "captured": "20200506",
+    "title": "Public Domain Pictures - Free Stock Photos",
+    "text": "Public Domain Pictures - Free Stock Photos $100 My Account Upload Image Top Images Latest Pictures Categories Stock Photos Seasonal Photos Welcome to Public Domain Pictures Random Free Pictures Professional Stock Photos from $1 ► Professional People Stock Photos Buy People Photos My Account Upload Image My Images Premium Membership Edit Your Details Log Out Statistics Tag Cloud Top Members Digital Cameras Services $100 Competition Photo Tutorials Contact Us Stock Photos Cookies Social Media EN CN CS DE ES FR HU IT JP NL PL PT RO RU SE 295,899 free pictures 3,756 users online Public Domain Pictures.net created by Bobek Ltd . Copyright 2007 - 2020 by Bobek Ltd. Registered in England and Wales No. 5951382"
+   }
+  }
+ },
+ {
+  "url": "https://www.calltoidea.com/",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The same community for link lovers",
+  "qwen_why": "The site remains active and serves the exact same purpose as described in 2020, despite minor UI updates.",
+  "evidence": {
+   "link": "https://www.calltoidea.com/",
+   "linked_on": "2020-06-28",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://www.calltoidea.com/",
+    "title": "Calltoidea - Light up your imagination",
+    "text": "Calltoidea - Light up your imagination Light up your imagination! first community for link lovers Comings Empty Page Error 404 Login Maintenance Popups Pricing Profile Register Testimonials Wizard Alerts Calendar Claim Coach Marks Counters Details Footer Form Gallery List Nav Players Popovers Sliders Stats Tabs Theme About Adwords Branding Careers Case Study Contact Dashboard Layouts Mailing support About Sponsor Privacy by brainin.it Light up your imagination! If you like Calltoidea, let's try the first community for link lovers. Comings Empty Page Error 404 Login Maintenance Popups Pricing Profile Register Testimonials Wizard Alerts Calendar Claim Coach Marks Counters Details Footer Form Gallery List Nav Players Popovers Sliders Stats Tabs Theme About Adwords Branding Careers Case Study Contact Dashboard Layouts Mailing support About Sponsor Privacy By Brainin"
+   },
+   "archive_when_linked": {
+    "captured": "20200511",
+    "title": "Calltoidea - Light up your imagination",
+    "text": "Calltoidea - Light up your imagination Light up your imagination! Follow @Calltoidea first community for link lovers inspiration for social profiles 404 Comings Empty Page Login Maintenance Popups Pricing Profile Register Testimonials Wizard Alerts Calendar Claim Coach Marks Counters Details Footer Form Gallery List Nav Players Popovers Sliders Stats Tabs Theme About Adwords Branding Careers Case Study Contact Dashboard Layouts Mailing support About Sponsor Privacy by brainin.it Light up your imagination! If you like Calltoidea, let's try the first community for link lovers. 404 Comings Empty Page Login Maintenance Popups Pricing Profile Register Testimonials Wizard Alerts Calendar Claim Coach Marks Counters Details Footer Form Gallery List Nav Players Popovers Sliders Stats Tabs Theme About Adwords Branding Careers Case Study Contact Dashboard Layouts Mailing support About Sponsor Privacy By Brainin"
+   }
+  }
+ },
+ {
+  "url": "https://icons8.com/lunacy",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The same free graphic design software",
+  "qwen_why": "The site remains active and hosts the exact same product described in the original article.",
+  "evidence": {
+   "link": "https://icons8.com/lunacy",
+   "linked_on": "2020-05-07",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://icons8.com/lunacy",
+    "title": "Lunacy - Free Graphic Design Software for Desktop: Download for Windows, Mac, Linux",
+    "text": "Lunacy - Free Graphic Design Software for Desktop: Download for Windows, Mac, Linux Lunacy Features Download Learn Lunacy Support Development Pricing More Icons All products English Sign in Icons Illustrations AI tools Also from Icons8: Photos Music Lunacy Blog Pricing Icons PNG and SVG icons in 130+ different styles Icons MCP Huge icon packs, right inside your AI agent AI icon generator Missing an icon? Generate it in the style you use Iconizer Edit SVG icons without tech skills Animated Icons The same icons, but moving. Lottie and GIF Emoji icons Our own emoji set, safe to ship in a product Styles iOS 27 Color Popular Claude Hand Drawn New Windows 11 Color All 130+ styles Apps and plugins Figma plugin Mac app Windows app All apps and plugins Icons Illustrations Photos Music Lunacy Blog Pricing Icons Icons MCP AI icon generator Iconizer Animated Icons Emoji icons iOS 27 Color Claude Hand Drawn Windows 11 Color All 130+ styles Figma plugin Mac app Windows app All apps and plugins Illustrations Illustrations MCP AI illustration generator 3D illustrations Animated Illustrations 3D models Claude Hand Drawn 3D Stickle Notion Line Art 3D Business All 330+ styles Figma plugin Mac app Win"
+   },
+   "archive_when_linked": {
+    "captured": "20200430",
+    "title": "Free Graphic Design Software",
+    "text": "Free Graphic Design Software Lunacy Documentation Request Features Release Notes Forum Free on the Windows Store Download en Lunacy 5.0 Graphic design software with built-in assets Built-in icons, photos, vector illustrations, and more. Full compatibility with Sketch. Free on the Windows Store 4.6 Direct download Free Performant Compatible Professional Private Supported Lunacy is a powerful vector design tool. It lets designers, who prefer Windows, access and produce Sketch-like designs without limitation or expense. Get Icons8 resources at hand Software makers don't get their hands dirty with content. Content makers don't produce software. We do. We draw graphics, take photos, and integrate them with the software as tight as no one. Icons Photos Masked Photos Vectors Full support of Sketch files We know compatibility is important. Lunacy is designed to work perfectly with Sketch files, old and new versions. .sketch files for editing Symbols and overrides Libraries Tons of small things Performance Lunacy is native Windows app. That means it takes full advantage of hardware and works perfectly offline. File open speed Memory consumption Lunacy 5.0 Figma Invision Studio Adobe XD 2x F"
+   }
+  }
+ },
+ {
+  "url": "https://github.com/zumerlab/orbit",
+  "gemma": "fine",
+  "qwen": "fine",
+  "qwen_now_shows": "The same Orbit CSS framework project on GitHub",
+  "qwen_why": "The link still points to the original repository hosting the exact same radial interface CSS framework described in the article.",
+  "evidence": {
+   "link": "https://github.com/zumerlab/orbit",
+   "linked_on": "2024-08-25",
+   "today": {
+    "status": 200,
+    "error": null,
+    "lands_on": "https://github.com/zumerlab/orbit",
+    "title": "GitHub - zumerlab/orbit: 💫 HTML on circles. A CSS layout system for radial UIs: gauges, dials, knobs, radial menus, charts and watch faces. · GitHub",
+    "text": "GitHub - zumerlab/orbit: 💫 HTML on circles. A CSS layout system for radial UIs: gauges, dials, knobs, radial menus, charts and watch faces. · GitHub Skip to content Navigation Menu Sign in Products Platform GitHub Repository hosting, code review, and collaboration Copilot AI coding agent for tasks, projects and automated work Build & Ship Actions CI/CD and automation Code Quality Quality analysis, fixes, and enforcement Codespaces Cloud development environments Secure Code Security Vulnerability detection and remediation Secret Protection Secret scanning and leak prevention All Features Developers Learn Documentation Training Certifications Build Build with Copilot Customize Copilot Integrations Explore Trending repos GitHub Sponsors Events Changelog Changelog Your source for the latest features, improvements, and fixes across GitHub products, all in one place. Businesses By Stage Enterprises Team Startups Nonprofits By Industry Healthcare Financial services Manufacturing Government See all industries Evaluate GitHub Why GitHub Customer Stories Business insights Trust Center Add-ons GitHub Advanced Security Enterprise-grade code security Copilot for business Enterprise-grade AI fea"
+   },
+   "archive_when_linked": {
+    "captured": "20240814",
+    "title": "GitHub - zumerlab/orbit: Create radial interfaces using only CSS.",
+    "text": "GitHub - zumerlab/orbit: Create radial interfaces using only CSS. Skip to content Navigation Menu Toggle navigation Sign in Product Actions Automate any workflow Packages Host and manage packages Security Find and fix vulnerabilities Codespaces Instant dev environments GitHub Copilot Write better code with AI Code review Manage code changes Issues Plan and track work Discussions Collaborate outside of code Explore All features Documentation GitHub Skills Blog Solutions By size Enterprise Teams Startups By industry Healthcare Financial services Manufacturing By use case CI/CD & Automation DevOps DevSecOps Resources Topics AI DevOps Security Software Development Explore Learning Pathways White papers, Ebooks, Webinars Customer Stories Partners Open Source GitHub Sponsors Fund open source developers The ReadME Project GitHub community articles Repositories Topics Trending Collections Enterprise Enterprise platform AI-powered developer platform Available add-ons Advanced Security Enterprise-grade security features GitHub Copilot Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests"
+   }
+  }
  }
 ]

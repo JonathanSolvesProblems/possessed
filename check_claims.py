@@ -69,6 +69,29 @@ def facts():
     assert spelling_only, "a refused replacement was NOT a spelling variant of an opened snapshot; the post's claim is false"
     dr = load("results/design-resources/possessed.json")
     f["dr.gpu_minutes"] = round(sum(e["seconds"] for r in dr for e in r["trace"]) / 60)
+    dev = load("results/dev-study/possessed.json")
+    dsec = {d["url"]: d["qwen"] for d in load("results/dev-study/second_opinion.json")}
+    dhand = load("results/labels_dev-study.json")
+    dsum = load("results/dev-study/summary.json")
+    f["dev.posts"], f["dev.unique"] = dsum["posts"], dsum["unique_links"]
+    f["dev.passing"] = dsum["readable_passing"]
+    f["dev.candidates"], f["dev.controls"] = dsum["candidates"], dsum["controls"]
+    f["dev.judged"] = len(dev)
+    ctrl = [r for r in dev if r["control"]]
+    f["dev.controls_fine"] = sum(r["verdict"].get("verdict") == "fine" for r in ctrl)
+    flagged = [r for r in dev if r["verdict"].get("verdict") in ("possessed", "moved", "dead")]
+
+    def dlabel(r):
+        g = r["verdict"]["verdict"]
+        return dhand.get(r["url"], {}).get("label") or (g if dsec.get(r["url"]) == g else None)
+
+    poss = [r for r in flagged if dlabel(r) == "possessed"]
+    f["dev.possessed"] = len(poss)
+    f["dev.posts_hit"] = len({r["post_id"] for r in poss})
+    f["dev.reach"] = sum({r["post_id"]: r["reactions"] or 0 for r in poss}.values())
+    f["dev.unconfirmed"] = sum(1 for r in flagged if dlabel(r) is None)
+    f["dev.corrected"] = sum(1 for u, v in dhand.items()
+                             if not u.startswith("_") and v["label"] not in ("possessed", "moved", "dead"))
     act = load("results/design-resources-action/possessed.json")
     run = load("results/design-resources-action/run.json")
     asum = load("results/design-resources-action/summary.json")
@@ -119,9 +142,22 @@ CLAIMS = [
     ("post/dev-post.md", r"Across [\d,]+ judgments on (\w+) lists", "lists", lambda x: {4: "four", 5: "five", 6: "six"}.get(x, str(x))),
     ("post/dev-post.md", r"the gate fired (\d+) times, and all \d+ were my bugs", "gate.refusals", str),
     ("post/dev-post.md", r"the gate fired \d+ times, and all (\d+) were my bugs", "gate.refusals", str),
-    ("post/dev-post.md", r": (\w+) were a trailing slash", "gate.unopened", lambda x: {10: "ten", 11: "eleven", 12: "twelve"}.get(x, str(x))),
-    ("post/dev-post.md", r", (\w+) were JavaScript-rendered snapshots", "gate.empty", lambda x: {10: "ten", 11: "eleven", 12: "twelve"}.get(x, str(x))),
-    ("post/dev-post.md", r"the same 194 links took (\d+) minutes", "dr.gpu_minutes", str),
+    ("post/dev-post.md", r": (\w+) were a trailing slash", "gate.unopened", lambda x: {7: "seven", 10: "ten", 11: "eleven", 12: "twelve"}.get(x, str(x))),
+    ("post/dev-post.md", r", (\w+) were JavaScript-rendered snapshots", "gate.empty", lambda x: {7: "seven", 10: "ten", 11: "eleven", 12: "twelve"}.get(x, str(x))),
+    ("post/dev-post.md", r"GPU the same (\d+) links took \d+ minutes", "dr.read", str),
+    ("post/dev-post.md", r"GPU the same \d+ links took (\d+) minutes", "dr.gpu_minutes", str),
+    ("post/dev-post.md", r"the ([\d,]+) most-loved posts on DEV", "dev.posts", n),
+    ("post/dev-post.md", r"pulled their ([\d,]+) unique links", "dev.unique", n),
+    ("post/dev-post.md", r"passes ([\d,]+) of them as readable", "dev.passing", n),
+    ("post/dev-post.md", r"[Tt]riage picked ([\d,]+) candidates", "dev.candidates", n),
+    ("post/dev-post.md", r"plus (\d+) random controls", "dev.controls", str),
+    ("post/dev-post.md", r"judged all ([\d,]+) of them", "dev.judged", n),
+    ("post/dev-post.md", r"(\d+) of the \d+ controls were fine", "dev.controls_fine", str),
+    ("post/dev-post.md", r"\d+ of the (\d+) controls were fine", "dev.controls", str),
+    ("post/dev-post.md", r"confirms? it: (\d+) links in \d+ posts", "dev.possessed", str),
+    ("post/dev-post.md", r"confirms? it: \d+ links in (\d+) posts", "dev.posts_hit", str),
+    ("post/dev-post.md", r"carrying ([\d,]+) reactions between them", "dev.reach", n),
+    ("post/dev-post.md", r"and the ([\d,]+) links Gemma flagged but Qwen did not confirm", "dev.unconfirmed", n),
     ("post/dev-post.md", r"on vuejs/awesome-vue: \[#4593\].*?\. (Six|\d+) entries\.", "vue.removed", lambda x: {6: "Six"}.get(x, str(x))),
     ("post/dev-post.md", r"pull/1\)\. (\w+) links, \w+ of them gambling sites", "action.fixed", lambda x: {7: "Seven"}.get(x, str(x))),
     ("post/dev-post.md", r"pull/1\)\. \w+ links, (\w+) of them gambling sites", "action.gambling", lambda x: {6: "six"}.get(x, str(x))),

@@ -1,19 +1,74 @@
 {
  "source": "results\\design-resources\\possessed.json",
- "judged": 194,
- "scored": 193,
+ "judged": 200,
+ "scored": 188,
  "unresolved": [
   {
-   "url": "https://ui.supabase.io/",
+   "url": "https://elastic.github.io/eui/#/",
    "gemma": "moved",
    "qwen": "fine"
+  },
+  {
+   "url": "https://acss.io/",
+   "gemma": "fine",
+   "qwen": "moved"
+  },
+  {
+   "url": "https://material-ui.com/",
+   "gemma": "moved",
+   "qwen": "fine"
+  },
+  {
+   "url": "https://tabler-icons.io/",
+   "gemma": "moved",
+   "qwen": "fine"
+  },
+  {
+   "url": "https://vuetensils.stegosource.com/",
+   "gemma": "moved",
+   "qwen": "fine"
+  },
+  {
+   "url": "http://ionicons.com/",
+   "gemma": "moved",
+   "qwen": "fine"
+  },
+  {
+   "url": "https://primevue.org/",
+   "gemma": "fine",
+   "qwen": "moved"
+  },
+  {
+   "url": "http://tools.dynamicdrive.com/favicon/",
+   "gemma": "possessed",
+   "qwen": "fine"
+  },
+  {
+   "url": "https://github.com/Trendyol/grace",
+   "gemma": "fine",
+   "qwen": "moved"
+  },
+  {
+   "url": "https://www.react-spring.io/",
+   "gemma": "possessed",
+   "qwen": "fine"
+  },
+  {
+   "url": "https://coolours.perpetualsummer.ltd/",
+   "gemma": "possessed",
+   "qwen": "fine"
+  },
+  {
+   "url": "https://enigmaeasel.com",
+   "gemma": "fine",
+   "qwen": "possessed"
   }
  ],
- "agreement_gemma_qwen": 0.768,
+ "agreement_gemma_qwen": 0.765,
  "labels": {
-  "fine": 138,
-  "moved": 17,
-  "possessed": 32,
+  "fine": 139,
+  "moved": 13,
+  "possessed": 30,
   "dead": 6
  },
  "needs_fixing": {
@@ -21,51 +76,51 @@
    "flagged": 0,
    "correct": 0,
    "false_alarms": 0,
-   "missed": 55,
+   "missed": 49,
    "precision": null,
    "recall": 0.0
   },
   "URL heuristics (other domain, homepage, parking words)": {
-   "flagged": 65,
-   "correct": 33,
+   "flagged": 61,
+   "correct": 29,
    "false_alarms": 32,
-   "missed": 22,
-   "precision": 0.508,
-   "recall": 0.6
+   "missed": 20,
+   "precision": 0.475,
+   "recall": 0.592
   },
   "EmbeddingGemma similarity": {
    "flagged": 30,
    "correct": 22,
    "false_alarms": 8,
-   "missed": 33,
+   "missed": 27,
    "precision": 0.733,
-   "recall": 0.4
+   "recall": 0.449
   },
   "Possessed (Gemma 4)": {
-   "flagged": 72,
-   "correct": 55,
-   "false_alarms": 17,
+   "flagged": 67,
+   "correct": 49,
+   "false_alarms": 18,
    "missed": 0,
-   "precision": 0.764,
+   "precision": 0.731,
    "recall": 1.0
   }
  },
  "possessed_only": {
   "Possessed (Gemma 4)": {
-   "flagged": 39,
-   "correct": 32,
+   "flagged": 37,
+   "correct": 30,
    "false_alarms": 7,
    "missed": 0,
-   "precision": 0.821,
+   "precision": 0.811,
    "recall": 1.0
   },
   "URL heuristics": {
-   "flagged": 65,
-   "correct": 20,
-   "false_alarms": 45,
-   "missed": 12,
-   "precision": 0.308,
-   "recall": 0.625
+   "flagged": 61,
+   "correct": 19,
+   "false_alarms": 42,
+   "missed": 11,
+   "precision": 0.311,
+   "recall": 0.633
   }
  },
  "possessed_links": [
@@ -121,13 +176,8 @@
   },
   {
    "url": "https://alyle.io/",
-   "now": "https://visitcryptoville.com/",
+   "now": "https://www.strongboxwest.com/",
    "title": "Xoilac TV - Trực Tiếp World Cup 2026 HD - Xem Xôi Lạc TTBD"
-  },
-  {
-   "url": "https://www.cssgradienteditor.com",
-   "now": "https://greenbites.net/r/vf9yvLoVGOqWrm5M7LESE4xDkGQUuMKCM5lkCohCplHI2xSVtwLC3sKl57vNEsMkPv-K0iSrPER_NgUlvOkmOVl-sghAUPVfFyiBx9fkbN65DO_siiAtW4PsFX70wLOGlv_8NMqpe4YIUaVF6qgquXfYjb6LBPfSpAwE9Co28VI8LfUDNF2mEFWZ6YReUy9EhdtEFrgD_fjNexbV7FjVTt1eGpzp-Yf7HHaY_N-wLGQeXbDOeTQ7ESuVT3mtcSPw3fuF282UlLM04ce4QC9F8AfCzgP4f2iypnj_VsrZR1hszCqczoh1rwRmpZuVRrl6HVvWNvb3liAjWyOugcw90xW6J8VxSPzMcmRHbveaYiiQkbzZb51K-_I0nf_3h_xhuLCXdV9Z8N96F7vfKWzp9hpwZY-EbIwJ5-bcAv709FM5uPeFQFjsnqPRyOcgLDlG5kmAy-frm9q2PX0x5wZSd3Mre4Dii2vM8wNVSpEjxMa3bd2Iwh8PiXUd7rlKSJQKvUnE-p0ctcIUrX0I2zUUt1792GL13qNWS4GzuHKyuJIipmpi-6_HZvMsf7A8EZSj1q4Md0JelRyoVnQ0sS6KuCM7kxSWItQMAoEDQetl9845EBhNGPpZbrqcnTTI4TLDW7Dk2XzI04P_5i-YCPh7JqQW7VAHj3zpEYmDiJnplGc2kFT7Cc33rRm-OS8Tfhw38mMsd0Yqg4qeU1Vm_WAqh-C0S5FIVcwMA6A-rvWwUcA",
-   "title": "..."
   },
   {
    "url": "https://www.taler.app/",
@@ -135,9 +185,9 @@
    "title": "Free Business Tools - Online Tools for Small Businesses - Shopify"
   },
   {
-   "url": "https://splawr.com/",
-   "now": "https://895538.thestudiotrack.com/?mlk=I9H0Npjnke3eIp6Rdsldq0O285nr2kcqzB%2Bac%2BeSpkpxfE4PQZHtV8ij0szxOPrUJTuc43gy22AyWd3nzoJo6sqDdF00PFhrJ9a2%2BHwrGtWd2h8htxL%2F8M1zDriF%2BPn62NwiV1%2F%2F0wSH3wHDVTPuRoMeLTJwO32o1OEOvMNOUk9%2F34Bt5mI2nO%2BoLgcBl%2Bs9%2BV5nTQdB%2BylXFIEwABUyj0lWx2da0ix2o5%2BaAnaVtTKi6xc14J%2BjUXQCCr4lOhCJr%2Bj1NGMc3tqnXwv7d5IKZAEMNoJ%2F0R4XIzqL4yjwZ0BFgD9CNETPuq3JS10%2B6D7bWeNzyzQBFh7sLBqfXcoRE9XqIKn7WVlPqf%2FUlRgVrN07L3wCvgBEqbEkXmy45yXgMdsCRXqxLTYHxu3ac7T0uatr7ByFjkihIGWIJVdVEj5UhjERX2bvmnBr5LlF%2FxiG7dQVNQ0aIfFf0NKHBdi2meAoCrxRBzZAxXYpkzGc%2BuXLztlGn9DilB5bzpxl0jtSaK15KDMxwhZpt3F1RJ7TRpUkMFiLihdehQPZy3zMgH9tAuGanXaialo6baPiEBGEPmNSPV1JRLIMbtk%2FnomBV4gpB7QKajxirTMwJOg4x%2FVrLGEAa6mQYEfQGxIaAmrVRJiByvz387xSBDeNf%2Bd6K81KeEQbqfC%2Fw2U8wB43sgMitDuOw7XSIpSm5Lzf9QHNexlqZYYzKrjcO9nmEqwlBM86pmyX3Grp8fBIzypcjA6desZSP52bLwvQ8GiHbmpEro%2BuUU7dH4Pa2g%2FLGfiUbuEIo8rMaLl1Y03v6egI%2BjsXpiTkccBUuY8dSEIfHopS51Ug8aZ5N6vZgqSGAEM%3D",
-   "title": "..Loading.."
+   "url": "https://ikonate.com/",
+   "now": "https://www.DropCatch.com/domain/ikonate.com",
+   "title": "DropCatch.com"
   },
   {
    "url": "https://www.sequencejs.com/",
@@ -223,11 +273,6 @@
    "url": "https://tabbied.com/",
    "now": "https://tabbied.com/",
    "title": "Tabbied - Free website templates for every trade"
-  },
-  {
-   "url": "https://enigmaeasel.com",
-   "now": "https://enigmaeasel.com/",
-   "title": "EnigmaEasel | Offline Digital Planner HTML Apps and Spreadsheets"
   }
  ]
 }

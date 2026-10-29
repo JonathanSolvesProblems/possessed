@@ -1,0 +1,91 @@
+{
+ "_about": {
+  "label": "Hand labels for the DEV study's top confirmed-possessed links, by reach.",
+  "checked_by": "Claude (the coding assistant), from a fresh fetch of each live page on 2026-10-29 (tmp/spot_dev.py); Jonathan's spot-checks pending",
+  "note": "Two corrections of rows where Gemma and Qwen agreed: agreement is not truth. The rest confirm the agreed verdict."
+ },
+ "http://cdevn.com/parallel-computing-simplified-starring-gordon-ramsay": {
+  "label": "possessed",
+  "note": "Serves an Indonesian dental-clinic spam page; was a programming article."
+ },
+ "http://www.powersearchingwithgoogle.com/": {
+  "label": "possessed",
+  "note": "Redirects to a $9M domain-for-sale page (Codespaces.com); was Google's search course."
+ },
+ "https://uispace.net/": {
+  "label": "possessed",
+  "note": "Serves LIGA138, an Indonesian gambling site; was a design-resources library."
+ },
+ "http://logolix.com/": {
+  "label": "possessed",
+  "note": "HugeDomains for-sale page; was free logo designs."
+ },
+ "https://js.coach/?collection=React": {
+  "label": "possessed",
+  "note": "Redirects to a Swedish 'casino utan svensk licens' site; was a React package directory."
+ },
+ "https://smallbusinessprogramming.com/must-read-programming-books/": {
+  "label": "possessed",
+  "note": "Serves OLXTOTO, an Indonesian togel gambling page, under the old path."
+ },
+ "https://uplabs.com/ios": {
+  "label": "possessed",
+  "note": "Redirects to Vantora, an enterprise AI company; was UpLabs' design galleries."
+ },
+ "https://uplabs.com/material": {
+  "label": "possessed",
+  "note": "Redirects to Vantora, an enterprise AI company; was UpLabs' design galleries."
+ },
+ "https://uplabs.com/web": {
+  "label": "possessed",
+  "note": "Redirects to Vantora, an enterprise AI company; was UpLabs' design galleries."
+ },
+ "https://www.uplabs.com/": {
+  "label": "possessed",
+  "note": "Redirects to Vantora, an enterprise AI company; was UpLabs' design galleries."
+ },
+ "https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/#domain-layer": {
+  "label": "fine",
+  "note": "The article loads with its full title and text today; only an asset redirects through wordpress.com/log-in. Both models called it possessed; the fresh fetch says the page is there."
+ },
+ "https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/#ports": {
+  "label": "fine",
+  "note": "The article loads with its full title and text today; only an asset redirects through wordpress.com/log-in. Both models called it possessed; the fresh fetch says the page is there."
+ },
+ "https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/": {
+  "label": "fine",
+  "note": "The article loads with its full title and text today; only an asset redirects through wordpress.com/log-in. Both models called it possessed; the fresh fetch says the page is there."
+ },
+ "https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/#application-layer": {
+  "label": "fine",
+  "note": "The article loads with its full title and text today; only an asset redirects through wordpress.com/log-in. Both models called it possessed; the fresh fetch says the page is there."
+ },
+ "https://vscodetips.com": {
+  "label": "possessed",
+  "note": "Redirects to the founder's personal site; the VS Code community it cited is gone."
+ },
+ "https://www.unscreen.com/": {
+  "label": "moved",
+  "note": "Acquired by Canva; the address lands on Canva's Video Background Remover, the same tool living on under the buyer. The rubric calls an acquisition with the same purpose moved."
+ },
+ "https://templatemag.com/cleanlanding-bootstrap-landing-template/": {
+  "label": "possessed",
+  "note": "Redirects to uicookies.com's generic template catalog; the cited template page is gone."
+ },
+ "https://herbertograca.com/2018/07/07/more-than-concentric-layers/": {
+  "label": "fine",
+  "note": "The article loads with its full title and text today; only an asset redirects through wordpress.com/log-in. Both models called it possessed; the fresh fetch says the page is there."
+ },
+ "https://ikonate.com/": {
+  "label": "possessed",
+  "note": "DropCatch domain-sale page; was an icon set."
+ },
+ "https://herbertograca.com/2017/09/14/ports-adapters-architecture/": {
+  "label": "fine",
+  "note": "The article loads with its full title and text today; only an asset redirects through wordpress.com/log-in. Both models called it possessed; the fresh fetch says the page is there."
+ },
+ "https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/#components": {
+  "label": "fine",
+  "note": "The article loads with its full title and text today; only an asset redirects through wordpress.com/log-in. Both models called it possessed; the fresh fetch says the page is there."
+ }
+}

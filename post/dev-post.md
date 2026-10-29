@@ -10,13 +10,13 @@ cover_image: post/cover.png (upload on DEV)
 
 design-resources-for-developers is a list of links with 67,000 stars. It has a link checker, and the checker passes. Open the React UI Libraries section, click Chakra Templates, and you get a page in Indonesian about which slot games pay out. The domain expired, someone bought it, and the server answers 200, which is the only question a link checker asks.
 
-Eight entries on that list open gambling sites today. Another 24 open a domain-for-sale page, an essay mill, a car detailing shop, or some other company that has nothing to do with the words next to the link. None of them fail the checker.
+Eight entries on that list open gambling sites today. Another 22 open a domain-for-sale page, an essay mill, a car detailing shop, or some other company that has nothing to do with the words next to the link. None of them fail the checker.
 
 Possessed is a GitHub Action that runs after your link checker. For every link the checker passed, Gemma 4 opens what the link shows today and the Internet Archive's capture from the day the link was added (`git log -S` finds that commit), reads both next to the sentence that cites the link, and gives one of four verdicts: fine, moved, possessed, dead. A possessed or dead link is replaced with the archived original. A moved link gets its new address. Then it opens one pull request with the fixes and a table that says, for each row, what the page was and what it is now.
 
 Nothing in that pull request is a guess. A verdict that proposes a replacement is refused by code unless the replacement is a page Gemma opened in that session: an archive snapshot it read, or a live URL a link checker would pass. The refusal goes back to the model as a tool error that says what to do instead.
 
-Across 591 judgments on five lists, the gate fired 21 times, and all 21 were my bugs rather than Gemma's: ten were a trailing slash I had stored differently from how the model wrote the URL back, eleven were JavaScript-rendered snapshots my rule mistook for empty pages. Not once did Gemma propose a URL it had not opened. I fixed both bugs, kept the gate, and kept the traces in the result files.
+Across 597 judgments on five lists, the gate fired 18 times, and all 18 were my bugs rather than Gemma's: seven were a trailing slash I had stored differently from how the model wrote the URL back, eleven were JavaScript-rendered snapshots my rule mistook for empty pages. Not once did Gemma propose a URL it had not opened. I fixed both bugs, kept the gate and the traces, and re-judged the big list under the fixed gate: zero refusals.
 
 ## Demo
 
@@ -55,12 +55,12 @@ That is the whole setup. The runner installs Ollama, pulls `gemma4:e4b` and `emb
 Three open-weight models, all through Ollama, no API key anywhere:
 
 - `gemma4:e4b` judges each link. It calls tools natively, and the loop ends when Ollama reports `done_reason: stop`. A run that stops on `length` is logged as an error, never as a verdict.
-- `embeddinggemma` does triage. It embeds the sentence that cites each link and the live page, and the lowest 15 percent of similarities go to Gemma, along with any link that redirected to another domain, landed on a homepage from a deep path, or shows parking or gambling words. On design-resources that turned 1,089 passing links into 194 reads.
+- `embeddinggemma` does triage. It embeds the sentence that cites each link and the live page, and the lowest 15 percent of similarities go to Gemma, along with any link that redirected to another domain, landed on a homepage from a deep path, or shows parking or gambling words. On design-resources that turned 1,114 passing links into 200 reads.
 - `qwen3.5:4b` is a second judge from a different model family. It gets the same evidence fetched fresh, never sees Gemma's answer, and replies in a fixed JSON shape. Where the two disagree, a hand label decides, checked against the live page and the archive.
 
 Gemma chooses its own evidence. It has `fetch_live`, `find_snapshot`, `list_snapshots` and `read_snapshot`, and four verdict tools. A possessed link usually takes it three or four steps: open the live page, find the capture nearest the day the link was added, read it, decide. When the nearest capture is already the parked page, it lists captures and goes back further.
 
-Here is one judgment as logged, the Chakra Templates link, added to the list on 2022-07-17. Four tool calls, 7.7 seconds on my laptop's GPU:
+Here is one judgment as logged, the Chakra Templates link, added to the list on 2022-07-17. Four tool calls, 9.5 seconds on my laptop's GPU:
 
 ```
 fetch_live(url="https://chakra-templates.dev/")
@@ -75,8 +75,9 @@ read_snapshot(timestamp="20220603052424")
   -> 200, title "Chakra Templates",
      text "Templates Page Sections Large Page Sections like Hero, Features ..."
 
-possessed(now_shows="Gambling/betting site (AGEN338)",
-          originally="A collection of Chakra UI templates for React projects",
+possessed(now_shows="A gambling/betting site (AGEN338)",
+          originally="A growing collection of hand-crafted & responsive
+                      Chakra UI templates ready to drop into your React project.",
           replacement="https://web.archive.org/web/20220603052424/https://chakra-templates.dev/")
   -> ok. Done with this link.
 ```
@@ -85,26 +86,32 @@ The gate let that replacement through because the third call opened it. Had Gemm
 
 The hard part was the rubric. A product that was acquired and now redirects to the buyer is moved if the thing itself still exists there, and possessed if only the brand does: InVision links land on Miro's homepage, and nothing of InVision is there, so they are possessed. A login wall is fine, with "cannot verify" in the reason. Twitter links that land on x.com are fine. The prompt holds those as named examples, because a model this size follows an example better than a definition.
 
-What the models contributed, measured. Four detectors asked the same question about the same 193 links from design-resources: does this link need a fix?
+What the models contributed, measured. Four detectors asked the same question about the same 188 links from design-resources: does this link need a fix?
 
 | Detector | Flagged | Right | Precision |
 |---|---|---|---|
 | Status-code link checker | 0 | 0 | passes everything, by construction |
-| URL heuristics (other domain, homepage, parking words) | 65 | 33 | 0.51 |
+| URL heuristics (other domain, homepage, parking words) | 61 | 29 | 0.47 |
 | EmbeddingGemma similarity alone | 30 | 22 | 0.73 |
-| Gemma 4 reading the page | 72 | 55 | 0.76 |
+| Gemma 4 reading the page | 67 | 49 | 0.73 |
 
-On the possessed verdict alone, Gemma 4 was right on 32 of 39. The heuristics were right on 20 of 65.
+On the possessed verdict alone, Gemma 4 was right on 30 of 37. The heuristics were right on 19 of 61.
 
 Those are precision numbers on purpose. The labels come from where Gemma and Qwen agree, plus hand checks where they do not, so a link both models missed is not in the set and recall cannot be measured this way. I am not claiming it.
 
 What it gets wrong: a GitHub profile listed as a project's author ("Vue 2048 by @pengfu") reads to Gemma as possessed, because the profile is not the project. A promo banner for a new product on Inspira UI read as a takeover. The second judge caught most of these, which is why the confirmed mode I used for the awesome-vue PR only applies fixes both models agree on. The Action by itself applies Gemma's verdicts, and that is why every row in its PR carries the evidence.
 
-Pages behind a bot wall, and empty JavaScript shells, cannot be read without a browser. On design-resources that was 36 of the 1,089 passing links. Possessed counts them and says so in the log, instead of judging a "Just a moment..." page.
+Pages behind a bot wall, and empty JavaScript shells, cannot be read without a browser. On design-resources that was 42 of the 1,114 passing links. Possessed counts them and says so in the log, instead of judging a "Just a moment..." page.
 
-On a hosted GitHub runner Gemma reads on the CPU, two to three minutes a link, so the Action has a `limit` input and takes the strongest signals first. The run that opened the PR above took 30 minutes end to end on a 1,245-link list, with the models cached from the run before: fetching every link, EmbeddingGemma embedding a thousand pages, then 18 minutes of Gemma 4 reading eight links. Seven of the eight were gambling or for-sale pages and all seven got the archived original; the eighth, a sound-effects library, was fine and it said so. Its `possessed.json`, with every tool call, is in the repo under `results/design-resources-action/`. On my laptop's GPU the same 194 links took 23 minutes.
+On a hosted GitHub runner Gemma reads on the CPU, two to three minutes a link, so the Action has a `limit` input and takes the strongest signals first. The run that opened the PR above took 30 minutes end to end on a 1,245-link list, with the models cached from the run before: fetching every link, EmbeddingGemma embedding a thousand pages, then 18 minutes of Gemma 4 reading eight links. Seven of the eight were gambling or for-sale pages and all seven got the archived original; the eighth, a sound-effects library, was fine and it said so. Its `possessed.json`, with every tool call, is in the repo under `results/design-resources-action/`. On my laptop's GPU the same 200 links took 24 minutes.
 
-[X DEV study section: across the 1,000 most-loved DEV posts, N links a checker passes now open something else; the reach number; the second judge's agreement on flagged links]
+### The DEV study
+
+Then I pointed it at DEV itself. I took the 1,000 most-loved posts on DEV, pulled their 13,788 unique links, and a status-code checker passes 11,119 of them as readable pages. Triage picked 2,951 candidates, plus 150 random controls from the links it did not flag, and Gemma 4 judged all 3,101 of them overnight on my laptop. 145 of the 150 controls were fine, so triage is not hiding much.
+
+Qwen re-judged every flagged link, blind. Where both models independently agree and the hand checks confirm it: 183 links in 96 posts, carrying 95,627 reactions between them, now open something other than what the author cited. A React resource collection with 3,438 reactions links js.coach, which today is a Swedish casino directory. A 3,135-reaction list of must-read programming books now serves an Indonesian lottery page. A Google search course cited by a 2,072-reaction post is now a nine-million-dollar domain-for-sale page.
+
+Agreement is not truth either. I spot-checked the top rows by reach with fresh fetches and found both models wrong together on seven links from one blog, whose articles still load behind an asset redirect, so those rows are corrected by hand labels that say who made them, and the 399 links Gemma flagged but Qwen did not confirm are not in the count at all.
 
 ## Why Does Open Innovation Matter?
 
