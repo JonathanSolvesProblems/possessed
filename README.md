@@ -113,6 +113,13 @@ Pull requests that came out of it:
   on a fork: the Action's own PR, written by a hosted runner with no GPU. Seven links, six of them
   gambling sites. Its `possessed.json` is in `results/design-resources-action/`.
 
+## Sources for the figures in the demo video
+
+- "67,000 stars": [bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers), 67,268 stargazers on 2026-10-29.
+- "Click Chakra Templates and you get a slot site": `results/design-resources-action/possessed.json`, fetched by the hosted runner on 2026-10-28; the live redirect is to mainslotresmi.org.
+- "Six entries that survived their dead-link cleanup": [vuejs/awesome-vue#4593](https://github.com/vuejs/awesome-vue/pull/4593), against the cleanup in [#4322](https://github.com/vuejs/awesome-vue/pull/4322) merged 2026-01-26.
+- "Listed as a site for swapping video games, today a baccarat guide": GameVix, added 2018-02-23; `results/labels_awesome-vue.json`, fresh fetch 2026-10-28.
+
 ## License
 
 MIT.

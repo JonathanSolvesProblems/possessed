@@ -13,3 +13,11 @@ runs/*.json
 !runs/.gitkeep
 *.pyc
 shelved/
+b-roll/
+
+# vidkit generated media, do not commit
+broll/
+_videos/
+*.webm
+demo.mp4
+*.edit-plan.json
