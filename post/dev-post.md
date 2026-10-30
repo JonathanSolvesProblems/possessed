@@ -20,7 +20,7 @@ Across 597 judgments on five lists, the gate fired 18 times, and all 18 were my 
 
 ## Demo
 
-[X video]
+{% youtube vsyXsWOe3Tw %}
 
 Two pull requests you can open:
 
@@ -123,7 +123,7 @@ The other reason is that a maintainer can read the judge. The rubric Gemma follo
 
 I built this with Claude Code over four days. It wrote most of the code, and it wrote the first pass of the hand labels: for each link where Gemma and Qwen disagreed, it opened the live page and the archive capture and wrote the verdict and the reason into `results/labels_*.json`. The file says so in its first lines, because a label that does not say who made it is not a label.
 
-The calls were mine. What counts as moved and what counts as possessed, after watching it get InVision wrong. Which lists to send fixes to, and which to leave alone: design-resources-for-developers has outside contributions paused, so nothing went there, and its findings are in this post instead. Before posting I spot-checked [X] of the labels against the live pages myself.
+The calls were mine. What counts as moved and what counts as possessed, after watching it get InVision wrong. Which lists to send fixes to, and which to leave alone: design-resources-for-developers has outside contributions paused, so nothing went there, and its findings are in this post instead.
 
 The one piece of the build I would point at: the gate started as a prompt instruction, "never invent a URL". The rules file I keep for agent work says a rule with an objective test goes in code, not in the prompt, so it became twenty lines in `tools.py`. Those twenty lines are what turned up my own two bugs.
 

@@ -17,7 +17,6 @@ On a 67,000-star design resources list, 8 links now open gambling sites and 22 m
 Code (MIT): https://github.com/JonathanSolvesProblems/possessed
 The PR the Action opened on its own: https://github.com/JonathanSolvesProblems/design-resources-for-developers/pull/1
 The PR a maintainer received: https://github.com/vuejs/awesome-vue/pull/4593
-Write-up: [DEV post link]
 
 Built for the DEV Hacktoberfest Open-Source AI Challenge, week 4: Ghost in the Machine. Models: gemma4:e4b, embeddinggemma, qwen3.5:4b as a blind second judge.
 

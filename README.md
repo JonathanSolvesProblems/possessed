@@ -2,6 +2,10 @@
 
 Your link checker is green. Some of those links now open a casino.
 
+[![chakra-templates.dev: the Internet Archive's June 2022 capture next to what the link opens today, a slot site](docs/images/before-after.jpg)](https://www.youtube.com/watch?v=vsyXsWOe3Tw)
+
+**[Demo video (87 s)](https://www.youtube.com/watch?v=vsyXsWOe3Tw)** · **[Write-up](https://jonathanandrei.com/blog/possessed-link-checker-gemma-internet-archive-github-action/)** · built for the DEV Hacktoberfest Open-Source AI Challenge, week 4
+
 A link checker asks one question: did the server answer? When a domain expires and someone
 buys it, or a product shuts down and its address is pointed at the buyer's homepage, the
 server still answers. The link passes, and readers land on a slot site, a "buy this domain"
@@ -93,6 +97,10 @@ uv run python -m possessed.eval path/to/clone/possessed.json my_labels.json   # 
    snapshot that is a bare directory listing or an unrendered JavaScript shell. The refusal goes back
    to the model as a tool error with what to do instead.
 
+![A live run: Gemma 4 opens the live page, finds the archive capture from the month the link was added, reads it, and calls the possessed verdict](docs/images/live-run.jpg)
+
+![The gate: a replacement the model never opened is refused as a tool error; after it reads the capture, the same verdict passes](docs/images/gate.jpg)
+
 Rubric and hard cases are in `possessed/agent.py`; the four evidence tools and four verdict tools in
 `possessed/tools.py`; triage in `possessed/triage.py`.
 
@@ -112,6 +120,12 @@ Pull requests that came out of it:
 - [design-resources-for-developers#1](https://github.com/JonathanSolvesProblems/design-resources-for-developers/pull/1)
   on a fork: the Action's own PR, written by a hosted runner with no GPU. Seven links, six of them
   gambling sites. Its `possessed.json` is in `results/design-resources-action/`.
+
+[![The pull request the Action opened: one row per link with what it was, what it opens now, and the archived original](docs/images/action-pr.jpg)](https://github.com/JonathanSolvesProblems/design-resources-for-developers/pull/1)
+
+The same check across DEV's 1,000 most-loved posts is in `results/dev-study/`:
+
+![DEV's 1,000 most-loved posts: 183 links in 96 posts, carrying 95,627 reactions, now open something else](docs/images/dev-study.jpg)
 
 ## Sources for the figures in the demo video
 
