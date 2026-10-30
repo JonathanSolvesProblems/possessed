@@ -111,7 +111,7 @@ Then I pointed it at DEV itself. I took the 1,000 most-loved posts on DEV, pulle
 
 Qwen re-judged every flagged link, blind. Where both models independently agree and the hand checks confirm it: 183 links in 96 posts, carrying 95,627 reactions between them, now open something other than what the author cited. A React resource collection with 3,438 reactions links js.coach, which today is a Swedish casino directory. A 3,135-reaction list of must-read programming books now serves an Indonesian lottery page. A Google search course cited by a 2,072-reaction post is now a nine-million-dollar domain-for-sale page.
 
-Agreement is not truth either. I spot-checked the top rows by reach with fresh fetches and found both models wrong together on seven links from one blog, whose articles still load behind an asset redirect, so those rows are corrected by hand labels that say who made them, and the 399 links Gemma flagged but Qwen did not confirm are not in the count at all.
+Agreement is not truth either. Spot-checking the top rows by reach with fresh fetches turned up both models wrong together on seven links from one blog, whose articles still load behind an asset redirect, so those rows are corrected by hand labels that say who made them, and the 399 links Gemma flagged but Qwen did not confirm are not in the count at all.
 
 ## Why Does Open Innovation Matter?
 
