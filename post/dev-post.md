@@ -1,7 +1,7 @@
 ---
 title: "Possessed: your link checker is green, and eight of those links now open a casino"
 tags: devchallenge, hf26challenge, gemma, opensource
-cover_image: post/cover.png (upload on DEV)
+published: false
 ---
 
 *This is a submission for the [Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine](https://dev.to/challenges/hacktoberfest-week4-2026-10-26).*
